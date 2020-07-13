@@ -6,7 +6,10 @@
 # how can you determine the longest side, and how might that help?
 
 def islegaltriangle(s1, s2, s3):
-	a = [s1,s2,s3]
-	b = max(a)
-	a.pop(a.index(b))
-	
+	if s1>0 and s2>0 and s3>0:
+		a = [s1,s2,s3]
+		b = max(a)
+		a.pop(a.index(b))
+		sum = 0
+		for i in a:
+			sum += i
