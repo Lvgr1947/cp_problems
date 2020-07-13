@@ -13,8 +13,10 @@ def fun_ismultiple(m, n):
 			return False
 def lineintersection(m1, b1, m2, b2):
 	# your code goes here
-	if (m1 != m2 and b1 != b2) and not fun_ismultiple(m1,m2):
-		return ((b1-b2)/(m2-m1))
-	else:
-		return None
+
+	if (m1 != m2 and b1 != b2):
+		if fun_ismultiple(m1,m2): 
+			return ((b1-b2)/(m2-m1))
+		else:
+			return None
   
