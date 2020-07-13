@@ -13,4 +13,5 @@ def fun_ismultiple(m, n):
 			return True
 		else:
 			return False
-	return False # replace with your solution
+	else:
+		return False 
