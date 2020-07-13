@@ -1,3 +1,4 @@
+
 /**
  * This is JUnit that tests the sleepIn method that is available in SleepIn class.
  * This contains 4 testcases.
@@ -9,8 +10,9 @@
  * @author: Siva Sankar
  */
 
-import org.junit.Test;
 import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
 
 public class TestJUnit {
    @Test
