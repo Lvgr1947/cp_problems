@@ -7,5 +7,5 @@
 def fun_getinrange(x, bound1, bound2):
 	# your code goes here
 	if(bound1>bound2):
-		a=bound1
+		(bound1,bound2) = (bound)
 	return -1
