@@ -6,5 +6,5 @@
 import math
 def fun_circlesintersect(x1, y1, r1, x2, y2, r2):
 	# your code goes here
-	dist = int(math.sqrt())
+	dist = int(math.sqrt(()))
 	return False 
