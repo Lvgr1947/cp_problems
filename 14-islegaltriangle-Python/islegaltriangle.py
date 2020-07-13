@@ -8,4 +8,4 @@
 def islegaltriangle(s1, s2, s3):
 	a = [s1,s2,s3]
 	b = max(a)
-	
+	a,pop(index())
