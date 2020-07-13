@@ -7,7 +7,7 @@
 # def getKthDigit(i):
 
 def handtodice(hand):
-	a = set()
+	a = ()
 	b = list(str(hand))
 	i = 0
 	while(i<3):
