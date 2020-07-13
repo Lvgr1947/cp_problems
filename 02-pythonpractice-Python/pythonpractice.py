@@ -21,4 +21,13 @@ class Classy(object):
 
     def __init__(self):
         self.items = []
-        
+    def classiness():
+        count = 0
+        for i in self.items:
+            if i == "tophat":
+                count += 2
+            elif i == "bowtie":
+                count += 4
+            elif i == "monocle":
+                count += 5
+    
