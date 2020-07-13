@@ -11,9 +11,9 @@ def handtodice(hand):
 	b = list(str(hand))
 	i = 0
 	while(i<3):
-		a.add(int(b[i]),)
+		a = a+ (int(b[i]),)
 		i += 1
 	print(a)
 	return a
 hand = 123
-handtodice
+handtodice(hand)
