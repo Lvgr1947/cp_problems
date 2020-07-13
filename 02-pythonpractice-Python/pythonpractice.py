@@ -17,7 +17,6 @@ Use the test cases below to guide you!"""
 
 class Classy(object):
     def addItem(self,x):
-        # print(x)
         self.items.append(x)
 
     def __init__(self):
@@ -31,5 +30,4 @@ class Classy(object):
                 count += 4
             elif i == "monocle":
                 count += 5
-        # print(count)
         return count
