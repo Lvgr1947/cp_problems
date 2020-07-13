@@ -14,8 +14,8 @@ def islegaltriangle(s1, s2, s3):
 		for i in a:
 			sum += i
 		if b>sum:
-			print()
-		else:
 			print(False)
+		else:
+			print
 	else:
 		print(False)
