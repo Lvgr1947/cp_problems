@@ -8,7 +8,7 @@
 
 def handtodice(hand):
 	a = set()
-	b = S
+	b = String.parse()
 	while(i<3):
 		a.add(getKthDigit())
 		hand = hand//10
