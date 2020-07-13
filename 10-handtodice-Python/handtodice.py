@@ -13,5 +13,5 @@ def handtodice(hand):
 		a.add(hand%10)
 		hand = hand//10
 		i -=1
-	print(a)
+	# print(a)
 	return a
