@@ -21,6 +21,7 @@ class Classy(object):
 
     def __init__(self):
         self.items = []
+        
     def classiness(self):
         count = 0
         for i in self.items:
