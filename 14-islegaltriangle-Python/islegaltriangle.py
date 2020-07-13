@@ -19,5 +19,4 @@ def islegaltriangle(s1, s2, s3):
 			print(False)
 	else:
 		print(False)
-
-islegaltriangle(1.00012, 10.0009090, 12.0000001)
+	
