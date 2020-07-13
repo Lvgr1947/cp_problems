@@ -14,4 +14,4 @@ def islegaltriangle(s1, s2, s3):
 def trianglearea(s1, s2, s3):
 	if islegaltriangle(s1,s2,s3):
 		s = s1+s2+s3
-		area = math.sqrt(s)
+		area = math.sqrt(s*(s-s1)*(s-s2))
