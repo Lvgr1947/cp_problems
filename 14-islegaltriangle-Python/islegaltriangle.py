@@ -20,4 +20,4 @@ def islegaltriangle(s1, s2, s3):
 	else:
 		print("False")
 
-islegaltriangle(1.00012, 10.0009090, 12.0000001)
+islegaltriangle(7.9, 10.1, 5.9)
