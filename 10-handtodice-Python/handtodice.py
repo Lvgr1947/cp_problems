@@ -13,7 +13,4 @@ def handtodice(hand):
 	while(i<3):
 		a = a+ (int(b[i]),)
 		i += 1
-	print(a)
 	return a
-hand = 123
-handtodice(hand)
