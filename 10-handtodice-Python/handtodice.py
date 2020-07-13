@@ -11,7 +11,7 @@ def handtodice(hand):
 	b = list(str(hand))
 	i = 0
 	while(i<3):
-		a.add(int(b[i]))
+		a.add(int(b[i]),)
 		i += 1
-	# print(a)
+	print(a)
 	return a
