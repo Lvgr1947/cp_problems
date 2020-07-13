@@ -21,6 +21,6 @@ def dicetoorderedhand(a, b, c):
 			d += i*10
 	print(d)
 	return d
-
+dicetoorderedhand(1,2,3)
 
 
