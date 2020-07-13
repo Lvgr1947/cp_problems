@@ -7,8 +7,7 @@
 
 def handtodice(hand):
 	a = set()
-	i=3
-
+	i=0
 	while(i<3):
 		a.add(hand%10)
 		hand = hand//10
