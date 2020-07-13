@@ -21,7 +21,7 @@ class Classy(object):
 
     def __init__(self):
         self.items = []
-    def classiness():
+    def classiness(y):
         count = 0
         for i in self.items:
             if i == "tophat":
