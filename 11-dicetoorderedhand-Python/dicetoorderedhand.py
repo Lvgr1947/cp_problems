@@ -16,8 +16,10 @@ def dicetoorderedhand(a, b, c):
 	f = min(a,b,c)
 	d = (e*100)+f
 	a1 = [a,b,c]
-	
-	
+	for i in a1:
+		if i != e and i != f:
+			d += i*10
+	return
 
 
 
