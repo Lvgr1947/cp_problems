@@ -6,8 +6,9 @@
 
 def isevenpositiveint(x):
 	# your code goes here
+	print(type((12)))
 	if(type(x) == int and x >0 and x%2 ==0):
 		return True
 	else:
 		return False
-	
+
