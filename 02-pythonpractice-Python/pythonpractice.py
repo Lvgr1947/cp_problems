@@ -31,5 +31,5 @@ class Classy(object):
                 count += 4
             elif i == "monocle":
                 count += 5
-        # print(count)
+        print(count)
         return count
