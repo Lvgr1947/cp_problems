@@ -18,6 +18,6 @@ def islegaltriangle(s1, s2, s3):
 		else:
 			print(False)
 	else:
-		print(False")
+		print("False")
 
 islegaltriangle(1.00012, 10.0009090, 12.0000001)
