@@ -15,7 +15,7 @@ def lineintersection(m1, b1, m2, b2):
 	# your code goes here
 
 	if (m1 != m2 and b1 != b2):
-		if not (fun_ismultiple(m1,m2)): 
+		if not fun_ismultiple(m1,m2): 
 			return ((b1-b2)/(m2-m1))
 		else:
 			return None
