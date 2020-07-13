@@ -5,4 +5,4 @@
 # the triangleArea function you just wrote above.
 
 def triangleareabycoordinates(x1, y1, x2, y2, x3, y3):
-	return 1
+	return 
