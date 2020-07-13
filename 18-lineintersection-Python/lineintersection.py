@@ -7,4 +7,4 @@
 def lineintersection(m1, b1, m2, b2):
 	# your code goes here
 	if m1 != m2:
-		return ((b1-b2)/m2)
+		return ((b1-b2)/(m2-m1))
