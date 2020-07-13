@@ -12,5 +12,5 @@ def fun_eggcartons(eggs):
 			return eggs//12
 		a += eggs//12
 		return a
-	
+	return 0
 	
