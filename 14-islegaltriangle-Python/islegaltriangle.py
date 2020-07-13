@@ -19,4 +19,4 @@ def islegaltriangle(s1, s2, s3):
 			print(True)
 	else:
 		print(False)
-islegaltriangle(1.1, 2.1, 3.2)
+islegaltriangle(1, 2, 3)
