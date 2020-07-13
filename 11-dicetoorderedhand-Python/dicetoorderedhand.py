@@ -19,8 +19,7 @@ def dicetoorderedhand(a, b, c):
 	for i in a1:
 		if i != e and i != f:
 			d += i*10
-	print(d)
 	return d
-dicetoorderedhand(1,2,3)
+# dicetoorderedhand(1,2,3)
 
 
