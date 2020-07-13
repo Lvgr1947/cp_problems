@@ -47,6 +47,7 @@ me.addItem("bowtie")
 me.addItem("jacket")
 me.addItem("monocle")
 result = me.classiness()
+
 @pytest.mark.parametrize('result','check',[
     (result,11)
 ])
