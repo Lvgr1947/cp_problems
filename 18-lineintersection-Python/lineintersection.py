@@ -3,7 +3,14 @@
 #     y = m1*x + b1
 #     y = m2*x + b2
 # This function returns the x value of the point of intersection of the two lines. If the lines are parallel, or identical, the function should return None.
-
+def fun_ismultiple(m, n):
+	if m==0 and n==0:
+		return True
+	elif n!=0:
+		if m%n==0:
+			return True
+		else:
+			return False
 def lineintersection(m1, b1, m2, b2):
 	# your code goes here
 	if m1 != m2 and b1 != b2:
