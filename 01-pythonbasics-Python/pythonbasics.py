@@ -8,4 +8,4 @@
 
 def show_excitement():
     # Your code goes here!
-    return "i am checking this"
+    return "i am checking this" * 5
