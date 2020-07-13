@@ -38,6 +38,7 @@ result = me.classiness()
     (result,2)
 ])
 def test_classiness_3(result, check):
+    print(result)
     assert result == check
 
 
