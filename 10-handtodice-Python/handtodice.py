@@ -8,12 +8,13 @@
 
 def handtodice(hand):
 	a = set()
-	b = ""+hand
+	b = str(hand)
 	b = b.split("")
 	i = 0
 	while(i<3):
 		a.add(int(b[i]))
 		i += 1
+	print(a)
 	return a
 hand = 123
-hand
+handtodice(hand)
