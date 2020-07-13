@@ -6,7 +6,7 @@ import pytest
 me = Classy()
 result = me.classiness()
 
-@pytest.mark.parametrize('result','check',[
+@pytest.mark.parametrize('result,check',[
     (result,0)
 ])
 def test_classiness_1(result, check):
@@ -24,7 +24,7 @@ result = me.classiness()
 me.addItem("bowtie")
 result = me.classiness()
 
-@pytest.mark.parametrize('result','check',[
+@pytest.mark.parametrize('result,check',[
     (result,15)
 ])
 def test_classiness_2(result, check):
@@ -34,7 +34,7 @@ me = Classy()
 me.addItem("tophat")
 result = me.classiness()
 
-@pytest.mark.parametrize('result','check',[
+@pytest.mark.parametrize('result,check',[
     (result,2)
 ])
 def test_classiness_3(result, check):
@@ -47,8 +47,7 @@ me.addItem("bowtie")
 me.addItem("jacket")
 me.addItem("monocle")
 result = me.classiness()
-
-@pytest.mark.parametrize('result','check',[
+@pytest.mark.parametrize('result,check',[
     (result,11)
 ])
 def test_classiness_4(result, check):
