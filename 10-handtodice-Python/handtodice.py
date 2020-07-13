@@ -15,3 +15,5 @@ def handtodice(hand):
 		i += 1
 	print(a)
 	return a
+hand = 123
+handtodice
