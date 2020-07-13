@@ -8,6 +8,7 @@ def fun_ismultiple(m, n):
 		return False
 	else:
 		return True
+		
 def lineintersection(m1, b1, m2, b2):
 	# your code goes here
 
