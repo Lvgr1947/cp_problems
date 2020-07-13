@@ -6,5 +6,6 @@
 
 def fun_eggcartons(eggs):
 	# your code goes here
-	a = eggs/2
+	a = eggs//2
+	
 	return 1
