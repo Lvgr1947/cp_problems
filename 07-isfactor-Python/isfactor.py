@@ -6,7 +6,7 @@
 
 
 def fun_isfactor(f, n):
-	if(f<=n and n>0):
+	if(n>0):
 		if(n%f==0):
 			return True
 	return False 
