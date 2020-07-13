@@ -17,6 +17,7 @@ Use the test cases below to guide you!"""
 
 class Classy(object):
     def addItem(self,x):
+        print(x)
         self.items.append(x)
 
     def __init__(self):
