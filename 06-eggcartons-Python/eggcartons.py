@@ -7,5 +7,5 @@
 def fun_eggcartons(eggs):
 	# your code goes here
 	a = eggs//2
-	
+	a += eggs%12
 	return 1
