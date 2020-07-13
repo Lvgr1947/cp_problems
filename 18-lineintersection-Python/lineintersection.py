@@ -4,7 +4,8 @@
 #     y = m2*x + b2
 # This function returns the x value of the point of intersection of the two lines. If the lines are parallel, or identical, the function should return None.
 def fun_ismultiple(m, n):
-	
+	if(n<m):
+		(m,n) = (n,m)
 	if n!=0:
 		if m%n==0:
 			return True
