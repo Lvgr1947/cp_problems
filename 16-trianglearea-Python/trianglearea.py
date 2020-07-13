@@ -11,5 +11,6 @@ def islegaltriangle(s1, s2, s3):
 			return True
 
 def trianglearea(s1, s2, s3):
-	# your code goes here
-	pass
+	if islegaltriangle(s1,s2,s3):
+		s = s1+s2+s3
+		
