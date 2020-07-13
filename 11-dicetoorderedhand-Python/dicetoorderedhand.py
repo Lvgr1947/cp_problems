@@ -13,4 +13,5 @@
 import math
 def dicetoorderedhand(a, b, c):
 	a = max(a,b,c)*100
+	
 
