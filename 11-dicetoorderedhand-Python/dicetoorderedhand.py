@@ -12,6 +12,7 @@
 # min(a,b,c) to find the smallest.
 import math
 def dicetoorderedhand(a, b, c):
-	a = max(a,b,c)*100
+	a = max(a,b,c)*100+min(a,b,c)
 	
+
 
