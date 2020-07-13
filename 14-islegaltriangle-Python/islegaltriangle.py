@@ -17,3 +17,5 @@ def islegaltriangle(s1, s2, s3):
 			return True
 		else:
 			return False
+	else:
+		return False
