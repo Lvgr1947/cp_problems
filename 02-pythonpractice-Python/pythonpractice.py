@@ -30,4 +30,4 @@ class Classy(object):
                 count += 4
             elif i == "monocle":
                 count += 5
-        return 
+        return count
