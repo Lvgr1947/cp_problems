@@ -10,7 +10,7 @@ def handtodice(hand):
 	i=3
 	print(i)
 	while(i!=0):
-		a.add(hand%10)
+		a.add(hand//10)
 		hand = hand//10
 		i -=1
 	print(a)
