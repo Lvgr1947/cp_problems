@@ -8,10 +8,9 @@
 
 def handtodice(hand):
 	a = set()
-	b = str(hand)
-	c = b.split()
+	b = list(str(hand))
 	i = 0
-	print(c)
+	print(b)
 	# while(i<3):
 	# 	a.add(int(c[i]))
 	# 	i += 1
