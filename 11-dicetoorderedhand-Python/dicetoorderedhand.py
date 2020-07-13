@@ -14,7 +14,8 @@ import math
 def dicetoorderedhand(a, b, c):
 	e = max(a,b,c)
 	f = min(a,b,c)
-	d = (e*100)+min(a,b,c)
+	d = (e*100)+f
+	
 	
 
 
