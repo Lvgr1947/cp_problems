@@ -13,7 +13,7 @@
 import math
 def dicetoorderedhand(a, b, c):
 	d = (max(a,b,c)*100)+min(a,b,c)
-	a
+	
 
 
 
