@@ -41,6 +41,7 @@ class LinkedList(object):
         else:
             self.head = None
         return a
+  
 class stack(object):
     def __init__(self,top=None):
         self.ll = LinkedList(top)
