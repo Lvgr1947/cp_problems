@@ -11,7 +11,7 @@ def fun_set_kth_digit(n, k, d):
 	digit = digit[::-1]
 	digit = list(digit)
 	if(len(digit)>k):
-		return int(digit[k])
+		 int(digit[k])
 	else:
 		return 0
   
