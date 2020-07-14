@@ -55,3 +55,4 @@ def handtodice(hand):
 def playstep2(hand, dice):
 	hand = handtodice(hand)
 	dice = handtodice(dice)
+	hand = set(hand)
