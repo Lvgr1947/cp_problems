@@ -65,6 +65,7 @@ def removeHand(hand,a):
 
 def playstep2(hand, dice):
 	hand = handtodice(hand)
+	a = ()
 	# dice = handtodice(dice)
 	if(len(set(hand))==1):
 		return (hand,dice)
@@ -84,7 +85,7 @@ def playstep2(hand, dice):
 		dice = dice//10
 		hand[2] = dice%10
 		dice = dice//10
-		
+
 		print(sorted(hand,reverse=True),dice)
 
 playstep2(544, 456)
