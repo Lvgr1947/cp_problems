@@ -23,7 +23,7 @@ class Queue:
 
     def dequeue(self):
         a = self.storage[0]
-        for i in range(len(self.storage)-2):
+        for i in range(len(self.storage)-1):
             self.storage[i] = self.storage[i+1]
         self.storage[len(self.storage)-1] = None
         return a
