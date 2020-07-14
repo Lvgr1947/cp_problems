@@ -31,4 +31,4 @@ class Queue:
 q = Queue(1)
 q.enqueue(2)
 q.enqueue(3)
-print(q.dequeue())
+print(q.peek())
