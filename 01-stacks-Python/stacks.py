@@ -40,7 +40,7 @@ class LinkedList(object):
             self.head = self.head.next
         else:
             self.head = None
-
+        return a
 class stack(object):
     def __init__(self,top=None):
         self.ll = LinkedList(top)
