@@ -35,7 +35,7 @@ def playstep2(hand, dice):
 	# dice = handtodice(dice)
 	if(len(set(hand))==1):
 		hand = handtodice1(hand)
-		a = [hand,dice]
+		a = [hand,2]
 		a = tuple(a)
 		return a
 
