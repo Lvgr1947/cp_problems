@@ -6,4 +6,4 @@
 
 
 def fun_get_kth_digit(digit, k):
-	return 0
+	digit = str()
