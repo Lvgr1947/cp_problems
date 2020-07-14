@@ -50,8 +50,8 @@ def handtodice(hand):
 	return a
 
 def notMatched(hand):
-	count = 0
 	for i in range(len(hand)):
+		count = 0
 		for j in range(len(hand)):
 			if(hand[i] != hand[j]):
 				count += 1
