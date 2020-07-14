@@ -9,7 +9,7 @@ class Queue:
         self.storage = [head]
 
     def enqueue(self, new_element):
-        for i in range(self.storage.length):
+        for i in range(len(self.storage)):
             if i==0:
                 self.storage[i] = new_element
             self.storage[i] = self.storage[i+1]    
