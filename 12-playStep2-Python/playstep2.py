@@ -28,17 +28,13 @@
 # into a sorted hand.
 # Hint: Also, remember to use % to get the one's digit, and use //= to get rid of the one's digit.
 import math
-def dicetoorderedhand(a, b, c):
-	if( a== b and b==c):
-		return 
-	e = max(a,b,c)
-	f = min(a,b,c)
-	d = (e*100)+f
-	a1 = [a,b,c]
-	for i in a1:
-		if i != e and i != f:
-			d += i*10
-	return d
+def handtodice1(hand):
+	a = ""
+	i=0
+	while(i<len(hand)):
+		a += str(hand[i])
+		i += 1
+	return int(a)
 
 def handtodice(hand):
 	a = []
@@ -67,6 +63,7 @@ def playstep2(hand, dice):
 	hand = handtodice(hand)
 	# dice = handtodice(dice)
 	if(len(set(hand))==1):
+		hand = handtodice1(hand)
 		a = [hand,dice]
 		a = tuple(a)
 		return a
@@ -79,8 +76,12 @@ def playstep2(hand, dice):
 			hand = removeHand(hand,a)
 		hand[len(hand)-1] = dice%10
 		dice = dice//10
-		s = (sorted(hand,reverse=True))
-		s=''.join(s)
+		hand = (sorted(hand,reverse=True))
+		hand = handtodice1(hand)
+		a = [hand,dice]
+		a = tuple(a)
+		print(a)
+		return a
 
 		# a =[int(s),dice]
 		# a = tuple(a)
@@ -92,7 +93,9 @@ def playstep2(hand, dice):
 		dice = dice//10
 		hand[2] = dice%10
 		dice = dice//10
-		s = str(sorted(hand,reverse=True))
+		s = (sorted(hand,reverse=True))
+		s=''.join(s)
+		s = int(s)
 		# a =[int(s),dice]
 		# a = tuple(a)
 		# print(a)
