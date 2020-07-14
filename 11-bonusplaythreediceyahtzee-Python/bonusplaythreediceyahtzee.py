@@ -16,7 +16,7 @@
 # If you have no matching dice, your score is the highest die.
 # So if you have 4-3-2, your score is just 4.
 # Our goal is to write some Python code that plays this game. It's a large task, so we will use 
-# top-down design and break it up into smaller, more manageable pieces. So we'll first write some 
+# top-down design and break it u into smaller, more manageable pieces. So we'll first write some 
 # helper functions that do part of the work, and then those helper functions will make our final 
 # function much easier to write. 
 
