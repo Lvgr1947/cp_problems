@@ -76,4 +76,6 @@ def playstep2(hand, dice):
 			hand = removeHand(hand,a)
 		hand[len(hand)-1] = dice%10
 		return(sorted(hand))
+	else:
+		hand[]
 playstep2(433,4513)
