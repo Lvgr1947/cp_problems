@@ -49,5 +49,4 @@ def handtodice(hand):
 		i += 1
 	return a
 def playstep2(hand, dice):
-	# your code goes here
-	pass
+	hand = handtodice(hand)
