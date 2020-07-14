@@ -24,7 +24,10 @@
 # be represented by the integer 432. With that, let's start writing some code. Be sure to write 
 # your functions in the same order as given here, since later functions will make use of earlier 
 # ones!
-
+# assert(playstep2(413, 2312) == (421, 23))
+# assert(playstep2(413, 2345) == (544, 23))
+# assert(playstep2(544, 23) == (443, 2))
+# assert(playstep2(544, 456) == (644, 45))
 # we've made it to the last function: bonusPlayThreeDiceYahtzee(dice), the function that actually earns 
 # the 2.5 bonus points! This function takes one value, the dice with all the rolls for a game of 3-Dice 
 # Yahtzee. The function plays the game -- it does step1 and gets the first 3 dice (from the right), then it 
