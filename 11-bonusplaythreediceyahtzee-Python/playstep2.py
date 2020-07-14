@@ -43,6 +43,7 @@ def playstep2(hand, dice):
 			hand[a] = None
 		else:
 			hand = removeHand(hand,a)
+		dice = handtodice(dice)
 		hand[len(hand)-1] = dice%10
 		hand = (sorted(hand,reverse=True))
 		hand = handtodice1(hand)
