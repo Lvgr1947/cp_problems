@@ -8,13 +8,6 @@ class Queue:
     def __init__(self, head=None):
         self.storage = [head]
 
-    # def resize(self):
-    #     a = len(self.storage)
-    #     b = []*a*2
-    #     for i in range(a):
-    #         b[i] = self.storage[i]
-    #     self.storage = b
-
     def enqueue(self, new_element):
         self.storage.append(new_element)
 
