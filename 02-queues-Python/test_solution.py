@@ -19,7 +19,7 @@ def test_dequeue2(result):
     assert q.dequeue() == result
     q.enqueue(4)
 
-@pytest.mark.parametrize("result",[(2),(3),(4)])
+@pytest.mark.parametrize("result",[(2)])
 def test_dequeue1(result):    
     assert q.dequeue() == result
 
