@@ -26,7 +26,6 @@ class LinkedList(object):
 
     def insert_first(self, new_element):
         current = self.head
-        print(new_element)
         if self.head:
             self.head = new_element
             self.head.next = current
