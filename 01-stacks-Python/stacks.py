@@ -27,7 +27,7 @@ class LinkedList(object):
     def insert_first(self, new_element):
         current = self.head
         if self.head:
-            head 
+            self.head = new_element
         
 
     def delete_first(self):
