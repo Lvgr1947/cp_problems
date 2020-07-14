@@ -79,7 +79,9 @@ def playstep2(hand, dice):
 			hand = removeHand(hand,a)
 		hand[len(hand)-1] = dice%10
 		dice = dice//10
-		s = str(sorted(hand,reverse=True))
+		s = (sorted(hand,reverse=True))
+		s=
+
 		# a =[int(s),dice]
 		# a = tuple(a)
 		print(s)
