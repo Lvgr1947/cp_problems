@@ -59,7 +59,7 @@ def notMatched(hand):
 			return i
 def removeHand(hand,a):
 	for i in range(a,len(hand)):
-		i
+		hand[a]
 
 def playstep2(hand, dice):
 	hand = handtodice(hand)
