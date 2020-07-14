@@ -57,12 +57,15 @@ def notMatched(hand):
 				count += 1
 		if count == 2:
 			return i
+def removeHand(hand,a):
+	for i in range(a,len(hand)):
+		i
 
 def playstep2(hand, dice):
 	hand = handtodice(hand)
 	dice = handtodice(dice)
 	if(len(set(hand)) < len(hand)):
 		a = notMatched(hand)
-		hand = remove
+		hand = removeHand(hand,a)
 	
 playstep2(433,4513)
