@@ -7,5 +7,6 @@
 
 
 def fun_set_kth_digit(n, k, d):
+		
 		return 0
 
