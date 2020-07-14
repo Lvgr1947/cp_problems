@@ -12,7 +12,7 @@ class Queue:
         for i in range(self.storage.length):
             if i==0:
                 self.storage[i] = new_element
-            self.storage[i]    
+            self.storage[i] = self.storage[i+1]    
     def peek(self):
         pass 
 
