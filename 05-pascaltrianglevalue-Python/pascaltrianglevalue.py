@@ -10,7 +10,7 @@
 
 def fun_pascaltrianglevalue(n, col):
 	a=[]
-	for i in range(n):
+	for i in range(n+1):
 		a.append([])
 		a[i].append(1)
 		for j in range(1,i):
