@@ -41,5 +41,5 @@ from playstep2 import playstep2
 
 
 def bonusplaythreediceyahtzee(dice):
-	hand = dice[4:]
+	hand = dice[4:len(dice)]
 	pass
