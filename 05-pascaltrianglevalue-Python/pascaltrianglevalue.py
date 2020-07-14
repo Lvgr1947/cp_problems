@@ -22,4 +22,4 @@ def fun_pascaltrianglevalue(n, c):
 		print(b[c])
 	else:
 		print(0)
-fun_pascaltrianglevalue(3,5)
+fun_pascaltrianglevalue(1,1)
