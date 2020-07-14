@@ -11,3 +11,5 @@ def isperfectsquare(n):
 			if(i*i == n):
 				return True
 		return False
+	else:
+		return False
