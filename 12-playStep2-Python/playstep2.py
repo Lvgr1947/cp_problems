@@ -82,4 +82,4 @@ def playstep2(hand, dice):
 		dice = dice//10
 		hand[2] = dice%10
 		print(sorted(hand))
-playstep2(433,4513)
+playstep2(413, 2345)
