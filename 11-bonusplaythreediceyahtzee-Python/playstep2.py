@@ -63,6 +63,5 @@ def playstep2(hand, dice):
 		hand = handtodice1(hand)
 		# a = [hand,0]
 		# a = tuple(a)
-		print(hand,0)
-		return a
+		return(hand,0)
 	
