@@ -67,8 +67,8 @@ def playstep2(hand, dice):
 	hand = handtodice(hand)
 	# dice = handtodice(dice)
 	if(len(set(hand))==1):
-		return hand
-		
+		return (hand,dice)
+
 	elif(len(set(hand)) < len(hand)):
 		a = notMatched(hand)
 		if a== len(hand) -1:
