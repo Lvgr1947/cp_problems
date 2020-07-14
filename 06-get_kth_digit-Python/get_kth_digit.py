@@ -12,4 +12,4 @@ def fun_get_kth_digit(digit, k):
 		return digit[k]
 	else:
 		return 0
-  
+    
