@@ -48,6 +48,8 @@ def handtodice(hand):
 		a.append(b[i])
 		i += 1
 	return a
+
+
 def playstep2(hand, dice):
 	hand = handtodice(hand)
 	dice = handtodice(dice)
