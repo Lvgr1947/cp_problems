@@ -30,4 +30,4 @@ American City
 Asian City - Country
 Asian City - Country"""
 
-locations = {'North America': {'USA': ['Mountain View']},'Asia':{'India'}}
+locations = {'North America': {'USA': ['Mountain View']},'Asia':{'India':[]}}
