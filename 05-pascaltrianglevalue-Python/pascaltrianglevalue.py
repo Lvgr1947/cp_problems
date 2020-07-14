@@ -21,5 +21,5 @@ def fun_pascaltrianglevalue(n, c):
 	if(len(b) >= c):
 		return(b[c])
 	else:
-		print(0)
+		return(0)
 # fun_pascaltrianglevalue(1,1)
