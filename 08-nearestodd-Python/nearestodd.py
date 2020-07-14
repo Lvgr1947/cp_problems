@@ -11,7 +11,8 @@ def fun_nearestodd(n):
 		return 3
 	elif(a%2==0 and n-a>0):
 		return a+1
-	elif
+	elif(a%2==0 and n-a<=0):
+		return a-1
 	elif a%2 != 0:
 		return a
 
