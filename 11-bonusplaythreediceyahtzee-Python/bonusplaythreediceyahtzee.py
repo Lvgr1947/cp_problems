@@ -38,6 +38,15 @@
 # assert(bonusPlayThreeDiceYahtzee(2333413) == (333, 29))
 # assert(bonusPlayThreeDiceYahtzee(2333555) == (555, 35))
 from playstep2 import playstep2
+def handtodice(hand):
+	a = []
+	b = list(str(hand))
+	i = 0
+	while(i<len(b)):
+		a.append(int(b[i]))
+		i += 1
+	return a
+
 def notMatched(hand):
 	hand = str(hand)
 	for i in range(len(hand)):
@@ -49,9 +58,8 @@ def notMatched(hand):
 def scoring(hand,dice):
 	sum = 0
 	if dice == 0:
-		for i in range(3):
-			sum += hand%10
-			hand = hand//10
+		hand = handtodice(hand)
+		return max(hand)
 	elif dice == 1:
 		sum = notMatched(hand)*2 + 10
 	elif dice == 2:
