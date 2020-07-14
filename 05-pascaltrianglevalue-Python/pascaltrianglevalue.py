@@ -19,4 +19,4 @@ def fun_pascaltrianglevalue(n, col):
 			a[i].append(1)
 	b = a[n-1]
 	print(b[1])
-fun_pascaltrianglevalue(4,4)
+fun_pascaltrianglevalue(4,3)
