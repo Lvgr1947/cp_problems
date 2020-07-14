@@ -7,4 +7,4 @@ def get_fib(x):
     if x<=1:
         return x
     else:
-        return get_fib(x-1)+
+        return get_fib(x-1)+get_fib(x-2)
