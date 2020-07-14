@@ -44,7 +44,7 @@ def bonusplaythreediceyahtzee(dice):
 	s = str(dice)
 	hand = int(s[4:len(s)])
 	dice = int(s[0:4])
-	playstep2(hand,dice)
+	print(playstep2(hand,dice))
 
 	# pass
 bonusplaythreediceyahtzee(2312413)
