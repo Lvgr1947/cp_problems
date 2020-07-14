@@ -17,6 +17,8 @@ def fun_set_kth_digit(n, k, d):
 		n1 = ''.join(n1)
 		if flag:
 			return -int(n1)
+		else:
+			return int(n1)
 	else:
 		n = str(d)+n
 		return int(n)
