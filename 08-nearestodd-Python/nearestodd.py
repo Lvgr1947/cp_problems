@@ -6,7 +6,7 @@
 
 
 def fun_nearestodd(n):
-	a = int(n)
+	a = n
 
 print(fun_nearestodd(9.7))
 
