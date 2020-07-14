@@ -94,5 +94,4 @@ def playstep2(hand, dice):
 		a = tuple(a)
 		print(a)
 		return a
-		
-playstep2(544, 456) 
+	
