@@ -35,9 +35,7 @@ def playstep2(hand, dice):
 	# dice = handtodice(dice)
 	if(len(set(hand))==1):
 		hand = handtodice1(hand)
-		a = [hand,2]
-		a = tuple(a)
-		return a
+		return(hand,2)
 
 	elif(len(set(hand)) < len(hand)):
 		a = notMatched(hand)
