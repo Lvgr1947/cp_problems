@@ -79,5 +79,6 @@ def playstep2(hand, dice):
 	else:
 		hand[0] = max(hand)
 		hand[1] = dice%10
-		dice = dice
+		dice = dice//10
+		hand
 playstep2(433,4513)
