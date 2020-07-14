@@ -18,4 +18,4 @@ class Queue:
         a = self.storage[0]
         for i in range(len(self.storage)-2):
             self.storage[i] = self.storage[i+1]
-        
+        self.storage[len(self.storage)]
