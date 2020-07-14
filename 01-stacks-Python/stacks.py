@@ -51,7 +51,7 @@ class stack(object):
             a.next = self.ll
             self.ll = a
         else:
-            self.top = a
+            self.ll = a
         print(self.top)
 
     def pop(self):
