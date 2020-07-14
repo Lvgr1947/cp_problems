@@ -31,5 +31,6 @@ Asian City - Country
 Asian City - Country"""
 
 locations = {'North America': {'USA': ['Mountain View','Atlanta']},
-            'Asia':{'India':['Bangalore'],'China':['Shangai']},
+            'Asia':{'India':['Bangalore'],
+            'China':['Shangai']},
             'Africa':{'Egypt':['Cairo']}}
