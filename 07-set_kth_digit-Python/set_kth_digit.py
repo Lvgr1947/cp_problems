@@ -16,4 +16,4 @@ def fun_set_kth_digit(n, k, d):
 	else:
 		n = str(d)+n
 		return int(n)
-fun_set_kth_digit(123,2,5)
+print(fun_set_kth_digit(123,2,5))
