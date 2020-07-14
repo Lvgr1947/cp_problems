@@ -45,7 +45,7 @@ def handtodice(hand):
 	b = list(str(hand))
 	i = 0
 	while(i<len(b)):
-		a.append(b)
+		a.append(b[i])
 		i += 1
 	return a
 def playstep2(hand, dice):
