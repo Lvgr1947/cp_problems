@@ -44,11 +44,10 @@ def handtodice(hand):
 	a = ()
 	b = list(str(hand))
 	i = 0
-	while(i<3):
+	while(i<len(b)):
 		a = a+ (int(b[i]),)
 		i += 1
 	return a
 def playstep2(hand, dice):
 	hand = handtodice(hand)
 	dice = handtodice(dice)
-	
