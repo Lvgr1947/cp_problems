@@ -55,5 +55,6 @@ class stack(object):
         "Pop (remove) the first element off the top of the stack and return it"
         if self.top:
             self.top = self.top.next
-            
+        else:
+            self.top = None
     
