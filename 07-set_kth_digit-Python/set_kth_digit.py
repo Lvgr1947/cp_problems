@@ -14,4 +14,4 @@ def fun_set_kth_digit(n, k, d):
 		n1 = str(n1)
 		return n1
 	else:
-		n = str()
+		n = str(d)+n
