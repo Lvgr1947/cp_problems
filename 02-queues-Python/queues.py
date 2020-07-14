@@ -20,3 +20,4 @@ class Queue:
             self.storage[i] = self.storage[i+1]
         self.storage[len(self.storage)-1] = None
         return a
+    
