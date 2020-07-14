@@ -28,6 +28,7 @@ class LinkedList(object):
         current = self.head
         if self.head:
             self.head = new_element
+            
         
 
     def delete_first(self):
