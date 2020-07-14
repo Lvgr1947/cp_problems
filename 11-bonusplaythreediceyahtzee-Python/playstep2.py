@@ -44,7 +44,6 @@ def playstep2(hand, dice):
 		else:
 			hand = removeHand(hand,a)
 		hand[len(hand)-1] = dice%10
-		dice = dice//10
 		hand = (sorted(hand,reverse=True))
 		hand = handtodice1(hand)
 		return(hand,1)
