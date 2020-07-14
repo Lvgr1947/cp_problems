@@ -39,12 +39,14 @@
 # assert(bonusPlayThreeDiceYahtzee(2333555) == (555, 35))
 from playstep2 import playstep2
 
+# def scoring()
 
 def bonusplaythreediceyahtzee(dice):
 	s = str(dice)
 	hand = int(s[4:len(s)])
 	dice = int(s[0:4])
-	print(playstep2(hand,dice))
+	hand,dice = playstep2(hand,dice)
+	print(hand,dice)
 
 	# pass
 bonusplaythreediceyahtzee(2312413)
