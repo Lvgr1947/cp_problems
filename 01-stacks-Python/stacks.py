@@ -60,6 +60,8 @@ class stack(object):
         if self.ll:
             a = self.ll
             self.ll = self.ll.next
+            return a
         else:
+            
             self.ll = None
     
