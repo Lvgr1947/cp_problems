@@ -61,7 +61,7 @@ def playstep2(hand, dice):
 		dice = dice//10
 		hand = (sorted(hand,reverse=True))
 		hand = handtodice1(hand)
-		a = [hand,dice]
+		a = [hand,0]
 		a = tuple(a)
 		print(a)
 		return a
