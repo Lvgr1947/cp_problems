@@ -49,7 +49,7 @@ class stack(object):
         a = LinkedList(new_element)
         if self.top:
             a.next = self.top
-        self.top = a
+            self.top = a
 
     def pop(self):
         "Pop (remove) the first element off the top of the stack and return it"
