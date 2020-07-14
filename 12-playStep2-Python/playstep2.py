@@ -63,5 +63,6 @@ def playstep2(hand, dice):
 	dice = handtodice(dice)
 	if(len(set(hand)) < len(hand)):
 		a = notMatched(hand)
+		print()
 	
 playstep2(443,4513)
