@@ -74,6 +74,6 @@ def playstep2(hand, dice):
 			hand[a] = None
 		else:
 			hand = removeHand(hand,a)
-		print(len(hand))
+		hand[len(hand)-1] = dice%10
 	
 playstep2(433,4513)
