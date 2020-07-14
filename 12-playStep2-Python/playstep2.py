@@ -96,4 +96,4 @@ def playstep2(hand, dice):
 		# print(a)
 		# return(a)
 
-playstep2(544, 456)
+playstep2(544, 456) 
