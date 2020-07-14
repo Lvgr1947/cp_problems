@@ -77,4 +77,4 @@ def bonusplaythreediceyahtzee(dice):
 	return(a)
 
 	# pass
-bonusplaythreediceyahtzee(2333555)
+# bonusplaythreediceyahtzee(2333555)
