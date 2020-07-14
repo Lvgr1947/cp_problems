@@ -52,6 +52,7 @@ class stack(object):
             self.top = a
         else:
             self.top = a
+        print(self.top)
 
     def pop(self):
         "Pop (remove) the first element off the top of the stack and return it"
