@@ -8,7 +8,7 @@
 def fun_get_kth_digit(digit, k):
 	digit = str(digit)
 	digit = digit[::-1]
-	digit = digit.split()
+	digit = list(digit)
 	print(len(digit))
 	if(len(digit)>=k):
 		return digit[k]
