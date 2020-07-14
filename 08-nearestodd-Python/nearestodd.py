@@ -14,5 +14,5 @@ def fun_nearestodd(n):
 	elif a%2 != 0:
 		return a
 
-print(fun_nearestodd(9.7))
+# print(fun_nearestodd(9.7))
 
