@@ -40,8 +40,10 @@
 from playstep2 import playstep2
 
 def scoring(hand,dice):
+	sum = 0
 	if dice == 0:
-		return
+		for i in range(3):
+			sum += hand
 
 def bonusplaythreediceyahtzee(dice):
 	s = str(dice)
