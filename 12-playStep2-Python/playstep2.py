@@ -75,11 +75,11 @@ def playstep2(hand, dice):
 		else:
 			hand = removeHand(hand,a)
 		hand[len(hand)-1] = dice%10
-		return(sorted(hand))
+		print(sorted(hand))
 	else:
 		hand[0] = max(hand)
 		hand[1] = dice%10
 		dice = dice//10
 		hand[2] = dice%10
-		return(sorted(hand))
+		print(sorted(hand))
 playstep2(433,4513)
