@@ -14,3 +14,4 @@ def fun_get_kth_digit(digit, k):
 	else:
 		return 0
     
+fun_get_kth_digit(789,2)
