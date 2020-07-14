@@ -12,9 +12,9 @@ def distance(x, y, a, b):
 	return dist
 
 def isrighttriangle(x1, y1, x2, y2, x3, y3):
-	A = int(distance(x1,y1,x2,y2))
-	B = int(distance(x1,y1,x3,y3))
-	C = int(distance(x2,y2,x3,y3))
+	A = distance(x1,y1,x2,y2)
+	B = distance(x1,y1,x3,y3)
+	C = distance(x2,y2,x3,y3)
 	num = [A,B,C]
 	x,y,z = sorted(num)
 	if x*x + y*y == z*z:
