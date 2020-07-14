@@ -25,7 +25,7 @@ def test_dequeue1(result):
 
 
 
-@pytest.mark.parametrize("result",[(5)])
+@pytest.mark.parametrize("result",[(3)])
 def test_peek2(result): 
     q.enqueue(5)   
     assert q.peek() == result
