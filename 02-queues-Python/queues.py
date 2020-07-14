@@ -28,7 +28,7 @@ class Queue:
         self.storage[len(self.storage)-1] = None
         return a
 
-# q = Queue(1)
-# q.enqueue(2)
-# q.enqueue(3)
-# print(q.dequeue())
+q = Queue(1)
+q.enqueue(2)
+q.enqueue(3)
+print(q.dequeue())
