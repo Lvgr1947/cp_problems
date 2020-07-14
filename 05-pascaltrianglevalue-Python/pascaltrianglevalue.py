@@ -20,4 +20,4 @@ def fun_pascaltrianglevalue(n, c):
 	b = a[n-1]
 	if(len(b) >= c):
 		print(b[c])
-fun_pascaltrianglevalue(4,3)
+fun_pascaltrianglevalue()
