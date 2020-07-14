@@ -8,4 +8,5 @@
 
 def fun_set_kth_digit(n, k, d):
 	k = k*10
+	s = str(n)
 	
