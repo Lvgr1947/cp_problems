@@ -41,7 +41,7 @@ def dicetoorderedhand(a, b, c):
 	return d
 
 def handtodice(hand):
-	a = ()
+	a = []
 	b = list(str(hand))
 	i = 0
 	while(i<len(b)):
