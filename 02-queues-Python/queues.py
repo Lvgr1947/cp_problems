@@ -12,7 +12,7 @@ class Queue:
         self.storage[len(self.storage)] = new_element
 
     def peek(self):
-        pass 
+        self.storage[len(self.storage)] 
 
     def dequeue(self):
         pass
