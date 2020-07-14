@@ -50,4 +50,5 @@ def handtodice(hand):
 	return a
 def playstep2(hand, dice):
 	hand = handtodice(hand)
-	dice = hand
+	dice = handtodice(dice)
+	
