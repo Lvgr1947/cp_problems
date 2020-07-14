@@ -12,7 +12,8 @@ class Queue:
         self.storage[len(self.storage)] = new_element
 
     def peek(self):
-        self.storage[len(self.storage)] 
+        return self.storage[0] 
 
     def dequeue(self):
-        pass
+        a = self.storage[0]
+        for i in rnage
