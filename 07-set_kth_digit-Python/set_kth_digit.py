@@ -10,7 +10,7 @@ def fun_set_kth_digit(n, k, d):
 	n = str(n)
 	n1 = list(n)
 	if(len(n1)>k):
-		n1[len(n1)-k] = str(d)
+		n1[len(n1)-(k+1)] = str(d)
 		n1 = str(n1)
 		return n1
 	else:
