@@ -20,15 +20,16 @@ def isrighttriangle(x1, y1, x2, y2, x3, y3):
 	num = [A,B,C]
 	x,y,z = sorted(num)
 	if (x**2 + y**2 == z**2) or (y**2 + z**2 == x**2) or (z**2 + x**2 == y**2):
-		return True
-	else:
-		return False
-	m1 = (y2-y1)/(x2-x1)
+		m1 = (y2-y1)/(x2-x1)
 	m2 = (y3-y1)/(x3-x1)
 	m3 = (y1-y2)/(x1-x2)
 	if m1*m2 == -1 or m2*m3 == -1 or m3*m1 == -1:
 		return True
 	else:
 		return False
+			return True
+	else:
+		return False
+	
 
 
