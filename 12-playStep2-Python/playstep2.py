@@ -65,4 +65,4 @@ def playstep2(hand, dice):
 		a = notMatched(hand)
 		print(a)
 	
-playstep2(443,4513)
+playstep2(433,4513)
