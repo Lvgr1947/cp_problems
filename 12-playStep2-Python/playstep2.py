@@ -74,6 +74,6 @@ def playstep2(hand, dice):
 			hand[a] = None
 		else:
 			hand = removeHand(hand,a)
-
+		
 	
 playstep2(433,4513)
