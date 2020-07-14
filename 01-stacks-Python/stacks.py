@@ -35,7 +35,7 @@ class LinkedList(object):
 
     def delete_first(self):
         "Delete the first (head) element in the LinkedList as return it"
-        a = self.head.value
+        a = self.head
         if self.head.next:
             self.head = self.head.next
         else:
