@@ -28,6 +28,15 @@
 # into a sorted hand.
 # Hint: Also, remember to use % to get the one's digit, and use //= to get rid of the one's digit.
 
+
+def handtodice(hand):
+	a = ()
+	b = list(str(hand))
+	i = 0
+	while(i<3):
+		a = a+ (int(b[i]),)
+		i += 1
+	return a
 def playstep2(hand, dice):
 	# your code goes here
 	pass
