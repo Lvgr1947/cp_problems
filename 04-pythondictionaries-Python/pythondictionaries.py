@@ -40,3 +40,9 @@ def sortUSA(locations):
         if x == 'North America':
             for y in locations[x].values():
                 print(sorted(y))
+
+def sortUSA(locations):
+    for x in locations:
+        if x == 'North America':
+            for y in locations[x].values():
+                print(sorted(y))
