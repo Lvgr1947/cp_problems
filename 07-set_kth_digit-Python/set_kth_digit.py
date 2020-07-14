@@ -15,3 +15,4 @@ def fun_set_kth_digit(n, k, d):
 		return n1
 	else:
 		n = str(d)+n
+		return
