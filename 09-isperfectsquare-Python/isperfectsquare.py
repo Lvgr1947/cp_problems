@@ -4,8 +4,9 @@
 # m**2 == n), and False otherwise. Do not crash on non-ints nor on negative ints.
 import math
 def isperfectsquare(n):
-	if(type(int(n))==int):
-		print("true")
+	try:
+		if(type(int(n))==int):
+			print("true")
 	# if(type(n) == int):
 	#  and n>0):
 	# 	i=2
@@ -14,5 +15,9 @@ def isperfectsquare(n):
 	# 			return True
 	# 		i += 1
 	# 	return False
-	# else:
-	# 	return False
+	except:
+		pass
+	else:
+		return False
+
+isperfectsquare("hello")
