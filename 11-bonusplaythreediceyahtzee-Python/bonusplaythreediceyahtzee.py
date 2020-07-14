@@ -43,7 +43,8 @@ def scoring(hand,dice):
 	sum = 0
 	if dice == 0:
 		for i in range(3):
-			sum += hand
+			sum += hand%10
+			
 
 def bonusplaythreediceyahtzee(dice):
 	s = str(dice)
