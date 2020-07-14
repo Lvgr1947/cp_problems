@@ -58,3 +58,4 @@ def playstep2(hand, dice):
 	hand = set(hand)
 	print(hand)
 
+playstep2()
