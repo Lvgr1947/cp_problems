@@ -25,6 +25,8 @@ def isrighttriangle(x1, y1, x2, y2, x3, y3):
 		m3 = (y1-y2)/(x1-x2)
 		if m1*m2 == -1 or m2*m3 == -1 or m3*m1 == -1:
 			return True
+		else:
+			return False
 	else:
 		return False
 	
