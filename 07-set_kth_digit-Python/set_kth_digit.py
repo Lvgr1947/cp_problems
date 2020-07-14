@@ -7,6 +7,7 @@
 
 
 def fun_set_kth_digit(n, k, d):
+	fl
 	n = str(n)
 	n1 = list(n)
 	if(len(n1)>k):
