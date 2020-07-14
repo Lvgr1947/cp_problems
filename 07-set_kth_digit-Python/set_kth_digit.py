@@ -11,3 +11,4 @@ def fun_set_kth_digit(n, k, d):
 	n = list(n)
 	if(len(n)>k):
 		n[len-k] = str(d)
+	
