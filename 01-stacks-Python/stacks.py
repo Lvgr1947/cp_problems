@@ -30,7 +30,7 @@ class LinkedList(object):
             self.head = new_element
             self.head.next = current
         else:
-            self.head.value = new_element
+            self.head = new_element
         
 
     def delete_first(self):
