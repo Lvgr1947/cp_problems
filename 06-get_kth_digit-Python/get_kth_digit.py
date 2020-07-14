@@ -7,4 +7,5 @@
 
 def fun_get_kth_digit(digit, k):
 	digit = str(digit)
+	digit = digit.split()
 	
