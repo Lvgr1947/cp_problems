@@ -8,4 +8,5 @@
 
 def fun_set_kth_digit(n, k, d):
 	n = str(n)
+	n = n[::-1]
 	
