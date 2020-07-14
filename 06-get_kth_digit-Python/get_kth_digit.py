@@ -9,7 +9,7 @@ def fun_get_kth_digit(digit, k):
 	digit = str(digit)
 	digit = digit[::-1]
 	digit = list(digit)
-	print(len(digit))
+	# print(len(digit))
 	if(len(digit)>=k):
 		return digit[k]
 	else:
