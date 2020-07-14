@@ -14,6 +14,4 @@ def fun_set_kth_digit(n, k, d):
 		return int(digit[k])
 	else:
 		return 0
-
-		return 0
-
+  
