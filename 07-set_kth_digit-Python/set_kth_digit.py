@@ -7,11 +7,4 @@
 
 
 def fun_set_kth_digit(n, k, d):
-	digit = str(digit)
-	digit = digit[::-1]
-	digit = list(digit)
-	if(len(digit)>k):
-		 int(digit[k])
-	else:
-		return 0
-  
+	k = k*10
