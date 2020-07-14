@@ -82,11 +82,6 @@ def playstep2(hand, dice):
 		a = tuple(a)
 		print(a)
 		return a
-
-		# a =[int(s),dice]
-		# a = tuple(a)
-		print(s)
-		# return a
 	else:
 		hand[0] = max(hand)
 		hand[1] = dice%10
@@ -94,8 +89,7 @@ def playstep2(hand, dice):
 		hand[2] = dice%10
 		dice = dice//10
 		s = (sorted(hand,reverse=True))
-		s=''.join(s)
-		s = int(s)
+		
 		# a =[int(s),dice]
 		# a = tuple(a)
 		# print(a)
