@@ -59,5 +59,5 @@ class stack(object):
         if self.ll:
             self.ll = self.ll.next
         else:
-            self.top = None
+            self.ll = None
     
