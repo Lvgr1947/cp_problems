@@ -7,7 +7,7 @@
 
 def fun_nearestodd(n):
 	a = int(n)
-	if a == 1:
+	if a <=2:
 		return 3
 	elif(a%2==0 and n-a>0):
 		return a+1
