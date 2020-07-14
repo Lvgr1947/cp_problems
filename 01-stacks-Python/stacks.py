@@ -62,4 +62,5 @@ class stack(object):
             self.ll = self.ll.next
         else:
             self.ll = None
+        return a
     
