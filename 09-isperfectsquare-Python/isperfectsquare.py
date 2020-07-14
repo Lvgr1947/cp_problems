@@ -10,6 +10,7 @@ def isperfectsquare(n):
 		while(i<=math.sqrt(n)):
 			if(i*i == n):
 				return True
+			i += 1
 		return False
 	else:
 		return False
