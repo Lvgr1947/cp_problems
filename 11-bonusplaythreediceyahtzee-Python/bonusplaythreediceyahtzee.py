@@ -66,7 +66,7 @@ def bonusplaythreediceyahtzee(dice):
 	score = scoring(hand,dice)
 	a = (hand,score,)
 	print(a)
-	re
+	return(a)
 
 	# pass
 bonusplaythreediceyahtzee(2312413)
