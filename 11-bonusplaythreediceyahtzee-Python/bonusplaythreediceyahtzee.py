@@ -65,6 +65,7 @@ def bonusplaythreediceyahtzee(dice):
 	hand,dice = playstep2(hand,dice)
 	score = scoring(hand,dice)
 	a = (hand,score,)
+	
 
 	# pass
 bonusplaythreediceyahtzee(2312413)
