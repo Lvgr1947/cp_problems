@@ -27,7 +27,18 @@
 # Hint: Then, you may wish to use diceToOrderedHand(a, b, c) at the end to convert the 3 dice back
 # into a sorted hand.
 # Hint: Also, remember to use % to get the one's digit, and use //= to get rid of the one's digit.
-
+import math
+def dicetoorderedhand(a, b, c):
+	if( a== b and b==c):
+		return 
+	e = max(a,b,c)
+	f = min(a,b,c)
+	d = (e*100)+f
+	a1 = [a,b,c]
+	for i in a1:
+		if i != e and i != f:
+			d += i*10
+	return d
 
 def handtodice(hand):
 	a = ()
