@@ -50,10 +50,9 @@ def playstep2(hand, dice):
 		return(hand,1)
 	else:
 		hand[0] = max(hand)
-		hand[1] = dice%10
-		dice = dice//10
-		hand[2] = dice%10
-		dice = dice//10
+		dice = handtodice(dice)
+		hand[1] = dice[0]
+		hand[2] = dice[1]
 		hand = (sorted(hand,reverse=True))
 		hand = handtodice1(hand)
 		# a = [hand,0]
