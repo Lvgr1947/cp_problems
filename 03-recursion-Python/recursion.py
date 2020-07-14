@@ -9,4 +9,4 @@ def get_fib(x):
     else:
         return get_fib(x-1)+get_fib(x-2)
 
-get_fib(9)
+print(get_fib(9))
