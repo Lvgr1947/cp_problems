@@ -49,7 +49,7 @@ class stack(object):
         a = LinkedList(new_element)
         if self.ll:
             a.next = self.ll
-            self.top = a
+            self.ll = a
         else:
             self.top = a
         print(self.top)
