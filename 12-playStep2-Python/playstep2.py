@@ -77,5 +77,6 @@ def playstep2(hand, dice):
 		hand[len(hand)-1] = dice%10
 		return(sorted(hand))
 	else:
-		hand[0] = max
+		hand[0] = max(hand)
+		hand[1] = dice%10
 playstep2(433,4513)
