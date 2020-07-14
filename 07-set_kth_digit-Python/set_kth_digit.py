@@ -24,5 +24,5 @@ def fun_set_kth_digit(n, k, d):
 		if flag:
 			return -int(n)
 		else:
-			return int(n1)
+			return int(n)
 # print(fun_set_kth_digit(123,2,5))
