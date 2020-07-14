@@ -12,4 +12,4 @@ def fun_set_kth_digit(n, k, d):
 	s = str(n)
 	if(len(s)>k):
 		while(j>0):
-			n
+			
