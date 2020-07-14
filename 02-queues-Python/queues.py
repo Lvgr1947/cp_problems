@@ -28,12 +28,12 @@ class Queue:
         self.storage[len(self.storage)-1] = None
         return a
 
-q = Queue(1)
-q.enqueue(2)
-q.enqueue(3)
-print(q.peek())
-print(q.dequeue())
-q.enqueue(4)
-print(q.dequeue())
-q.enqueue(5)
-print(q.peek())
+# q = Queue(1)
+# q.enqueue(2)
+# q.enqueue(3)
+# print(q.peek())
+# print(q.dequeue())
+# q.enqueue(4)
+# print(q.dequeue())
+# q.enqueue(5)
+# print(q.peek())
