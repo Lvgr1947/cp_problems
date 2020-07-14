@@ -8,7 +8,7 @@
 
 
 
-def fun_pascaltrianglevalue(n, col):
+def fun_pascaltrianglevalue(n, c):
 	a=[]
 	for i in range(n+1):
 		a.append([])
@@ -18,5 +18,6 @@ def fun_pascaltrianglevalue(n, col):
 		if(n!=0):
 			a[i].append(1)
 	b = a[n-1]
-	print(b[1])
+	if(len(b) >= c):
+		print(b[c])
 fun_pascaltrianglevalue(4,3)
