@@ -37,6 +37,7 @@
 # assert(bonusPlayThreeDiceYahtzee(2633413) == (633, 16))
 # assert(bonusPlayThreeDiceYahtzee(2333413) == (333, 29))
 # assert(bonusPlayThreeDiceYahtzee(2333555) == (555, 35))
+from playstep2 import playstep2
 
 
 def bonusplaythreediceyahtzee(dice):
