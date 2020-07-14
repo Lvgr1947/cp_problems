@@ -53,7 +53,7 @@ def scoring(hand,dice):
 			sum += hand%10
 			hand = hand//10
 	elif dice == 1:
-		sum = notMatched(hand)
+		sum = notMatched(hand)*2
 
 def bonusplaythreediceyahtzee(dice):
 	s = str(dice)
