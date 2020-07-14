@@ -6,4 +6,4 @@ iterative code in the instructions."""
 def get_fib(x):
     a =[lambda x: x if x<=1 else get_fib(x-1) + get_fib(x-2)]
     print(a)
-print(get_fib(9))
+get_fib(9)
