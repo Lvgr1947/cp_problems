@@ -91,9 +91,9 @@ def playstep2(hand, dice):
 		hand[2] = dice%10
 		dice = dice//10
 		s = str(sorted(hand,reverse=True))
-		a =[int(s),dice]
-		a = tuple(a)
-		print(a)
-		return(a)
+		# a =[int(s),dice]
+		# a = tuple(a)
+		# print(a)
+		# return(a)
 
 playstep2(544, 456)
