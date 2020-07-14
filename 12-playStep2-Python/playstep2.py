@@ -50,8 +50,12 @@ def handtodice(hand):
 	return a
 
 def notMatched(hand):
-	flag = 0
-	
+	count = 0
+	for i in range(len(hand)):
+		for j in range(len(hand)):
+			if(i != j and hand[i] != hand[j]):
+				count += 1
+			
 
 def playstep2(hand, dice):
 	hand = handtodice(hand)
