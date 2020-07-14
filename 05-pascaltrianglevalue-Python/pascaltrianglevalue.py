@@ -8,7 +8,7 @@
 
 
 
-def fun_pascaltrianglevalue(row, col):
+def fun_pascaltrianglevalue(n, col):
 	a=[]
 	for i in range(n):
 		a.append([])
