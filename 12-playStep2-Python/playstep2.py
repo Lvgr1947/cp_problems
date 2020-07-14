@@ -65,10 +65,11 @@ def removeHand(hand,a):
 
 def playstep2(hand, dice):
 	hand = handtodice(hand)
-	a = ()
 	# dice = handtodice(dice)
 	if(len(set(hand))==1):
-		return (hand,dice)
+		a = [hand,dice]
+		a = tuple(a)
+		return a
 
 	elif(len(set(hand)) < len(hand)):
 		a = notMatched(hand)
@@ -78,14 +79,21 @@ def playstep2(hand, dice):
 			hand = removeHand(hand,a)
 		hand[len(hand)-1] = dice%10
 		dice = dice//10
-		print(sorted(hand,reverse=True),dice)
+		s = str(sorted(hand,reverse=True))
+		# a =[int(s),dice]
+		# a = tuple(a)
+		print(s)
+		# return a
 	else:
 		hand[0] = max(hand)
 		hand[1] = dice%10
 		dice = dice//10
 		hand[2] = dice%10
 		dice = dice//10
-
-		print(sorted(hand,reverse=True),dice)
+		s = str(sorted(hand,reverse=True))
+		a =[int(s),dice]
+		a = tuple(a)
+		print(a)
+		return(a)
 
 playstep2(544, 456)
