@@ -80,7 +80,7 @@ def playstep2(hand, dice):
 		hand[len(hand)-1] = dice%10
 		dice = dice//10
 		s = (sorted(hand,reverse=True))
-		s=''
+		s=''.join(s)
 
 		# a =[int(s),dice]
 		# a = tuple(a)
