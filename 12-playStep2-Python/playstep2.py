@@ -55,7 +55,7 @@ def handtodice(hand):
 def playstep2(hand, dice):
 	hand = handtodice(hand)
 	dice = handtodice(dice)
-	hand = set(hand)
-	print(hand)
+	if(set(hand)
+	# print(hand)
 
 playstep2(443,4513)
