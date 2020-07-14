@@ -56,6 +56,7 @@ def scoring(hand,dice):
 		sum = notMatched(hand)*2 + 10
 	elif dice == 2:
 		sum = 20+ hand%10
+	
 
 def bonusplaythreediceyahtzee(dice):
 	s = str(dice)
