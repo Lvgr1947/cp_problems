@@ -24,6 +24,7 @@ def isrighttriangle(x1, y1, x2, y2, x3, y3):
 	else:
 		return False
 	m1 = int((y2-y1)/(x2-x1))
+	
 
 
 
