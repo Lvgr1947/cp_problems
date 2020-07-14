@@ -49,13 +49,14 @@ def handtodice(hand):
 		i += 1
 	return a
 
-# def ifMatched(hand):
-# 	flag = 0
+def notMatched(hand):
+	flag = 0
+	
 
 def playstep2(hand, dice):
 	hand = handtodice(hand)
 	dice = handtodice(dice)
-	if(set(hand)
-	# print(hand)
-
+	if(len(set(hand)) < len(hand)):
+		a = notMatched(hand)
+	
 playstep2(443,4513)
