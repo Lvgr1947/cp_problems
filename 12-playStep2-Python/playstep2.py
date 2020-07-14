@@ -49,10 +49,8 @@ def handtodice(hand):
 		i += 1
 	return a
 
-def ifMatched(hand):
-	flag = 0
-	a = 0
-	
+# def ifMatched(hand):
+# 	flag = 0
 
 def playstep2(hand, dice):
 	hand = handtodice(hand)
