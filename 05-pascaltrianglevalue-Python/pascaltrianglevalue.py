@@ -17,5 +17,6 @@ def fun_pascaltrianglevalue(n, col):
 			a[i].append(a[i-1][j-1]+a[i-1][j])
 		if(n!=0):
 			a[i].append(1)
-	print(a)
+	b = a[n-1]
+	print(b[2])
 fun_pascaltrianglevalue(3,4)
