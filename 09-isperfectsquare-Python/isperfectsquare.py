@@ -16,8 +16,6 @@ def isperfectsquare(n):
 	# 		i += 1
 	# 	return False
 	except:
-		pass
-	else:
 		return False
 
 isperfectsquare("hello")
