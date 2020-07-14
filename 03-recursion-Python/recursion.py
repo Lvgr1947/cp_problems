@@ -4,6 +4,5 @@ Your code should have the same input/output as the
 iterative code in the instructions."""
 
 def get_fib(x):
-    a =[lambda x: x if x<=1 else get_fib(x-1) + get_fib(x-2)]
-    print(a)
-get_fib(9)
+    if x<=1:
+        return x
