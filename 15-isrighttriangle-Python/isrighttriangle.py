@@ -12,14 +12,14 @@ import math
 def distance(x, y, a, b):
 	dist = math.sqrt(((a-x)**2) + ((b-y)**2))
 	return dist
-		
+
 def isrighttriangle(x1, y1, x2, y2, x3, y3):
 	A = distance(x1,y1,x2,y2)
 	B = distance(x1,y1,x3,y3)
 	C = distance(x2,y2,x3,y3)
 	num = [A,B,C]
 	x,y,z = sorted(num)
-	if x**2+y**2 == z**2:
+	if x**2 + y**2 == z**2:
 		return True
 	else:
 		return False
