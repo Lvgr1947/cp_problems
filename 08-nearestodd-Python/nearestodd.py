@@ -7,6 +7,8 @@
 
 def fun_nearestodd(n):
 	a = int(n)
+	if(a%2==0 and n-a>0):
+		return a+1
 	
 
 print(fun_nearestodd(9.7))
