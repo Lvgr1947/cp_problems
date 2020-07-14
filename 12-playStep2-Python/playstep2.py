@@ -83,7 +83,7 @@ def playstep2(hand, dice):
 		hand[1] = dice%10
 		dice = dice//10
 		hand[2] = dice%10
-		
+		dice
 		print(sorted(hand,reverse=True))
 
 playstep2(544, 456)
