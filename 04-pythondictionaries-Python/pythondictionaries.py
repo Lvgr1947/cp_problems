@@ -45,3 +45,4 @@ def alphaAsia(locations):
     for x in locations:
         for y in locations[x].values():
             print(sorted(y))
+    
