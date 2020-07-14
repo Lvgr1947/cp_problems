@@ -67,7 +67,7 @@ def playstep2(hand, dice):
 	if(len(set(hand)) < len(hand)):
 		a = notMatched(hand)
 		if a== len(hand) -1:
-			hand[a] = null
+			hand[a] = None
 		hand = removeHand(hand,a)
 	
 playstep2(433,4513)
