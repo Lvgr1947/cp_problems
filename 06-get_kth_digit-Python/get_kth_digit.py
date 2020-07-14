@@ -10,3 +10,5 @@ def fun_get_kth_digit(digit, k):
 	digit = digit[::-1]
 	if(len(digit)>=k):
 		return digit[k]
+	else:
+		return 0
