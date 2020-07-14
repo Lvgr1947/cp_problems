@@ -7,14 +7,14 @@ def isperfectsquare(n):
 	try:
 		if(type(int(n))==int):
 			print("true")
-	# if(type(n) == int):
-	#  and n>0):
-	# 	i=2
-	# 	while(i<=math.sqrt(n)):
-	# 		if(i**2 == n):
-	# 			return True
-	# 		i += 1
-	# 	return False
+		elif(type(n) == int):
+		
+			i=2
+			while(i<=math.sqrt(n)):
+				if(i**2 == n):
+					return True
+				i += 1
+			return False
 	except:
 		print(False)
 
