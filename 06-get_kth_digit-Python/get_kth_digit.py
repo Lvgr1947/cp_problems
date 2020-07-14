@@ -11,7 +11,7 @@ def fun_get_kth_digit(digit, k):
 	digit = list(digit)
 	# print(len(digit))
 	if(len(digit)>=k):
-		return digit[k]
+		return int(digit[k])
 	else:
 		return 0
     
