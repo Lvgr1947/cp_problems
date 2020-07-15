@@ -44,4 +44,4 @@ def fun_nth_happy_number(n):
 				break
 			else:
 				i += 1
-		
+		count += 1
