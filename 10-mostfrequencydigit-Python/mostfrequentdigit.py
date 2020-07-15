@@ -6,4 +6,6 @@ def mostfrequentdigit(n):
 	# your code goes here
 	p = {}
 	n = str(n)
-	
+	for i in n:
+		if i not in p.keys():
+			p
