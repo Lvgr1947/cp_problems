@@ -46,4 +46,4 @@ def fun_nth_happy_number(n):
 				i += 1
 		count += 1
 	print(i)
-fun_nth_happy_number(7)
+fun_nth_happy_number(0)
