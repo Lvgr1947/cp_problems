@@ -7,4 +7,4 @@
 def smallestdifference(a):
 	# Your code goes here
 	b = min(a)
-	
+	a 
