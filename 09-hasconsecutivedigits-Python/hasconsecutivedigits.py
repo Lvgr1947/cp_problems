@@ -8,4 +8,5 @@ def hasconsecutivedigits(n):
 	n1 = set(n)
 	if(len(n)==len(n1)):
 		return False
-	
+	else:
+		return True
