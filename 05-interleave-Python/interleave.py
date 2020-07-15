@@ -21,7 +21,7 @@ def fun_interleave(s1,s2):
 	elif(len(s1)<len(s2)):
 		for i in range(len(s1)):
 			s += s1[i]+s2[i]
-		print(s)
+		print(s2[len(s1)*2:len(s2):1])
 		s += s2[len(s1)*2:len(s2):1]
 		print(s)
 		return s
