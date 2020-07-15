@@ -8,5 +8,5 @@ def fun_replace(s1, s2, s3):
 	s1 = s1.split(s2)
 	s = ""+s1[0]+s3
 	return s
-print(fun_replace)
+print(fun_replace("helloworld123", "hello", "345"))
 
