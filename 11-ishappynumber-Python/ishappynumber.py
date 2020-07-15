@@ -38,5 +38,5 @@ def ishappynumber(n):
 				p.append(n)
 	else:
 		return False
-    
+
 			
