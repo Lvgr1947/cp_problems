@@ -17,5 +17,5 @@ def fun_replace(s1, s2, s3):
 		else:
 			s = s4[0]+s3+s4[1]
 		return s
-print(fun_replace("helloworld123", "34567", "345"))
+# print(fun_replace("helloworld123", "34567", "345"))
 
