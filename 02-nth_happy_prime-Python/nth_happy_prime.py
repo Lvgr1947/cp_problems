@@ -45,4 +45,4 @@ def fun_nth_happy_prime(n):
 					break
 			count+=1
 		return i
-print(fun)
+print(fun_nth_happy_prime)
