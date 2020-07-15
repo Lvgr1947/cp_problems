@@ -17,4 +17,4 @@ def smallestdifference(a):
 		return d
 	else:
 		return -1
-print(smallestdifference([1, -3, 71, 68, 17]))
+# print(smallestdifference([1, -3, 71, 68, 17]))
