@@ -9,13 +9,12 @@ def fun_replace(s1, s2, s3):
 	if(len(s4[0])==len(s1)):
 		return s1
 	else:
-		s = ""
-		if len(s4[0])==0:
-			s = s3+s4[1]
-		elif len(s4[1])==0:
-			s = s4[0]+s3
-		else:
-			s = s4[0]+s3+s4[1]
+		s=""
+		for i in range(len(s4)):
+			if(len(s4[i]) == 0):
+				s += s3
+			else:
+				s += s4[i]
 		return s
 print(fun_replace("hellrldowo23ufn348hf oincodnrld123", "rld", "     "))
 
