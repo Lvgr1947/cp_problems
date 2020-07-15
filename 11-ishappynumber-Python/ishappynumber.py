@@ -13,7 +13,7 @@
 # assert(ishappynumber(98) == False)
 # assert(ishappynumber(404) == True)
 # assert(ishappynumber(405) == False)
-
+import math
 def squares(n):
 	sum = 0
 	while(n>0):
@@ -37,5 +37,5 @@ def ishappynumber(n):
 				p.append(n)
 	else:
 		return False
-  
+    
 			
