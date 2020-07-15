@@ -6,12 +6,15 @@
 
 def smallestdifference(a):
 	# Your code goes here
-	b = min(a)
-	print(b)
-	c = a.index(b)
-	m = a.index(max(a))
-	a[c] = m
-	d = min(a)
-	print(d)
-	return d-b
+	if(len(a)==1):
+		return a[0]
+	elif(len(a)>0):
+		a = sorted(a)
+		d = a[1]-a[0]
+		for i in range(1,len(a)-1):
+			if d> a[i+1]-a[i]:
+				d = a[i+1]-a[i]
+			
+	else:
+		return -1
 print(smallestdifference([1, -3, 71, 68, 17]))
