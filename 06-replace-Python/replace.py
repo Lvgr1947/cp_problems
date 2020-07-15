@@ -5,5 +5,6 @@
 
 
 def fun_replace(s1, s2, s3):
-	s1 = s1.split("")
+	s1 = s1.split(s2)
+	
 
