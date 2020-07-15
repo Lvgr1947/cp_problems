@@ -11,6 +11,7 @@ def issorted(a):
 		return True
 	else:
 		d = a[0]-a[1]
-		for i in range(len(a)):
+		for i in range(len(a)-1):
 			if(a[i]-a[i+1] != d):
 				return False
+		
