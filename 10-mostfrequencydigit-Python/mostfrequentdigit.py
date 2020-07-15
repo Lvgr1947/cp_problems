@@ -5,4 +5,5 @@
 def mostfrequentdigit(n):
 	# your code goes here
 	p = []
+	n = str(n)
 	
