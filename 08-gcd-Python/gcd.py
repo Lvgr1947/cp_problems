@@ -13,4 +13,4 @@ def gcd(x, y):
 	if(x%y==0):
 		return y
 	else:
-		gcd()
+		gcd(y,x%y)
