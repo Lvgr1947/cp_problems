@@ -11,3 +11,4 @@ def smallestdifference(a):
 	a[c] = None
 	d = min(a)
 	return d-b
+smallestdifference
