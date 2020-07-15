@@ -6,7 +6,10 @@
 def strings(s4,s,j):
 	a=""
 	for i in range(0,len(s4)):
-		a += s4[i]
+		if i != len(s4)-1:
+			a += s4[i]+ s
+		else:
+			a
 	return a
 
 def fun_replace(s1, s2, s3):
