@@ -3,7 +3,11 @@
 # replace(s1, s2, s3) that returns a string equal to 
 # s1.replace(s2, s3), but again without calling s.replace().
 
-
+def strings(s4,s):
+	a=""
+	for i in range(len(s4)):
+			if( ):
+				s += s4[i]
 def fun_replace(s1, s2, s3):
 	s4 = s1.split(s2)
 	print(s4)
