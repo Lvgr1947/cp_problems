@@ -10,7 +10,7 @@
 
 def gcd(x, y):
 	# your code goes here
-	if(x%y==0):
+	if(y==0):
 		return y
 	else:
 		return gcd(y,x%y)
