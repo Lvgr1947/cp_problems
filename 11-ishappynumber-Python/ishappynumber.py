@@ -34,4 +34,5 @@ def ishappynumber(n):
 				return False
 			else:
 				z.append(n)	
-	return False
+	else:
+		return False
