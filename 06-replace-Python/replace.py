@@ -9,8 +9,7 @@ def strings(s4,s):
 			if((i+1)%2==0):
 				a += s
 				# print(a)
-			else:
-				a += s4[i]
+			a += s4[i]
 	return a
 
 def fun_replace(s1, s2, s3):
