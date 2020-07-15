@@ -20,7 +20,6 @@ def sqares(n):
 		sum += x*x
 		n = n//10
 	return sum
-
 def ishappynumber(n):
 	z = []
 	if n == 1:
@@ -36,4 +35,3 @@ def ishappynumber(n):
 				z.append(n)	
 	else:
 		return False
-	
