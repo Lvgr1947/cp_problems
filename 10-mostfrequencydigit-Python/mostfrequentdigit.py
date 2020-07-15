@@ -5,4 +5,4 @@
 def mostfrequentdigit(n):
 	# your code goes here
 	p = {}
-	n = list(str(n))
+	n = str(n)
