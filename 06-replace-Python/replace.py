@@ -7,7 +7,9 @@ def strings(s4,s,j):
 	a=""
 	for i in range(1,len(s4)):
 			if((i-j)%2==0):
-				s += s4[i]
+				a += s
+			else:
+				a
 def fun_replace(s1, s2, s3):
 	s4 = s1.split(s2)
 	print(s4)
