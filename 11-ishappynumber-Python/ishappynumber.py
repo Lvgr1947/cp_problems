@@ -30,3 +30,4 @@ def ishappynumber(n):
 		while(True):
 			a = squares(n)
 			
+			
