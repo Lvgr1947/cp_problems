@@ -8,7 +8,7 @@ def strings(s4,s):
 	for i in range(0,len(s4)):
 			if((i+1)%2==0):
 				a += s
-				print(a)
+				# print(a)
 			else:
 				a += s4[i]
 	return a
