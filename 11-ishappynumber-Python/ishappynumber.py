@@ -29,6 +29,7 @@ def ishappynumber(n):
 		p=[]
 		while(True):
 			n = squares(n)
+			if n ==1:
 			if n in p:
 				return False
 			else:
