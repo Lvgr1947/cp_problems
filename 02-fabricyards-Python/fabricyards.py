@@ -20,7 +20,8 @@ def fun_fabricyards(inches):
 	elif inches >36:
 		yards = math.ceil(inches/36)
 		return yards
-	return 1
+	else:
+		return 1
 
 
 def fun_fabricexcess(inches):
