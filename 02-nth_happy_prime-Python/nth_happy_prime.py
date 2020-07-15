@@ -46,3 +46,4 @@ def fun_nth_happy_prime(n):
 			count += 1
 		# print(i)
 		return i
+  
