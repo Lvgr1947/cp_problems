@@ -47,6 +47,6 @@ def fun_nth_happy_number(n):
 					break
 
 			count += 1
-		print(i)
+		# print(i)
 		return i
-fun_nth_happy_number(2)
+# fun_nth_happy_number(2)
