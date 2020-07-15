@@ -13,30 +13,25 @@
 # assert(ishappynumber(98) == False)
 # assert(ishappynumber(404) == True)
 # assert(ishappynumber(405) == False)
-import math
-
-def squares(n):
+def sqares(n):
 	sum = 0
-	while(n>0):
-		sum += (n%10)**2
+	while(n > 0):
+		x = n % 10
+		sum += x*x
 		n = n//10
 	return sum
-
 def ishappynumber(n):
-	# your code goes here
+	z = []
 	if n == 1:
 		return True
-	elif n >0:
-		p=[]
+	elif(n > 0):
 		while(True):
-			n = squares(n)
-			if n ==1:
-				return True
-			elif n in p:
+			n = sqares(n)
+			if(n == 1):
+				return True	
+			elif(n in z):
 				return False
 			else:
-				p.append(n)
+				z.append(n)	
 	else:
 		return False
-
-			
