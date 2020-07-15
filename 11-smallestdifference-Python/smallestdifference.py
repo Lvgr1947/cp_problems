@@ -8,7 +8,8 @@ def smallestdifference(a):
 	# Your code goes here
 	b = min(a)
 	c = a.index(b)
-	a[c] = None
+	m = a.index(max(a))
+	a[c] = m
 	d = min(a)
 	return d-b
-smallestdifference
+print(smallestdifference([1, -3, 71, 68, 17]))
