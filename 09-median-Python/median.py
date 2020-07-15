@@ -9,6 +9,6 @@ def median(a):
 		if(b%2!=0):
 			return a[(b+1)//2]
 		else:
-			return a[(b//2)-1]+a[]
+			return a[(b//2)-1]+a[(b//2)]
 	else:
 		return None
