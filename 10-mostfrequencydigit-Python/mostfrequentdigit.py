@@ -3,18 +3,21 @@
 # that occurs most frequently in it, with ties going to the smaller digit.
 
 def mostfrequentdigit(n):
-	# your code goes here
-	p = []
-	q = {}
+		# your code goes here
+	p=[]
+	dicts = {}
 	n = str(n)
-	for i in range(len(n)):
-		if i in q:
-			q[i] += 1
+	for i in n:
+		if i in dicts:
+			dicts[i] +=1
 		else:
-			q[i] = 0
-	a = max(q.values())
-	for j in q.keys():
-		if q[j] == a:
-			p.append(int(j))
-	return min(p)
+			dicts[i] = 0	
+
+	a = max(dicts.values())
+	for j in dicts.keys():
+		if dicts[j] == a:
+			p.append(int(j))	
+	return min(p)		
+		
+
 		
