@@ -37,7 +37,7 @@ def ishappynumber(n):
 
 def fun_nth_happy_number(n):
 	count = 0
-	i = 0
+	i = 1
 	while(count!=n):
 		while(True):
 			if(ishappynumber(i)):
