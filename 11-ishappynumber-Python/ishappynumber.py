@@ -14,6 +14,7 @@
 # assert(ishappynumber(404) == True)
 # assert(ishappynumber(405) == False)
 import math
+
 def squares(n):
 	sum = 0
 	while(n>0):
