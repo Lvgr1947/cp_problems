@@ -6,7 +6,8 @@
 
 def fun_replace(s1, s2, s3):
 	s4 = s1.split(s2)
-	s = ""+s3+s4[1]
+	if len(s4[0])
+	s = ""+s3+s4[0]
 	return s
 # print(fun_replace("helloworld123", "hello", "345"))
 
