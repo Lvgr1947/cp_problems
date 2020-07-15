@@ -8,4 +8,5 @@ def smallestdifference(a):
 	# Your code goes here
 	b = min(a)
 	c = a.index(b)
-	a[c]
+	a[c] = None
+	
