@@ -6,6 +6,8 @@
 
 def smallestdifference(a):
 	# Your code goes here
+	a=sorted(a)
+	
 	b = min(a)
 	print(b)
 	c = a.index(b)
