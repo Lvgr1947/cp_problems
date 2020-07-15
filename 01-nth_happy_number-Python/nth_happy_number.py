@@ -49,6 +49,6 @@ def fun_nth_happy_number(n):
 					i += 1
 
 			count += 1
-		# print(i)
+		print(i)
 		return i
-# fun_nth_happy_number(1)
+fun_nth_happy_number(2)
