@@ -15,3 +15,4 @@ def issorted(a):
 			if(a[i]-a[i+1] != d):
 				return False
 		
+		return True
