@@ -35,19 +35,19 @@ def ishappynumber(n):
 
 def fun_nth_happy_number(n):
 	count = 0
-	i = 1
+	i = 2
 	if n == 0:
 		return 1
 	elif n>0:
 		while(count!=n):
 			
 			while(True):
-				print(i)
+				
 				if(ishappynumber(i)):
 					break
 				else:
 					i += 1
 
 			count += 1
-		
+		print(i)
 fun_nth_happy_number(1)
