@@ -29,7 +29,7 @@ def ishappynumber(n):
 			n = sqares(n)
 			if(n == 1):
 				return True	
-			elif(n in z):
+			elif n in z:
 				return False
 			else:
 				z.append(n)	
