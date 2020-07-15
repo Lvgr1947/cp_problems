@@ -11,6 +11,7 @@ def strings(s4,s,j):
 		else:
 			a += s4[i]
 	return a
+	
 def fun_replace(s1, s2, s3):
 	s4 = s1.split(s2)
 	if(len(s4[0])==len(s1)):
