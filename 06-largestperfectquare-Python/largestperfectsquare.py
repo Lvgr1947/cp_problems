@@ -8,10 +8,6 @@
 # Another hint: This can be written using just one or two lines of Python.
 import math
 
-# def perfect(n):
-# 	a = int(math.sqrt(n))
-# 	if()
-
 def largestperfectsquare(n):
 	# your code goes here
 	if (int(math.sqrt(n)) == math.sqrt(n)):
