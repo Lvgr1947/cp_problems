@@ -10,4 +10,4 @@ def smallestdifference(a):
 	c = a.index(b)
 	a[c] = None
 	d = min(a)
-	
+	return d-b
