@@ -28,4 +28,4 @@ def ishappynumber(n):
 		p=[]
 		while(True):
 			a = squares(n)
-			p,
+			p.app
