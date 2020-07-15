@@ -28,9 +28,9 @@ def ishappynumber(n):
 	elif n >0:
 		p=[]
 		while(True):
-			a = squares(n)
-			if a in p:
+			n = squares(n)
+			if n in p:
 				return False
 			else:
-				p.append(a)
+				p.append(n)
 			
