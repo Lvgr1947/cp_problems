@@ -23,4 +23,5 @@ def fun_interleave(s1,s2):
 			s += s1[i]+s2[i]
 		s += s2[len(s1)*2:]
 		return s
-# print(fun_interleave('pto', 'yhn'))
+print(fun_interleave("a#", "cD!f2"))
+# , "ac#D!f2"
