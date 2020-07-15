@@ -6,7 +6,7 @@
 def strings(s4,s,j):
 	a=""
 	for i in range(j,len(s4)):
-			if((i+1)%2==0):
+			if((j)%2==0):
 				a += s
 				# print(a)
 			a += s4[i]
