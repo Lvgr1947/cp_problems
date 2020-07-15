@@ -4,4 +4,5 @@
 
 def mostfrequentdigit(n):
 	# your code goes here
-	pass
+	p = {}
+	
