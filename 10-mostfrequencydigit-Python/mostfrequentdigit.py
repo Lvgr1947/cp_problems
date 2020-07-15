@@ -11,3 +11,4 @@ def mostfrequentdigit(n):
 			p[i] = 0
 		else:
 			p[i] += 1
+	
