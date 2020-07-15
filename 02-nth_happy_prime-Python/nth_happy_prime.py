@@ -1,32 +1,28 @@
 # A happy prime is a number that is both happy and prime. 
 # Write the function nthHappyPrime(n) which takes a non-negative integer 
 # and returns the nth happy prime number (where the 0th happy prime number is 7).
-
-
-def squares(n):
+def sqares(n):
 	sum = 0
-	while(n>0):
-		x = n%10
-		sum+=x*x
+	while(n > 0):
+		x = n % 10
+		sum += x*x
 		n = n//10
 	return sum
-  
+
 def ishappynumber(n):
-	# your code goes here
 	z = []
-	if n>2:
+	if(n > 1):
 		while(True):
-			m = squares(n)
-			if m == 1:
-				return True
-			elif m in z:
+			n = sqares(n)
+			if(n == 1):
+				return True	
+			elif n in z:
 				return False
 			else:
-				z.append(m)
+				z.append(n)	
 	else:
 		return False
-
-def prime(n):
+def isprime(n):
 	if n>1:
 		for i in range(2,n):
 			if n%i == 0:
@@ -37,12 +33,16 @@ def prime(n):
 def fun_nth_happy_prime(n):
 	count = 0
 	i = 1
-	if n>=0:
-		while(count<=n):
+	if n == 0:
+		# print(7)
+		return 7
+	elif n>0:
+		while(count!=n+1):
+			
 			while(True):
-				i+=1
-				if ishappynumber(i) and prime(i):
+				i += 1
+				if(ishappynumber(i) and isprime(i)):
 					break
-			count+=1
+			count += 1
+		# print(i)
 		return i
-print(fun_nth_happy_prime)
