@@ -20,9 +20,7 @@ def sqares(n):
 
 def ishappynumber(n):
 	z = []
-	if n == 1:
-		return True
-	elif(n > 1):
+	if(n > 1):
 		while(True):
 			n = sqares(n)
 			if(n == 1):
