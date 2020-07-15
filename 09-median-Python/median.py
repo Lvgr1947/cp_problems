@@ -12,3 +12,4 @@ def median(a):
 			return (a[(b//2)-1]+a[(b//2)])/2
 	else:
 		return None
+  
