@@ -8,5 +8,5 @@
 
 
 def fun_interleave(s1,s2):
-	return ""
+	
 	
