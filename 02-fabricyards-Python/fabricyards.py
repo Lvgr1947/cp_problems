@@ -36,5 +36,6 @@ def fun_fabricexcess(inches):
 	else:
 		excess = x- inches
 		return excess
+	
 
 
