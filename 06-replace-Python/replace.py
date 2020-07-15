@@ -5,8 +5,8 @@
 
 def strings(s4,s,j):
 	a=""
-	for i in range(1,len(s4)):
-			if((i-j)%2==0):
+	for i in range(0,len(s4)):
+			if((i+j)%2==0):
 				a += s
 			else:
 				a += s4[i]
@@ -19,11 +19,12 @@ def fun_replace(s1, s2, s3):
 		return s1
 	else:
 		s=""
+		i=0
 		if(len(s4[0]) == 0):
 			i = 1
 		s = strings(s4,s3,i)
 
 		
 		return s
-print(fun_replace("rldhellrldowo23ufn348hf oincodnrld123", "rld", "     "))
+print(fun_replace("hellrldowo23ufn348hf oincodnrld123", "rld", "     "))
 
