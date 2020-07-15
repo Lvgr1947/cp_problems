@@ -10,4 +10,4 @@ def mostfrequentdigit(n):
 		if i not in p.keys():
 			p[i] = 0
 		else:
-			p[i] += 
+			p[i] += 1
