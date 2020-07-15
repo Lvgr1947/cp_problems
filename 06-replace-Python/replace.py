@@ -3,9 +3,9 @@
 # replace(s1, s2, s3) that returns a string equal to 
 # s1.replace(s2, s3), but again without calling s.replace().
 
-def strings(s4,s):
+def strings(s4,s,j):
 	a=""
-	for i in range(0,len(s4)):
+	for i in range(j,len(s4)):
 			if((i+1)%2==0):
 				a += s
 				# print(a)
@@ -23,7 +23,7 @@ def fun_replace(s1, s2, s3):
 		if(len(s4[0]) == 0):
 			i = 1
 			s += s3
-		s = strings(s4,s3)
+		s = strings(s4,s3,i)
 
 		
 		return s
