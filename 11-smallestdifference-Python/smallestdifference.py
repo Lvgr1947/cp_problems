@@ -6,4 +6,5 @@
 
 def smallestdifference(a):
 	# Your code goes here
-	p
+	b = min(a)
+	
