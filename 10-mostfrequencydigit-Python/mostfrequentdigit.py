@@ -5,5 +5,11 @@
 def mostfrequentdigit(n):
 	# your code goes here
 	p = []
+	q = {}
 	n = str(n)
-	
+	for i in range(len(n)):
+		if i not in q:
+			q[i] = 0
+		else:
+			q[i] 
+			
