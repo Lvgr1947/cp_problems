@@ -30,7 +30,8 @@ def ishappynumber(n):
 		while(True):
 			n = squares(n)
 			if n ==1:
-			if n in p:
+				return True
+			elif n in p:
 				return False
 			else:
 				p.append(n)
