@@ -7,9 +7,11 @@
 def smallestdifference(a):
 	# Your code goes here
 	b = min(a)
+	print(b)
 	c = a.index(b)
 	m = a.index(max(a))
 	a[c] = m
 	d = min(a)
+	print(d)
 	return d-b
 print(smallestdifference([1, -3, 71, 68, 17]))
