@@ -9,4 +9,4 @@ def smallestdifference(a):
 	b = min(a)
 	c = a.index(b)
 	a[c] = None
-	
+	d = mina
