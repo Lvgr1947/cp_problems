@@ -17,4 +17,4 @@ def largestperfectsquare(n):
 	if (int(math.sqrt(n)) == math.sqrt(n)):
 		return n
 	else:
-		
+		largestperfectsquare
