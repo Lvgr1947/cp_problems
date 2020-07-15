@@ -11,6 +11,8 @@
 def gcd(x, y):
 	# your code goes here
 	if(y==0):
+		return x
+	elif(x%y==0):
 		return y
 	else:
 		return gcd(y,x%y)
