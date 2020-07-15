@@ -45,4 +45,4 @@ def fun_nth_happy_number(n):
 			else:
 				i += 1
 		count += 1
-	print()
+	print(i)
