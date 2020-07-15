@@ -35,4 +35,6 @@ def ishappynumber(n):
 				return False
 			else:
 				p.append(n)
+	else:
+		return True
 			
