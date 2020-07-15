@@ -31,4 +31,6 @@ def ishappynumber(n):
 			a = squares(n)
 			if a in p:
 				return False
+			else:
+				p.append
 			
