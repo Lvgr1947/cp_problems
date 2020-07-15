@@ -10,6 +10,31 @@
 # assert(nthHappyNumber(6) == 28)
 # assert(nthHappyNumber(7) == 31)
 
+def sqares(n):
+	sum = 0
+	while(n > 0):
+		x = n % 10
+		sum += x*x
+		n = n//10
+	return sum
+
+def ishappynumber(n):
+	z = []
+	if n == 1:
+		return True
+	elif(n > 0):
+		while(True):
+			n = sqares(n)
+			if(n == 1):
+				return True	
+			elif n in z:
+				return False
+			else:
+				z.append(n)	
+	else:
+		return False
+  
 
 def fun_nth_happy_number(n):
-	return 0
+	if n>=0:
+		count = 
