@@ -13,4 +13,6 @@ def mostfrequentdigit(n):
 		else:
 			q[i] += 1
 	a = max(q.values())
-	
+	for j in q.keys():
+		if q[j] == a:
+			p.append()
