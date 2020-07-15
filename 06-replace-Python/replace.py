@@ -6,13 +6,14 @@
 
 def fun_replace(s1, s2, s3):
 	s4 = s1.split(s2)
+	print(s4)
 	if(len(s4[0])==len(s1)):
 		return s1
 	else:
 		s=""
 		for i in range(len(s4)):
 			if(len(s4[i]) == 0):
-				print(s4)
+				
 				s += s3
 			else:
 				s += s4[i]
