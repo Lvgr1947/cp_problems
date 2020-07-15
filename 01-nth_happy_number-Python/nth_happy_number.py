@@ -50,4 +50,5 @@ def fun_nth_happy_number(n):
 
 			count += 1
 		print(i)
+		return i
 fun_nth_happy_number(1)
