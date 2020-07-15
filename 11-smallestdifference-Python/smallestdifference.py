@@ -6,4 +6,4 @@
 
 def smallestdifference(a):
 	# Your code goes here
-	pass
+	p
