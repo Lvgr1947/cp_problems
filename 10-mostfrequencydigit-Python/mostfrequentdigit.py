@@ -16,5 +16,5 @@ def mostfrequentdigit(n):
 	for j in q.keys():
 		if q[j] == a:
 			p.append(int(j))
-	return min(j)
+	return min(p)
 		
