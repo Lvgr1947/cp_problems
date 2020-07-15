@@ -16,7 +16,8 @@ def fun_replace(s1, s2, s3):
 	else:
 		s=""
 		if(len(s4[0]) == 0):
-				s = strings(s4,s3,)
+			i = 1
+			s = strings(s4,s3,i)
 
 		
 		return s
