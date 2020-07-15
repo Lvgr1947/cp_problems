@@ -10,7 +10,9 @@ def fun_replace(s1, s2, s3):
 	if len(s4[0]==0):
 		s = s3+s4[1]
 	elif len(s4[1]==0):
-		s = s4[0]
+		s = s4[0]+s3
+	else:
+		s = s4[0]+s3+s4[1]
 	return s
 # print(fun_replace("helloworld123", "hello", "345"))
 
