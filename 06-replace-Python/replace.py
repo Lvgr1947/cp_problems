@@ -25,5 +25,5 @@ def fun_replace(s1, s2, s3):
 			s += s3
 		s = strings(s4,s3,i)
 		return s
-
+	
 
