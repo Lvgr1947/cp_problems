@@ -9,7 +9,7 @@ def strings(s4,s,j):
 		if i != len(s4)-1:
 			a += s4[i]+ s
 		else:
-			a
+			a += s4[i]
 	return a
 
 def fun_replace(s1, s2, s3):
