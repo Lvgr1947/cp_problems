@@ -12,4 +12,4 @@ def mostfrequentdigit(n):
 			q[i] = 0
 		else:
 			q[i] += 1
-	
+	a = max(q.value)
