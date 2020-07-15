@@ -42,11 +42,9 @@ def fun_nth_happy_number(n):
 		while(count!=n):
 			
 			while(True):
-				
+				i += 1
 				if(ishappynumber(i)):
 					break
-				else:
-					i += 1
 
 			count += 1
 		print(i)
