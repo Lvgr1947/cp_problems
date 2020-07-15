@@ -8,7 +8,7 @@ def strings(s4,s,j):
 	for i in range(0,len(s4)):
 			if((i+j)%2==0):
 				a += s
-				print(i,j , "gsdgg")
+				print(a)
 			else:
 				a += s4[i]
 	return a
