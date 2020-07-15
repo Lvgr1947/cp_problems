@@ -4,5 +4,7 @@
 # element. If the list is empty, return None.
 
 def median(a):
-	# your code goes here
-	pass
+	b = len(a)
+	if(b>0):
+		if(b%2==0):
+			return a[(b+1)//2]
