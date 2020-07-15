@@ -5,8 +5,8 @@
 
 def strings(s4,s,j):
 	a=""
-	for i in range(j,len(s4)):
-			if((j)%2==0):
+	for i in range(0,len(s4)):
+			if((i+j)%2!=0):
 				a += s
 				# print(a)
 			a += s4[i]
