@@ -11,5 +11,5 @@ def mostfrequentdigit(n):
 		if i not in q:
 			q[i] = 0
 		else:
-			q[i] 
-			
+			q[i] += 1
+	
