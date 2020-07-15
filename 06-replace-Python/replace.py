@@ -14,7 +14,6 @@ def strings(s4,s,j):
     
 def fun_replace(s1, s2, s3):
 	s4 = s1.split(s2)
-	# print(s4)
 	if(len(s4[0])==len(s1)):
 		return s1
 	else:
@@ -25,5 +24,5 @@ def fun_replace(s1, s2, s3):
 			s += s3
 		s = strings(s4,s3,i)
 		return s
-    
+
 
