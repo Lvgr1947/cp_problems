@@ -26,5 +26,7 @@ def fun_fabricyards(inches):
 def fun_fabricexcess(inches):
 	# your code goes here
 	x = 36
+	if inches = 0
+	
 
 
