@@ -31,6 +31,9 @@ def fun_fabricexcess(inches):
 	elif inches>x:
 		a = fun_fabricyards(inches)
 		excess = (a*36)-inches
-		
+		return excess
+	else:
+		excess = x- inches
+		re
 
 
