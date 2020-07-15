@@ -9,6 +9,6 @@
 import math
 def fun_find_int_roots(a, b, c):
 	x = (b**2) - (4*a*c)
-	root1 = (-b)
+	root1 = (-b-math.sqrt())
 
 
