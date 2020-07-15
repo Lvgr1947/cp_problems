@@ -14,9 +14,7 @@ def squares(n):
 def ishappynumber(n):
 	# your code goes here
 	z = []
-	if n ==1:
-		return True
-	elif n>0:
+	if n>2:
 		while(True):
 			m = squares(n)
 			if m == 1:
