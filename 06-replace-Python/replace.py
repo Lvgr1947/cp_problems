@@ -18,5 +18,5 @@ def fun_replace(s1, s2, s3):
 			else:
 				s += s4[i]
 		return s
-print(fun_replace("hellrldowo23ufn348hf oincodnrld123", "rld", "     "))
+print(fun_replace("rldhellrldowo23ufn348hf oincodnrld123", "rld", "     "))
 
