@@ -13,7 +13,6 @@ def fun_replace(s1, s2, s3):
 		s=""
 		for i in range(len(s4)):
 			if(len(s4[i]) == 0):
-				
 				s += s3
 			else:
 				s += s4[i]
