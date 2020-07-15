@@ -22,7 +22,7 @@ def ishappynumber(n):
 	z = []
 	if n == 1:
 		return True
-	elif(n > 0):
+	elif(n > 1):
 		while(True):
 			n = sqares(n)
 			if(n == 1):
@@ -36,5 +36,10 @@ def ishappynumber(n):
   
 
 def fun_nth_happy_number(n):
-	if n>=0:
-		count = 
+	count = 0
+	i = 0
+	while(count!=n):
+		while(True):
+			if(ishappynumber(i)):
+				break
+			
