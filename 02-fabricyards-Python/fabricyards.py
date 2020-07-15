@@ -14,7 +14,11 @@
 
 def fun_fabricyards(inches):
 	# your code goes here
-	return 1
+	x = 36
+	if inches == 0:
+		return 0
+	elif inches >36:
+		yards = math
 
 def fun_fabricexcess(inches):
 	# your code goes here
