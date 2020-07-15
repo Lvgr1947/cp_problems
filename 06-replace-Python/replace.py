@@ -8,6 +8,8 @@ def strings(s4,s,j):
 	for i in range(0,len(s4)):
 			if((i+j)%2!=0):
 				a += s + s4[i]
+			else:
+				a += s4[i] + s
 	return a
 
 def fun_replace(s1, s2, s3):
