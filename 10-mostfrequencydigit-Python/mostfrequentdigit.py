@@ -8,4 +8,5 @@ def mostfrequentdigit(n):
 	n = str(n)
 	for i in n:
 		if i not in p.keys():
-			p
+			p[i] = 0
+		
