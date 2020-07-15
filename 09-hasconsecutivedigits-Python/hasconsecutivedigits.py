@@ -6,3 +6,4 @@ def hasconsecutivedigits(n):
 	# your code goes here
 	n = list(str(n))
 	n1 = set(n)
+	if(len(n))
