@@ -27,10 +27,7 @@ def matrixadd(X, Y):
 	# print(len(X), len(Y))
 
 	if ((q == u and p == o )):
-		for i in range(len(X)):
-
-			for j in range(len(X[0])):
-		result= X[i][j] + Y[i][j]
+		result= [ X[i][j] + Y[i][j] for j in range(len(X[0])) for i in range(len(X))]
 		# print(result)	
 		return result
 	else:	
