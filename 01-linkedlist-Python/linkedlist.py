@@ -22,7 +22,7 @@ class LinkedList(object):
         while(c.next):
             c = c.next
         a = LinkedList(new_element)
-        
+        c.next = a
             
     def get_position(self, position):
         """Get an element from a particular position.
