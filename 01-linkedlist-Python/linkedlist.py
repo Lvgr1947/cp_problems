@@ -39,7 +39,7 @@ class LinkedList(object):
         count = 1
         while(self.head.next):
             if(count == position):
-                return self.head.value
+                break
             count += 1
         
     
