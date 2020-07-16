@@ -40,7 +40,8 @@ class LinkedList(object):
         while(self.head.next):
             if(count == position):
                 return self.head.value
-    
+            count += 1
+        
     
     def delete(self, value):
         """Delete the first node with a given value."""
