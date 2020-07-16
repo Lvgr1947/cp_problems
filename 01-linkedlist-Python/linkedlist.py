@@ -29,7 +29,7 @@ class LinkedList(object):
         Assume the first position is "1".
         Return "None" if position is not in the list."""
         # Your code goes here
-        pass
+        while
     
     def insert(self, new_element, position):
         """Insert a new node at the given position.
