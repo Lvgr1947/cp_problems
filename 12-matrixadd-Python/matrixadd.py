@@ -31,8 +31,7 @@ def matrixadd(X, Y):
 	if (flag):
 		for i in range(q):
 			for j in range(p):
-				result[i][j] = X[i][j] + Y[i][j]
-		# print(X[i][j], Y[i][j])	
+				result[i][j] = X[i][j] + Y[i][j]	
 		return result
 	else:	
 		return None	
