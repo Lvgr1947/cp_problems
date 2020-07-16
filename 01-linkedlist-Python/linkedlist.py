@@ -41,7 +41,8 @@ class LinkedList(object):
             if(count == position-1):
                 break
             count += 1
-        self
+        self.head.next = new_element
+        self.head.
     
     def delete(self, value):
         """Delete the first node with a given value."""
