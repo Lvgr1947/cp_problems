@@ -18,7 +18,7 @@ class LinkedList(object):
         self.head = head
         
     def append(self, new_element):
-        while(self.head is not None):
+        while(self.head.next):
             self.head = self.head.next
         self.head.next = new_element
             
@@ -30,6 +30,7 @@ class LinkedList(object):
         while(self.head is not None):
             if(count == position):
                 return self.head.value
+            self.head = self.head.next
             count += 1
     def insert(self, new_element, position):
         """Insert a new node at the given position.
@@ -53,3 +54,11 @@ class LinkedList(object):
                 if(self.head.value == value):
                     self.head = self.head.next
                     break
+e1 = Element(1)
+e2 = Element(2)
+e3 = Element(3)
+
+ll = LinkedList(e1)
+ll.append(e2)
+ll.append(e3)
+print(ll.get_position(e1))
