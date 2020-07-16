@@ -43,7 +43,7 @@ class LinkedList(object):
             count += 1
         newNode = LinkedList(new_element)
         self.head.next = newNode
-        newNode
+        newNode.next = 
     
     def delete(self, value):
         """Delete the first node with a given value."""
