@@ -53,5 +53,5 @@ class LinkedList(object):
                 self.head = self.head.next
             else:
                 while(self.head.next):
-                    if(self.head.value == value):
-                        self.head
+                    if(self.head.next.value == value):
+                        self.head.next
