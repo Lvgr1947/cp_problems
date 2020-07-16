@@ -14,7 +14,7 @@
 # may assume only contain numbers, and returns a new 2d list that is the result of adding the two matrices. Return 
 # None if the two matrices 
 # cannot be added because they are of different dimensions.
-	
+
 def matrixadd(X, Y):
 	p = len(X[0])
 	q = len(X)
@@ -35,4 +35,3 @@ def matrixadd(X, Y):
 		return result
 	else:	
 		return None 
-    
