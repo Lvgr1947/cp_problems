@@ -27,7 +27,7 @@ class LinkedList(object):
         Assume the first position is "1".
         Return "None" if position is not in the list."""
         count = 1
-        while(self.head.next):
+        while(self.head is not None):
             if(count == position):
                 return self.head.value
             count += 1
@@ -37,7 +37,7 @@ class LinkedList(object):
         Inserting at position 3 means between
         the 2nd and 3rd elements."""
         count = 1
-        while(self.head.next):
+        while(self.head is not None):
             if(count == position-1):
                 break
             count += 1
