@@ -22,7 +22,7 @@ def matrixadd(X, Y):
 	u = len(Y)
 	print(p,q)
 
-	result = np.zeros((p,q) , dtype = int)
+	result = np.zeros((q,p) , dtype = int)
 
 	# print(len(X), len(Y))
 
