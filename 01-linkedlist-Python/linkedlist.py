@@ -20,7 +20,7 @@ class LinkedList(object):
     def append(self, new_element):
         c = self.head
         while(c.next):
-            c = self.head.next
+            c = c.next
         
             
     def get_position(self, position):
