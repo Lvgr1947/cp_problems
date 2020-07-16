@@ -21,8 +21,6 @@ def matrixadd(X, Y):
 	o = len(Y[0])
 	u = len(Y)
 	result = [[0 for j in range(p)] for i in range(q)]
-
-	# print(len(X), len(Y))
 	flag = True
 	if(len(X) == len(Y)):
 		for i in range(len(X)):
