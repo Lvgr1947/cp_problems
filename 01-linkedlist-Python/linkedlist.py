@@ -21,7 +21,7 @@ class LinkedList(object):
         # Your code goes here
         while(self.head.next):
             self.head = self.head.next
-            
+        
             
     def get_position(self, position):
         """Get an element from a particular position.
