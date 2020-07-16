@@ -5,7 +5,7 @@
 
 def strings(s4,s,j):
 	a=""
-	for i in range(j,len(s4)):
+	for i in range(0,len(s4)):
 		if i != len(s4)-1:
 			a += s4[i]+ s
 		else:
