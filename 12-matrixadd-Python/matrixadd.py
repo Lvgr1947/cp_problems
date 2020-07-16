@@ -35,15 +35,3 @@ def matrixadd(X, Y):
 		return result
 	else:	
 		return None	
-# for num in result:
-	# 	print(num)		
-	# print(result)	
-
-# matrixadd([[1, 2, 3],
-#       [4, 5, 6],
-#       [7, 8, 9]],
-# 	  [[1, 1, 1],
-#       [1, 1, 1],
-#       [1, 1, 1]])
-# matrixadd([[1]], [[10]])	  
-matrixadd([[1, 2]], [[10]])
