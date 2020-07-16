@@ -21,6 +21,7 @@ class LinkedList(object):
         c = self.head
         while(c.next):
             c = c.next
+        a = LinkedList(new_element)
         
             
     def get_position(self, position):
