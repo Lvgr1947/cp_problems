@@ -18,7 +18,7 @@ class LinkedList(object):
         self.head = head
         
     def append(self, new_element):
-        while(self.head.next):
+        while(self.head is not None):
             self.head = self.head.next
         self.head.next = new_element
             
