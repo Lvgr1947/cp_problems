@@ -19,7 +19,8 @@ class LinkedList(object):
         
     def append(self, new_element):
         # Your code goes here
-        pass
+        while(self.head.next):
+            self.head = 
             
     def get_position(self, position):
         """Get an element from a particular position.
