@@ -29,8 +29,8 @@ class LinkedList(object):
         count = 1
         while(self.head.next):
             if(count == position):
-                return self.
-    
+                return self.head.value
+            
     def insert(self, new_element, position):
         """Insert a new node at the given position.
         Assume the first position is "1".
