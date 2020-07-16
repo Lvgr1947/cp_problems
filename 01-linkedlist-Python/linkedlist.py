@@ -41,7 +41,7 @@ class LinkedList(object):
             if(count == position-1):
                 break
             count += 1
-        newNode = Linkedlist(new_element)
+        newNode = LinkedList(new_element)
         self.head.next
     
     def delete(self, value):
