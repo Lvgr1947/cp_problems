@@ -33,5 +33,6 @@ def matrixadd(X, Y):
 
 				result[i][j] = X[i][j] + Y[i][j]
 		# print(result)	
-		return result	
-	return None	
+		return result
+	else:	
+		return None	
