@@ -20,7 +20,7 @@ class LinkedList(object):
     def append(self, new_element):
         while(self.head.next):
             self.head = self.head.next
-        self.head.next = Element(new_element)
+        self.head.next = new_element
             
     def get_position(self, position):
         """Get an element from a particular position.
@@ -41,7 +41,7 @@ class LinkedList(object):
             if(count == position-1):
                 break
             count += 1
-        a = Element(new_element)
+        self.head.next = new_element
         self.head.next
     
     def delete(self, value):
