@@ -30,8 +30,7 @@ def matrixadd(X, Y):
 		for i in range(len(X)):
 
 			for j in range(len(X[0])):
-
-				result[i][j] = X[i][j] + Y[i][j]
+		result= X[i][j] + Y[i][j]
 		# print(result)	
 		return result
 	else:	
