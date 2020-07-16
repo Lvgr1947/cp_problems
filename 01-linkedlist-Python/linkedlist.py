@@ -27,6 +27,7 @@ class LinkedList(object):
         Assume the first position is "1".
         Return "None" if position is not in the list."""
         count = 1
+        return self.head.value
         while(self.head is not None):
             if(count == position):
                 return self.head.value
