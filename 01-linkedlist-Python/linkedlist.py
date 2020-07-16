@@ -48,6 +48,7 @@ class LinkedList(object):
     def delete(self, value):
         """Delete the first node with a given value."""
         # Your code goes here
-        while(self.head.next):
-            if(self.head.value == value):
-                self.head = None
+        if self.head != None:
+    while(self.head.next):
+                if(self.head.value == value):
+                    self.head = None
