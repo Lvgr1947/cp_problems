@@ -38,7 +38,7 @@ class LinkedList(object):
         the 2nd and 3rd elements."""
         count = 1
         while(self.head.next):
-            if(count == position):
+            if(count == position-1):
                 break
             count += 1
         
