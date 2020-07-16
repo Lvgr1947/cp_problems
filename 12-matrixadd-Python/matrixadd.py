@@ -32,3 +32,4 @@ def matrixadd(X, Y):
 		return result
 	else:	
 		return None	
+print(matrixadd([[1,  2,  3],[4,  5,  6]]))
