@@ -51,4 +51,4 @@ class LinkedList(object):
         if self.head != None:
             while(self.head is not None):
                 if(self.head.value == value):
-                    self.head = None
+                    self.head
