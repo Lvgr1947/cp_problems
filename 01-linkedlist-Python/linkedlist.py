@@ -18,18 +18,18 @@ class LinkedList(object):
         self.head = head
         
     def append(self, new_element):
-        c = self.head
-        while(c.next):
-            c = c.next
-        a = LinkedList(new_element)
-        c.next = a
+        while(self.head.next):
+            self.head = self.head.next
+        self.head.next = new_element
             
     def get_position(self, position):
         """Get an element from a particular position.
         Assume the first position is "1".
         Return "None" if position is not in the list."""
-        # Your code goes here
-        while
+        count = 1
+        while(self.head.next):
+            if(count == position):
+                return self.
     
     def insert(self, new_element, position):
         """Insert a new node at the given position.
