@@ -14,15 +14,12 @@
 # may assume only contain numbers, and returns a new 2d list that is the result of adding the two matrices. Return 
 # None if the two matrices 
 # cannot be added because they are of different dimensions.
-import numpy as np
+# import numpy as np
 def matrixadd(X, Y):
 	p = len(X[0])
 	q = len(X)
 	o = len(Y[0])
 	u = len(Y)
-	# print(p,q)
-
-	# result = np.zeros((q,p) , dtype = int)
 	result = [[0 for j in range(p)] for i in range(q)]
 
 	# print(len(X), len(Y))
@@ -41,8 +38,3 @@ def matrixadd(X, Y):
 		return result
 	else:	
 		return None	
-# print(matrixadd([[1,  2,  3],[4,  5,  6]], [[21, 22, 23], [24, 25, 26]]))
-# print(matrixadd([[1,  2,  3],[4,  5,  6], [7, 8, 9]], [[1,  2,  3],[4,  5,  6], [7, 8, 9]]))
-# print(matrixadd([[1,  2,  3],[4,  5,  6]], [[21, 22, 23], [24, 25]]))
-# print(matrixadd([[1]], [[10]]))
-# print(matrixadd([[1, 2]], [[10]]))
