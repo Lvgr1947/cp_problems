@@ -26,7 +26,7 @@ def matrixadd(X, Y):
 
 	# print(len(X), len(Y))
 
-	if ((q == u and p == o ) and (q == p and q == o)):
+	if ((q == u and p == o )):
 		for i in range(len(X)):
 
 			for j in range(len(X[0])):
