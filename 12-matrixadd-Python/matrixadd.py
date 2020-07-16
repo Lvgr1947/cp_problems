@@ -22,7 +22,8 @@ def matrixadd(X, Y):
 	u = len(Y)
 	# print(p,q)
 
-	result = np.zeros((q,p) , dtype = int)
+	# result = np.zeros((q,p) , dtype = int)
+	result = [[0 for j in range(p)] for i in range(q)]
 
 	# print(len(X), len(Y))
 	flag = True
