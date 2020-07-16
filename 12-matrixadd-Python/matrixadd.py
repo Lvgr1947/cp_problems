@@ -25,8 +25,12 @@ def matrixadd(X, Y):
 	result = np.zeros((q,p) , dtype = int)
 
 	# print(len(X), len(Y))
-
-	if ((q == u and p == o )):
+	flag = True
+	if(len(X) == len(Y)):
+		for i in range(len(X)):
+			if len(X[i]) != len(Y[i]):
+				flag = False
+	if (flag):
 		for i in range(q):
 			for j in range(p):
 				result[i][j] = X[i][j] + Y[i][j]
@@ -34,4 +38,4 @@ def matrixadd(X, Y):
 		return result
 	else:	
 		return None	
-# print(matrixadd([[1,  2,  3],[4,  5,  6]], [[21, 22, 23], [24, 25, 26]]))
+print(matrixadd([[1,  2,  3],[4,  5,  6]], [[21, 22, 23], [24, 25, 26]]))
