@@ -50,7 +50,8 @@ class LinkedList(object):
         # Your code goes here
         if self.head != None:
             if self.head.value == value:
-                self.hae
-            while(self.head.next):
-                if(self.head.value == value):
-                    self.head
+                self.head = self.head.next
+            else:
+                while(self.head.next):
+                    if(self.head.value == value):
+                        self.head
