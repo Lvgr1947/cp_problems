@@ -31,7 +31,7 @@ def matrixadd(X, Y):
 			if len(X[i]) != len(Y[i]):
 				flag = False
 	else:
-		
+		flag = False
 	if (flag):
 		for i in range(q):
 			for j in range(p):
