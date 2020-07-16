@@ -14,7 +14,7 @@
 # may assume only contain numbers, and returns a new 2d list that is the result of adding the two matrices. Return 
 # None if the two matrices 
 # cannot be added because they are of different dimensions.
-
+# import numpy as np
 def matrixadd(X, Y):
 	p = len(X[0])
 	q = len(X)
@@ -34,4 +34,16 @@ def matrixadd(X, Y):
 				result[i][j] = X[i][j] + Y[i][j]	
 		return result
 	else:	
-		return None 
+		return None	
+# for num in result:
+	# 	print(num)		
+	# print(result)	
+
+# matrixadd([[1, 2, 3],
+#       [4, 5, 6],
+#       [7, 8, 9]],
+# 	  [[1, 1, 1],
+#       [1, 1, 1],
+#       [1, 1, 1]])
+# matrixadd([[1]], [[10]])	  
+matrixadd([[1, 2]], [[10]])
