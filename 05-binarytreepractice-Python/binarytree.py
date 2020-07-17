@@ -18,6 +18,8 @@ class BinaryTree(object):
             return True
         elif preorder_search(self.root,find_val):
             return True
+        else:
+            return False
 
     def print_tree(self):
         """Print out all tree nodes
@@ -26,7 +28,7 @@ class BinaryTree(object):
         # Your code goes here
         pass
 
-    def preorder_search(self, start, find_val):
+    def preorder_search(self, root, find_val):
         """Helper method - use this to create a 
         recursive search solution."""
         # Your code goes here
