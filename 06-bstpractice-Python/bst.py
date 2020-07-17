@@ -25,9 +25,8 @@ class BST(object):
     #             else: 
     #                 self.insert_bst(self.root.left, val)
 
-    def insert(self, d):
+    def search(self, d):
         d = Node(d)
-        # self.insert_bst(self.root,new_val)
         if self.root is None:
             return False
         elif d.value < self.root.value:
