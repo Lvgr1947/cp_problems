@@ -8,17 +8,17 @@ class BinaryTree(object):
     def __init__(self, root):
         self.root = Node(root)
     
-    def preorder_search(self, root, find_val):
+    def preorder_search(self, start, find_val):
         """Helper method - use this to create a 
         recursive search solution."""
         # Your code goes here
-        if self.root:
+        if start:
             print("nope")
-            if self.root.value == find_val:
+            if start.value == find_val:
                 print("nope1")
                 return(True)
-            self.preorder_search(root.left,find_val)
-            self.preorder_search(root.right,find_val)
+            self.preorder_search(start.left,find_val)
+            self.preorder_search(start.right,find_val)
         else:
             # print("skdgkjghkgjv")
             return False
