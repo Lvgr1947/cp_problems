@@ -37,8 +37,8 @@ class BST(object):
             if self.root.right:
                 self.root = self.root.right
                 return self.search(d)
-            else:
-                self.root.right = d
+        else:
+        self.root.right = d
                 return True
 
     def printSelf(self):
