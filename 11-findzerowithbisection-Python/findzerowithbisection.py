@@ -12,7 +12,7 @@ def findzerowithbisection(x, epsilon):
   
     # If mid itself is the square root, 
     # return mid 
-    if ((mul == n) or (abs(mul - n) < 0.00001)): 
+    if ((mul == n) or (abs(mul - n) <epsilon)): 
         return mid; 
   
     # If mul is less than n, recur second half 
