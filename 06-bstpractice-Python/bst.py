@@ -53,8 +53,9 @@ class BST(object):
         #     print(self.root.right)
         
     def search(self, d):
-        if self.root.value == d:
-            return False
+        if self.
+        if self.root == d:
+            return True
         elif d < self.root.value:
             if self.root.left:
                 self.root = self.root.left
