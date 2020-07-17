@@ -13,7 +13,11 @@ class BinaryTree(object):
         is in the tree, return
         False otherwise."""
         # Your code goes here
-        
+        count = 0
+        if self.root is None:
+            return True
+        else:
+            return f
 
     def print_tree(self):
         """Print out all tree nodes
@@ -26,7 +30,10 @@ class BinaryTree(object):
         """Helper method - use this to create a 
         recursive search solution."""
         # Your code goes here
-        pass
+        if root.value is find_val:
+            return(root.data)
+            preorder_search(root.left,find_val)
+            preorder_search(root.right,find_val)
 
     def preorder_print(self, start, traversal):
         """Helper method - use this to create a 
