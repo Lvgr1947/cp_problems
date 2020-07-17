@@ -17,7 +17,7 @@ class BinaryTree(object):
         if self.root is None:
             return True
         elif preorder_search(self.root,find_val):
-            return False
+            return True
 
     def print_tree(self):
         """Print out all tree nodes
