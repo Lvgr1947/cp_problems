@@ -12,7 +12,7 @@ class BinaryTree(object):
         """Helper method - use this to create a 
         recursive search solution."""
         # Your code goes here
-        if root:
+        if self.root:
             print("nope")
             if self.root.value == find_val:
                 print("nope1")
@@ -33,7 +33,7 @@ class BinaryTree(object):
             return False
         else:
             a = self.preorder_search(self.root,find_val)
-            print(a)
+            # print(a)
             return a
     def print_tree(self):
         """Print out all tree nodes
