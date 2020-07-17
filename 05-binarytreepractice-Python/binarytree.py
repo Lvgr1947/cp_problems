@@ -32,8 +32,8 @@ class BinaryTree(object):
             print("root",False)
             return False
         else:
-            return self.preorder_search(self.root,find_val)
-
+            a =  self.preorder_search(self.root,find_val)
+            return a
     def print_tree(self):
         """Print out all tree nodes
         as they are visited in
