@@ -6,21 +6,21 @@
 import math
 def findzerowithbisection(x, i): 
 # def Square(n, i, j):  
-    i = 1; 
+    j = i; 
   # While the square root is not found 
     found = False; 
     while (found == False): 
   
         # If n is a perfect square 
-        if (i * i == x): 
-            print(i)
+        if (j * j == x): 
+            print(j)
             found = True
           
-        elif (i * i > n): 
+        elif (j * j > n): 
   
             # Square root will lie in the 
             # interval i-1 and i 
-            res = findzerowithbisection(x, i - 1); 
+            res = findzerowithbisection(x, j - 1); 
             print (res)  
             found = True
         i += 1; 
