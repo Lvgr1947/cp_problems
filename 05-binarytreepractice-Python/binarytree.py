@@ -17,8 +17,10 @@ class BinaryTree(object):
             if start.value == find_val:
                 print("nope1")
                 return(True)
-            self.preorder_search(start.left,find_val)
-            self.preorder_search(start.right,find_val)
+            if self.preorder_search(start.left,find_val):
+                return True
+            elif self.preorder_search(start.right,find_val):
+                return True
         else:
             # print("skdgkjghkgjv")
             return False
