@@ -23,5 +23,5 @@ def findzerowithbisection(x, i):
             res = findzerowithbisection(x, j - i); 
             print (res)  
             found = True
-        i += 1; 
-  
+        j += 1; 
+  findzerowithbisection()
