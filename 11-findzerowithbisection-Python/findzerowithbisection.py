@@ -6,7 +6,7 @@
 import math
 def findzerowithbisection(x, epsilon): 
 # def Square(n, i, j): 
-  
+	
     mid = (i + j) / 2; 
     mul = mid * mid; 
   
