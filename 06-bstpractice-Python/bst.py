@@ -28,16 +28,16 @@ class BST(object):
     def search(self, d):
         d = Node(d)
         if self.root is not None:
-        elif self.root == d:
-            return True
-        elif d.value < self.root.value:
-            if self.root.left:
-                self.root = self.root.left
-                return self.search(d)
-        elif d.value > self.root.value:
-            if self.root.right:
-                self.root = self.root.right
-                return self.search(d)
+            if self.root == d:
+                return True
+            elif d.value < self.root.value:
+                if self.root.left:
+                    self.root = self.root.left
+                    return self.search(d)
+            elif d.value > self.root.value:
+                if self.root.right:
+                    self.root = self.root.right
+                    return self.search(d)
         else:
             return False
 
