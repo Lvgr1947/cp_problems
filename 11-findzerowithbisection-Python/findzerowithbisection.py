@@ -16,11 +16,11 @@ def findzerowithbisection(x, i):
             print(i)
             found = True
           
-        elif (i * i  n): 
+        elif (i * i > n): 
   
             # Square root will lie in the 
             # interval i-1 and i 
-            res = findzerowithbisection(n, i - 1); 
+            res = findzerowithbisection(x, i - 1); 
             print (res)  
             found = True
         i += 1; 
