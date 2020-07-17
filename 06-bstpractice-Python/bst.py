@@ -26,7 +26,7 @@ class BST(object):
     #                 self.insert_bst(self.root.left, val)
 
     def search(self, d):
-        # print(type(d), type(self.root.value))
+        print(self.root.value)
         if self.root is not None:
             if self.root == d:
                 return True
