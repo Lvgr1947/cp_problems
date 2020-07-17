@@ -24,4 +24,4 @@ def findzerowithbisection(x, i):
             print (res)  
             found = True
         j += 1; 
-  findzerowithbisection()
+findzerowithbisection(25,0.01)
