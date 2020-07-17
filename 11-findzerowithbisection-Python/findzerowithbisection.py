@@ -4,7 +4,7 @@
 # Bisection search works when value of function varies monotonically with input
 # If g, the users input/guess, is less than/greater than the midpoint of the range, then that number becomes the new high point of said range and is then factored into the new search.
 import math
-def findzerowithbisection(x, epsilon): 
+def findzerowithbisection(x, ): 
 # def Square(n, i, j): 
 	
     mid = (i + j) / 2; 
@@ -40,7 +40,7 @@ def findSqrt(n):
   
             # Square root will lie in the 
             # interval i-1 and i 
-            res = findzerowithbisection(n, i - 1, i); 
+            res = findzerowithbisection(n, i - 1); 
             print (res)  
             found = True
         i += 1; 
