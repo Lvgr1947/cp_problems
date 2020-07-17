@@ -13,9 +13,9 @@ class BinaryTree(object):
         recursive search solution."""
         # Your code goes here
         if root:
-            
+            print("nope")
             if self.root.value is find_val:
-                # print("nope")
+                print("nope1")
                 return(True)
             self.preorder_search(root.left,find_val)
             self.preorder_search(root.right,find_val)
