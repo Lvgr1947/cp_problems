@@ -13,7 +13,7 @@ class BinaryTree(object):
         is in the tree, return
         False otherwise."""
         # Your code goes here
-        pass
+        
 
     def print_tree(self):
         """Print out all tree nodes
