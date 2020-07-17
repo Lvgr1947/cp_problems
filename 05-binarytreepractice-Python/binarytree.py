@@ -13,7 +13,7 @@ class BinaryTree(object):
         recursive search solution."""
         # Your code goes here
         if root:
-            if root.value is find_val:
+            if self.root.value is find_val:
                 return(True)
             self.preorder_search(root.left,find_val)
             self.preorder_search(root.right,find_val)
