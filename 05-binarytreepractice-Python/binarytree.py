@@ -13,7 +13,7 @@ class BinaryTree(object):
         recursive search solution."""
         # Your code goes here
         if start:
-            print("nope")
+            # print("nope")
             if start.value == find_val:
                 print("nope1")
                 return(True)
@@ -32,9 +32,9 @@ class BinaryTree(object):
             print("root",False)
             return False
         else:
-            a = self.preorder_search(self.root,find_val)
+            return self.preorder_search(self.root,find_val)
             # print(a)
-            return a
+            # return a
     def print_tree(self):
         """Print out all tree nodes
         as they are visited in
