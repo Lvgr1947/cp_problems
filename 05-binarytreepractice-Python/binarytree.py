@@ -33,6 +33,7 @@ class BinaryTree(object):
             return False
         else:
             a =  self.preorder_search(self.root,find_val)
+            print(a)
             return a
     def print_tree(self):
         """Print out all tree nodes
