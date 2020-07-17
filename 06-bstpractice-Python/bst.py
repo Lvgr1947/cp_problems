@@ -29,6 +29,8 @@ class BST(object):
         d = Node(d)
         if self.root is None:
             return False
+        elif self.root == d:
+            return True
         elif d.value < self.root.value:
             if self.root.left:
                 self.root = self.root.left
