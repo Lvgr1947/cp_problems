@@ -29,6 +29,7 @@ class BinaryTree(object):
             print("root",False)
             return False
         elif self.preorder_search(self.root,find_val):
+            print("pre",True)
             return True
         else:
             return False
