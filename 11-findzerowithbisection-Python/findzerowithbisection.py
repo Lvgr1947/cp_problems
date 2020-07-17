@@ -10,7 +10,7 @@ def findzerowithbisection(x, epsilon):
 	# don't change these values
 	# epsilon
 	# your code starts here
-    for i in range(54):
+    for i in range(x):
         midpoint = (low + high) / 2.0
         if samesign(func(low), func(midpoint)):
             low = midpoint
