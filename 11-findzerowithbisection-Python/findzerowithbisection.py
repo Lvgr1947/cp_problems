@@ -40,8 +40,8 @@ def findSqrt(n):
   
             # Square root will lie in the 
             # interval i-1 and i 
-            res = Square(n, i - 1, i); 
-            print ("{0:.5f}".format(res))  
+            res = findzerowithbisection(n, i - 1, i); 
+            print (res)  
             found = True
         i += 1; 
   
