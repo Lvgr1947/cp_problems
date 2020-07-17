@@ -28,12 +28,8 @@ class BinaryTree(object):
         if self.root is None:
             print("root",False)
             return False
-        elif self.preorder_search(self.root,find_val):
-            print("pre",True)
-            return True
         else:
-            print("pre",False)
-            return False
+            a = self.preorder_search(self.root,find_val)
 
     def print_tree(self):
         """Print out all tree nodes
