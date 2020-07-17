@@ -14,7 +14,7 @@ class BinaryTree(object):
         # Your code goes here
         if root:
             print("nope")
-            if self.root.value is find_val:
+            if self.root.value == find_val:
                 print("nope1")
                 return(True)
             self.preorder_search(root.left,find_val)
@@ -32,7 +32,7 @@ class BinaryTree(object):
             print("root",False)
             return False
         else:
-            a =  self.preorder_search(self.root,find_val)
+            a = self.preorder_search(self.root,find_val)
             print(a)
             return a
     def print_tree(self):
