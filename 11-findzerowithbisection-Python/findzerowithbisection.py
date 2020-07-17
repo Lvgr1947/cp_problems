@@ -16,7 +16,7 @@ def findzerowithbisection(x, i):
             print(j)
             found = True
           
-        elif (j * j > n): 
+        elif (j * j > x): 
   
             # Square root will lie in the 
             # interval i-1 and i 
