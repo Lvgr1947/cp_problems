@@ -27,12 +27,12 @@ class BinaryTree(object):
         # Your code goes here
         pass
 
-    def preorder_search(self, start, find_val):
+    def preorder_search(self, root, find_val):
         """Helper method - use this to create a 
         recursive search solution."""
         # Your code goes here
-        if start:
-            if start.value is find_val:
+        if root:
+            if root.value is find_val:
                 return(True)
             preorder_search(root.left,find_val)
             preorder_search(root.right,find_val)
