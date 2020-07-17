@@ -26,6 +26,7 @@ class BST(object):
     #                 self.insert_bst(self.root.left, val)
 
     def insert(self, d):
+        d = Node
         # self.insert_bst(self.root,new_val)
         if self.root.value == d:
             return False
