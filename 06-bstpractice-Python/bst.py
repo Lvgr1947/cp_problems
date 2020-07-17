@@ -52,8 +52,24 @@ class BST(object):
         #     print(self.root.left)
         #     print(self.root.right)
         
-    # def search(self, d):
-            
+    def search(self, d):
+        if self.root.value == d:
+            return False
+        elif d < self.root.value:
+            if self.root.left:
+                self.root = self.root.left
+                return self.insert(d)
+            else:
+                self.root.left = Node(d)
+                return True
+        else:
+            if self.root.right:
+                self.root = self.root.right
+                return self.insert(d)
+            else:
+                self.root.right = Node(d)
+                return True
+        
        
 tree = BST(4)
 (tree.insert(2))
