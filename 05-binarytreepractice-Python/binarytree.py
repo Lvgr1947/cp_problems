@@ -21,6 +21,8 @@ class BinaryTree(object):
                 return True
             elif self.preorder_search(start.right,find_val):
                 return True
+            else:
+                return False
         else:
             # print("skdgkjghkgjv")
             return False
