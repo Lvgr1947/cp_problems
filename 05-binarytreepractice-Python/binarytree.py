@@ -31,7 +31,7 @@ class BinaryTree(object):
         recursive search solution."""
         # Your code goes here
         if root.value is find_val:
-            return(root.data)
+            return(True)
             preorder_search(root.left,find_val)
             preorder_search(root.right,find_val)
 
