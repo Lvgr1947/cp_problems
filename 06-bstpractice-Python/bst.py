@@ -25,12 +25,12 @@ class BST(object):
     #             else: 
     #                 self.insert_bst(self.root.left, val)
 
-    def search(self, d):
-        d = Node(d)
+    def search(self, e):
+        d = Node(e)
         if self.root is not None:
             if self.root == d:
                 return True
-            elif d.value < self.root.value:
+            elif 3 < int(self.root.value):
                 if self.root.left:
                     self.root = self.root.left
                     return self.search(d)
@@ -75,3 +75,4 @@ tree = BST(4)
 print(tree.insert(1))
 (tree.insert(3))
 tree.insert(5)
+print(tree.search(5))
