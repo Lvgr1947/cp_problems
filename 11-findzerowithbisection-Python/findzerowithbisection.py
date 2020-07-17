@@ -13,10 +13,10 @@ def findzerowithbisection(x, i):
   
         # If n is a perfect square 
         if (i * i == x): 
-            print(i); 
-            found = True;
+            print(i)
+            found = True
           
-        elif (i * i > n): 
+        elif (i * i  n): 
   
             # Square root will lie in the 
             # interval i-1 and i 
