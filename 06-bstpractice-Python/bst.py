@@ -26,11 +26,11 @@ class BST(object):
     #                 self.insert_bst(self.root.left, val)
 
     def insert(self, d):
-        d = Node
+        d = Node(d)
         # self.insert_bst(self.root,new_val)
-        if self.root.value == d:
+        if self.root is None:
             return False
-        elif d < self.root.value:
+        elif d.value < self.root.value:
             if self.root.left:
                 self.root = self.root.left
                 return self.insert(d)
@@ -53,7 +53,7 @@ class BST(object):
         #     print(self.root.left)
         #     print(self.root.right)
         
-    def search(self, d):
+    def insert(self, d):
         if self.root is None:
             return False
         elif self.root.value == d:
