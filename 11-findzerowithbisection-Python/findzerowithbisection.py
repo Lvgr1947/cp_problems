@@ -5,29 +5,9 @@
 # If g, the users input/guess, is less than/greater than the midpoint of the range, then that number becomes the new high point of said range and is then factored into the new search.
 import math
 def findzerowithbisection(x, i): 
-# def Square(n, i, j): 
-	
-    mid = (i + j) / 2; 
-    mul = mid * mid; 
-  
-    # If mid itself is the square root, 
-    # return mid 
-    if ((mul == n) or (abs(mul - n) <epsilon)): 
-        return mid; 
-  
-    # If mul is less than n, recur second half 
-    elif (mul < n): 
-        return Square(n, mid, j); 
-  
-    # Else recur first half 
-    else: 
-        return Square(n, i, mid); 
-  
-# Function to find the square root of n 
-def findSqrt(n): 
+# def Square(n, i, j):  
     i = 1; 
-  
-    # While the square root is not found 
+  # While the square root is not found 
     found = False; 
     while (found == False): 
   
