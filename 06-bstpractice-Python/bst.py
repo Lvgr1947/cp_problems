@@ -26,11 +26,11 @@ class BST(object):
     #                 self.insert_bst(self.root.left, val)
 
     def search(self, d):
-        print(type(d), type(self.root.value))
+        # print(type(d), type(self.root.value))
         if self.root is not None:
             if self.root == d:
                 return True
-            elif 3 < int(self.root.value):
+            elif d < int(self.root.value):
                 if self.root.left:
                     self.root = self.root.left
                     return self.search(d)
