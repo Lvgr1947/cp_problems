@@ -15,7 +15,7 @@ class BinaryTree(object):
         if start:
             # print("nope")
             if start.value == find_val:
-                print("nope1")
+                # print("nope1")
                 return(True)
             if self.preorder_search(start.left,find_val):
                 return True
@@ -56,4 +56,4 @@ tree.root.left = Node(2)
 tree.root.right = Node(3)
 tree.root.left.left = Node(4)
 tree.root.left.right = Node(5)
-print(tree.search(4))
+print(tree.search(7))
