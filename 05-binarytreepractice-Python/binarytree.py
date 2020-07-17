@@ -14,8 +14,8 @@ class BinaryTree(object):
         False otherwise."""
         # Your code goes 
         if self.root is None:
-            return True
-        elif preorder_search(self.root):
+            return False
+        elif preorder_search(self.root,find_val):
             return True
         else:
             return False
