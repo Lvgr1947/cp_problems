@@ -17,7 +17,7 @@ class BinaryTree(object):
         if self.root is None:
             return True
         else:
-            return f
+            return False
 
     def print_tree(self):
         """Print out all tree nodes
