@@ -12,7 +12,7 @@ def findzerowithbisection(x, i):
     while (found == False): 
   
         # If n is a perfect square 
-        if (i * i == n): 
+        if (i * i == x): 
             print(i); 
             found = True; 
           
