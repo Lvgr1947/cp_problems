@@ -20,7 +20,7 @@ def findzerowithbisection(x, i):
   
             # Square root will lie in the 
             # interval i-1 and i 
-            res = findzerowithbisection(x, j - 1); 
+            res = findzerowithbisection(x, j - i); 
             print (res)  
             found = True
         i += 1; 
