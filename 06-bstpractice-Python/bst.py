@@ -27,6 +27,7 @@ class BST(object):
 
     def search(self, e):
         d = Node(e)
+        type(d.value)
         if self.root is not None:
             if self.root == d:
                 return True
