@@ -32,6 +32,7 @@ class BinaryTree(object):
             print("pre",True)
             return True
         else:
+            print("pre",True)
             return False
 
     def print_tree(self):
