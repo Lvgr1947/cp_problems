@@ -17,8 +17,7 @@ class BinaryTree(object):
                 return(True)
             self.preorder_search(root.left,find_val)
             self.preorder_search(root.right,find_val)
-        else:
-            return False
+
 
     def search(self, find_val):
         """Return True if the value
