@@ -26,6 +26,7 @@ class BinaryTree(object):
         False otherwise."""
         # Your code goes 
         if self.root is None:
+            print("root",False)
             return False
         elif self.preorder_search(self.root,find_val):
             return True
