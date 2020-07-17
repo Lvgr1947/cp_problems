@@ -15,12 +15,12 @@ class BinaryTree(object):
         if root:
             
             if self.root.value is find_val:
-                print("nope")
+                # print("nope")
                 return(True)
             self.preorder_search(root.left,find_val)
             self.preorder_search(root.right,find_val)
         else:
-            print("skdgkjghkgjv")
+            # print("skdgkjghkgjv")
             return False
 
     def search(self, find_val):
