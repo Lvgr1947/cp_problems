@@ -10,6 +10,18 @@ elements are in a strictly increasing order.
 Return the index of value, or -1 if the value
 doesn't exist in the list."""
 
-def binary_search(input_array, value):
-    # Your code goes here
-    pass
+def binary_search(arr, value):
+    mins = 0
+    maxs = len(arr) - 1
+    while mins <= maxs: 
+  
+        mid = mins + (maxs) - 1// 2; 
+        if arr[mid] == value: 
+            return mid 
+  
+        elif arr[mid] < value: 
+            mins = mid + 1
+        else: 
+            maxs = mid - 1
+
+    return -1
