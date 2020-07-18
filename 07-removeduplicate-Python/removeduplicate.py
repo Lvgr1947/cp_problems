@@ -5,4 +5,17 @@
 
 def removeduplicate(text):
 	# Your code goes here
-	pass
+	j = []
+	l
+def removeduplicate(text):
+	# Your code goes here
+	# pass
+	j = []
+	
+	lst = list(text)
+	for x in lst:
+		if(x not in j):
+			j.append(x)
+	st=""
+	st = st.join(j)
+	return(st)
