@@ -15,16 +15,18 @@
 def destructiveshortenlongruns(L, k):
 	c = 1
 	a = len(L)
-	for i in range(1,a):
+	i=0
+	while(i<a-1):
 		print(L[i])
-		if i<a and L[i] == L[i-1]:
+		if  L[i] == L[i+1]:
 			c += 1
 		print("c",c)
 		if c >= k:
 			print("pop",L.pop(i))
 			a -= 1
-			if i<a and L[i] != L[i+1]:
+			if i<a-1 and L[i] != L[i+1]:
 				c = 1
-	print(L)
+		i += 1
+	return(L)
 destructiveshortenlongruns([2, 3, 5, 5, 5, 3], 2)
 			
