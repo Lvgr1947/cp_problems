@@ -29,12 +29,10 @@ class HashTable(object):
         string is already in the table.
         Return -1 otherwise."""
         # Your code goes here
-        x = list(self.table)
+        x = self.table
         for i in x:
             if i == string:
                 # calculate_hash_value(self,i)
                 y = ((ord(string[0])) * 100) + ord(string[1])
                 return y
-                
-                # return calculate_hash_value(self,i)
         return -1
