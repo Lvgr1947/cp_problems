@@ -6,7 +6,7 @@
 def removeduplicate(text):
 	# Your code goes here
 	j = []
-	l
+	l = l(text)
 def removeduplicate(text):
 	# Your code goes here
 	# pass
