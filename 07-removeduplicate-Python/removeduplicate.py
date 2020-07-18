@@ -9,5 +9,7 @@ def removeduplicate(text):
 	l = list(text)
 	for i in l:
 		if i not in d:
+			print(i)
 			d += i
 	return d
+removeduplicate("Helloworld")
