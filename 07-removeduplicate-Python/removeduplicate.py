@@ -10,4 +10,4 @@ def removeduplicate(text):
 	for i in l:
 		if i not in d:
 			d += i
-	return s
+	return d
