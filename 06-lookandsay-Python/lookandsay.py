@@ -6,7 +6,14 @@
 # lookAndSay([-1,2,7]) == [(1,-1),(1,2),(1,7)]
 # lookAndSay([3,3,8,-10,-10,-10]) == [(2,3),(1,8),(3,-10)]
 # lookAndSay([3,3,8,3,3,3,3]) == [(2,3),(1,8),(4,3)]
-
 def lookandsay(a):
-	# Your code goes here
-	pass
+	c=1
+	l = []
+	for i in range(1,len(a)+1):
+		if i<len(a) and a[i-1] == a[i]:
+			c += 1
+		else:
+			l.append((c,a[i-1]))
+			c = 1
+	return(l)
+lookandsay([3,3,8,8,-10,-10,-10,8,8,8])
