@@ -12,15 +12,4 @@ def removeduplicate(text):
 			d.append(i)
 	s = ""
 	s = s.join(d)
-def removeduplicate(text):
-	# Your code goes here
-	# pass
-	j = []
-	
-	lst = list(text)
-	for x in lst:
-		if(x not in j):
-			j.append(x)
-	st=""
-	st = st.join(j)
-	return(st)
+	return s
