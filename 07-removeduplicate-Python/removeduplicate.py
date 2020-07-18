@@ -5,10 +5,9 @@
 
 def removeduplicate(text):
 	# Your code goes here
-	d = []
+	d = ""
 	l = list(text)
 	for i in l:
 		if i not in d:
-			d.append(i)
-	s = "".join(d)
+			d += i
 	return s
