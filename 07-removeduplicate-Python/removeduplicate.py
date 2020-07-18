@@ -10,5 +10,5 @@ def removeduplicate(text):
 	for i in l:
 		if i not in d:
 			d.append(i)
-	s = "".s.join(d)
+	s = "".join(d)
 	return s
