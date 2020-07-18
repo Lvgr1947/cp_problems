@@ -17,7 +17,24 @@
 
 
 def fun_wordwrap(s, n):
-	return ""
+	str1 = ""
+	s = s.strip()
+	s = s.replace(" ", "-")
+	print(s)
+	if len(s)== n:
+		return s
+	elif len(s)> n:
+		a = (len(s)//n)
+		if len(s)%n > 0:
+			a += 1
+		# print(a)
+		for i in range(a):
+			str1 += s[i*n:n*(i+1)]
+			if i != a-1:
+				str1 += "\n"
+			# print(str1)
+	return str1
 
+print(fun_wordwrap("  abcdefghij",  4))
 
  
