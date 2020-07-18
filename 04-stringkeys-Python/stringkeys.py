@@ -3,7 +3,7 @@ in a hash table, where keys are calculated
 using the first two letters of the string."""
 
 class HashTable(object):
-    def _init_(self):
+    def __init__(self):
         self.table = [None]*10000
 
     def store(self, string):
