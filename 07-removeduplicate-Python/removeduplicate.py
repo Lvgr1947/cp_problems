@@ -10,7 +10,8 @@ def removeduplicate(text):
 	for i in l:
 		if i not in d:
 			d.append(i)
-	
+	s = ""
+	s = s.join(d)
 def removeduplicate(text):
 	# Your code goes here
 	# pass
