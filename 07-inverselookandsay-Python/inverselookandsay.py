@@ -10,4 +10,18 @@
 
 def inverselookandsay(a):
 	# Your code goes here
-	pass
+	# pass
+	lst = []
+	if len(a) == 1 and len(a[0])==0:
+		print("lst")
+		return lst
+	elif len(a)>0:
+		for i in a:
+			x = i[0]
+			while x!=0:
+				lst.append(i[1])
+				x-=1
+		print(lst)
+		return lst
+	else:
+		return lst
