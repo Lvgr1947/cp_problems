@@ -10,36 +10,23 @@ class BST(object):
         self.root = Node(root)
 
 
-    # def insert_bst(self, root, val):
-    #     if root is None: 
-    #             root.value = val 
-    #     else: 
-    #         if self.root.value < val: 
-    #             if self.root.right is None: 
-    #                 self.root.right = val 
-    #             else: 
-    #                 self.insert_bst(self.root.right, val) 
-    #         else: 
-    #             if self.root.left is None: 
-    #                 self.root.left = val 
-    #             else: 
-    #                 self.insert_bst(self.root.left, val)
-
-    def search(self, d):
-        print(self.root.value)
-        if self.root is not None:
-            if self.root == d:
-                return True
-            elif d < int(self.root.value):
-                if self.root.left:
-                    self.root = self.root.left
-                    return self.search(d)
-            elif d > int(self.root.value):
-                if self.root.right:
-                    self.root = self.root.right
-                    return self.search(d)
-        else:
+    def search_bst(self,root,key): 
+      
+    # Base Cases: root is null or key is present at root 
+        if root is None:
             return False
+        elif root.value == key: 
+            return True
+    
+        # Key is greater than root's key 
+        if root.value < key: 
+            return self.search_bst(root.right,key) 
+        
+        # Key is smaller than root's key 
+        return self.search_bst(root.left,key)
+
+    def search(self,key):
+        return self.search_bst(self.root,key)
 
     def printSelf(self):
         pass
@@ -48,26 +35,35 @@ class BST(object):
         # else:
         #     print(self.root.left)
         #     print(self.root.right)
-        
-    def insert(self, d):
-        if self.root is None:
-            return False
-        elif self.root.value == d:
-            return True
-        elif d < self.root.value:
-            if self.root.left:
-                self.root = self.root.left
-                return self.insert(d)
+    def insert(self,key):
+        node = Node(key)
+        y = 0
+        x = self.root
+        while x!= None:
+            y = x
+            if node.value < x.value:
+                x = x.left
             else:
-                self.root.left = Node(d)
-                return True
-        else:
-            if self.root.right:
-                self.root = self.root.right
-                return self.insert(d)
-            else:
-                self.root.right = Node(d)
-                return True
+                x = x.right
+    # def insert(self, key):
+	# 	node = Node(key)
+    #     y = None
+    #     x = self.root
+    #     while x != None:
+    #         y = x
+    #         if node.value < x.data:
+	# 			x = x.left
+	# 		else:
+	# 			x = x.right
+
+		# y is parent of x
+		# node.parent = y
+		# if y == None:
+		# 	root = node
+		# elif node.data < y.data:
+		# 	y.left = node
+		# else:
+		# 	y.right = node
         
        
 tree = BST(4)
