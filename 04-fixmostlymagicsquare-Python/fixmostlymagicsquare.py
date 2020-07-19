@@ -36,7 +36,7 @@ def fixmostlymagicsquare(L):
 	p = 0
 	for i in range(len(a)//2):
 		c = 0
-		for j in range(len(a)):
+		for j in range(len(a)//2):
 			if a[i] == a[j]:
 				c += 1
 		if c == 1:
