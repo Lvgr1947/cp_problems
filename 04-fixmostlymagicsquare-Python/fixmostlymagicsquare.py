@@ -22,11 +22,11 @@ def ismostlymagicsquare(a):
 				if len(a[i])-1-i == j:
 					sum[len(a)*2+1] += a[i][j]
 	sum1 = set(sum)
-	print(len(sum1))
+	# print(len(sum1))
 	if(len(sum1) == 1):
-		return (sum,True)
+		return True
 	else:
-		return (sum,False)
+		return False
         
 
 
