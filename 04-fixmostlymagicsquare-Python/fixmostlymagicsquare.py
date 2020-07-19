@@ -42,9 +42,9 @@ def fixmostlymagicsquare(L):
 		if c == 1:
 			p = i
 			break
-	i = len(a)-(a.index(a[p],len(a)//2,len(a)))
+	i = a.index(a[p],len(a)//2,len(a))
 	k = 0
-	e = L[p][i]
+	# e = L[p][i]
 	print(p,i)
 	# while(True):
 	# 	if k != e:
