@@ -5,6 +5,6 @@
 
 def hasduplicates(L):
 	for i in range(len(L)):
-		if len(L[i]) == len(set(L[i])):
+		if len(L[i]) != len(set(L[i])):
 			return False
 	return True
