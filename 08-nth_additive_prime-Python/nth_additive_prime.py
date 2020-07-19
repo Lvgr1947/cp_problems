@@ -9,3 +9,20 @@ def isprime(n):
 				return False
 		else:
 			return True
+def fun_nth_additive_prime(n):
+	if n == 0:
+		return 2
+	c = 0
+	i = 3
+	while c!=n:		
+		if isprime(i):
+			sum=0
+			temp = str(i)
+			for x in temp:
+				sum+=int(x)
+			if isprime(sum):
+				c+=1
+			if c == n:
+				return i
+		i+=1
+	return False
