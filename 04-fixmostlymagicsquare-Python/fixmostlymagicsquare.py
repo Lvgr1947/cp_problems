@@ -26,7 +26,7 @@ def ismostlymagicsquare(a):
 	if(len(sum1) == 1):
 		return (sum[0:3],True)
 	else:
-		return (sum,False)
+		return (sum[0:3],False)
         
 
 
