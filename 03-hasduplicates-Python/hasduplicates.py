@@ -7,5 +7,8 @@ def hasduplicates(L):
 	list1 = []
 	for i in range(len(L)):
 		list1.extend(L[i])
-	return True
+	print(list1)
+	if len(list1) != len(set(list1)):
+		return True
+	return False
 print(hasduplicates([[2, 7, 6], [9, 5, 1], [4, 3, 8]]))
