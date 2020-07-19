@@ -22,7 +22,6 @@ def ismostlymagicsquare(a):
 	elif len(a)==len(a[0]):
 		for i in range(len(a)):
 			for k in range(len(a[i])):
-					# print(a[i][k])
 					sum[k+len(a[0])] += a[i][k]
 			for j in range(len(a[i])):
 				sum[i] += a[i][j]
