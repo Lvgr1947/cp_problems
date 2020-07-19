@@ -33,6 +33,7 @@ def ismostlymagicsquare(a):
 def fixmostlymagicsquare(L):
 	while(True):
 		print(ismostlymagicsquare(L))
+		break
 
-print(ismostlymagicsquare([[2, 7, 9], [9, 5, 1], [4, 3, 8]]))
+print(fixmostlymagicsquare([[2, 7, 9], [9, 5, 1], [4, 3, 8]]))
 	
