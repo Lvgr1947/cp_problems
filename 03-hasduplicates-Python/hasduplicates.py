@@ -4,5 +4,6 @@
 # if any two values in L are equal to each other), and False otherwise.
 
 def hasduplicates(L):
-	# Your code goes here
-	pass
+	for i in range(len(L)):
+		if len(L[i]) != len(set(L[i])):
+			return False
