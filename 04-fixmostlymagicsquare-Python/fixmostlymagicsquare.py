@@ -7,6 +7,7 @@
 
 def ismostlymagicsquare(a):
 	# sum1=sum2=sum3=sum4=sum5=sum6=sum7=sum8=0
+	print(len(a))
 	sum = [0]*((len(a)*2)+2)
 	if len(a)==1 and len(a[0]) == 1:
 		return True
