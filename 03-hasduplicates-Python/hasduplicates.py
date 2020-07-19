@@ -4,8 +4,8 @@
 # if any two values in L are equal to each other), and False otherwise.
 
 def hasduplicates(L):
+	list1 = []
 	for i in range(len(L)):
-		if len(L[i]) != len(set(L[i])):
-			return False
+		list1.extend(L[i])
 	return True
 print(hasduplicates([[2, 7, 6], [9, 5, 1], [4, 3, 8]]))
