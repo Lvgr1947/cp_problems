@@ -46,12 +46,12 @@ def fixmostlymagicsquare(L):
 	k = 0
 	e = L[p][i]
 	print(p,i)
-	while(True):
-		if k != e:
-			L[p][i] = k
-			f,g=ismostlymagicsquare(L) 
-			if g:
-				return L
-			k += 1
-print(ismostlymagicsquare([[16, 3, 2, 13], [5, 10, 11, 18], [9, 6, 7, 12],[4, 15, 14, 1]]))
+	# while(True):
+	# 	if k != e:
+	# 		L[p][i] = k
+	# 		f,g=ismostlymagicsquare(L) 
+	# 		if g:
+	# 			return L
+	# 		k += 1
+print(fixmostlymagicsquare([[16, 3, 2, 13], [5, 10, 11, 18], [9, 6, 7, 12],[4, 15, 14, 1]]))
 	
