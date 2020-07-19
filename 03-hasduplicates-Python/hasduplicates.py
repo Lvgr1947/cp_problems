@@ -8,3 +8,4 @@ def hasduplicates(L):
 		if len(L[i]) != len(set(L[i])):
 			return False
 	return True
+print(hasduplicates([[2, 7, 6], [9, 5, 1], [4, 3, 8]]))
