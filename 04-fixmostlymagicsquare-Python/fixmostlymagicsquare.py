@@ -47,7 +47,9 @@ def fixmostlymagicsquare(L):
 	while(True):
 		if k != e:
 			L[p][i] = k
-			if ismostlymagicsquare(L): return L
+			print(L)
+			if ismostlymagicsquare(L): 
+				return L
 			k += 1
 print(fixmostlymagicsquare([[2, 7, 9], [9, 5, 1], [4, 3, 8]]))
 	
