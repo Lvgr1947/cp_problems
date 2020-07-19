@@ -24,29 +24,15 @@ def ismostlymagicsquare(a):
 	sum1 = set(sum)
 	# print(len(sum1))
 	if(len(sum1) == 1):
-		return True
+		return (sum[0:3],True)
 	else:
-		return False
+		return (sum,False)
         
 
 
-# def fixmostlymagicsquare(L):
-#     sum1,f = ismostlymagicsquare(L)
-#     x = y = 0
-#     z = set(sum1)
-#     for j in range(len(sum1)):
-#         count = 0
-#         for i in range(len(z)):
-#             if z[j] == sum1[j]:
-#                 count += 1
-#         if count == 1:
-#             x = j
-#             break
-#     if x>=0 and x<3:
-         
-#     elif x>2 and x<6:
-
-#     else:
+def fixmostlymagicsquare(L):
+	while(True):
+		print(ismostlymagicsquare(L))
 
 print(ismostlymagicsquare([[2, 7, 9], [9, 5, 1], [4, 3, 8]]))
 	
