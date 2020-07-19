@@ -44,14 +44,14 @@ def fixmostlymagicsquare(L):
 			break
 	i = (a.index(a[p],len(a)//2,len(a)))-(len(a)//2)
 	k = 0
-	# e = L[p][i]
+	e = L[p][i]
 	print(p,i)
-	# while(True):
-	# 	if k != e:
-	# 		L[p][i] = k
-	# 		f,g=ismostlymagicsquare(L) 
-	# 		if g:
-	# 			return L
-	# 		k += 1
+	while(True):
+		if k != e:
+			L[p][i] = k
+			f,g=ismostlymagicsquare(L) 
+			if g:
+				return L
+			k += 1
 print(fixmostlymagicsquare([[16, 3, 2, 13], [5, 10, 11, 18], [9, 6, 7, 12],[4, 15, 14, 1]]))
 	
