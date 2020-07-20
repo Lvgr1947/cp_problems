@@ -24,3 +24,12 @@ def recursion_powersof3ton(n):
 	else:
 		return None
 print(recursion_powersof3ton(1))
+print(recursion_powersof3ton(1))
+print(recursion_powersof3ton(1))
+print(recursion_powersof3ton(1))
+print(recursion_powersof3ton(1))
+print(recursion_powersof3ton(1))
+print(recursion_powersof3ton(1))
+print(recursion_powersof3ton(1))
+print(recursion_powersof3ton(1))
+print(recursion_powersof3ton(1))
