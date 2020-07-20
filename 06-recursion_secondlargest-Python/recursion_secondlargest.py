@@ -33,4 +33,4 @@ def recursion_secondlargest(L):
 	i = 0
 	if l>1:
 		return secondlargest(L,i)
-print(recursion_secondlargest())
+print(recursion_secondlargest([1,2,3,4,5]))
