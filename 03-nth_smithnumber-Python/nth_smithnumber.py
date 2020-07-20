@@ -19,10 +19,10 @@ def smithnumber(n):
     while(n>1):
         if isprime(i):
             while(n%i == 0):
-                print(n)
                 l.append(i)
                 n //= i
         i += 1
+    print(n)
     if 4==sum(l):
         return True
     return False
