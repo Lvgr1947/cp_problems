@@ -26,7 +26,7 @@ def secondlargest(L,k):
 		k += 1
 		return secondlargest(L,k)
 	else:
-		return L[k]
+		return L[x]
 
 def recursion_secondlargest(L):
 	l = len(L)
