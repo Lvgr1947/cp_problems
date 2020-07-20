@@ -30,8 +30,8 @@ def smithnumber(n):
                 l.append(i)
                 n //= i
         i += 1
-    print(l)
     if 4== sum1(l):
+        print(l)
         return True
     return False
 
