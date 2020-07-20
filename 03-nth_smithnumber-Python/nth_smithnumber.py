@@ -25,4 +25,4 @@ def smithnumber(n):
     print(l)
 
 def fun_nth_smithnumber(n):
-    smithnumber(0)
+    smithnumber(4)
