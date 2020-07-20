@@ -6,7 +6,7 @@
 
 def fun_matrixmultiply(m1, m2):
     if len(m1[0]) == len(m2):
-        m3 = [[m1[x][y]*m2[x][y] for y in range(len(m1[0]))] for x in range(len(m1))]
+        result = [[sum(a*b for a,b in zip(X_row,Y_col)) for Y_col in zip(*Y)] for X_row in X]
         return m3
     else:
         return None
