@@ -22,7 +22,7 @@ def smithnumber(n):
                 l.append(i)
                 n //= i
         i += 1
-    print(n)
+    print(l)
     if 4==sum(l):
         return True
     return False
