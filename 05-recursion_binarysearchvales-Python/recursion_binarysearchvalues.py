@@ -31,6 +31,7 @@ def recursion_binarysearchvalues(L, v):
 		j = mid
 		return recursion_binarysearchvalues()
 	elif ord(v) > ord(mid):
+		i = mid
 		l.append(mid,L[mid])
 
 
