@@ -6,6 +6,10 @@
 # counted twice, thus making 4 a Smith Number.
 # so fun_nthsmithnumber(0) should return 4
 # so fun_nthsmithnumber(1) should return 22
+def sum1(l):
+    for i in l:
+        if i>10:
+            j = str(i)
 def isprime(n):
 	if n > 1:
 		for i in range(2,n):
@@ -23,7 +27,7 @@ def smithnumber(n):
                 n //= i
         i += 1
     print(l)
-    if 4==sum(l):
+    if 4==sum1(l):
         return True
     return False
 
