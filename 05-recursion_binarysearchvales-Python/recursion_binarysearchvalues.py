@@ -20,7 +20,7 @@ l=[]
 i=0
 j=0
 def recursion_binarysearchvalues(L, v):
-	
+	global l,i,j
 	j=len(L)
 	mid = (i+j)//2
 	if ord(v) == ord(mid):
