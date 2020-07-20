@@ -16,7 +16,7 @@
 #     v = 'c'
 #     assert(binarySearchValues(L, v) == [(2,'f'), (0,'a'), (1,'c')])
 # Hint: Do not slice the list L, but rather adjust the indexes into L. 
-l=tuple()
+l=[]
 def search(L,i,j,v):
 	global l
 	mid = (i+j)//2
