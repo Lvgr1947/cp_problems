@@ -24,7 +24,7 @@ def secondlargest(L,k):
 			x = L[i]
 			y = i
 	if k == 0:
-		print(L[y])
+		# print(L[y])
 		L.remove(L[y])
 		k += 1
 		return secondlargest(L,k)
