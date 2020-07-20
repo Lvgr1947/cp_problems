@@ -20,7 +20,9 @@ def recursion_powersof3ton(n):
 		return recursion_powersof3ton(n-1)
 	elif len(l)>0:
 		sorted(l)
-		return l
+		a=l
+		l=[]
+		return a
 	else:
 		return None
 print(recursion_powersof3ton(0))
