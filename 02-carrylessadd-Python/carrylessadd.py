@@ -21,9 +21,7 @@ def fun_carrylessadd(x, y):
 		print("c after", c)
 		print(sum*pow(10,len(str(i))), "sum")
 		if c != 0: sum = sum + c*pow(10,i)
-		i += 1
-		x //= 10
-		y //= 10
+		x,y,i = x//10,y//10, i+1
 	
 	if x > 0 and y == 0:
 		sum += x*pow(10,len(str(sum)))
