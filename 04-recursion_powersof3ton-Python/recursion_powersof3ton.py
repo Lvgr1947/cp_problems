@@ -11,6 +11,7 @@ def powersOf3ToN(x):
 	else:
 		return False
 def recursion_powersof3ton(n):
+	n=int(n)
 	if n>0:
 		global l
 		# print(powersOf3ToN(n))
