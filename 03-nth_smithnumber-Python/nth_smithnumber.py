@@ -18,7 +18,7 @@ def smithnumber(n):
     l = []
     j= 0
     print(n)
-    while(n>0):
+    while(n>1):
         print(n)
         if isprime(i):
             while(n%i == 0):
