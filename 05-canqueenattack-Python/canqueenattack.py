@@ -17,12 +17,13 @@ def canqueenattack(qR, qC, oR, oC):
 				board[i][j] = True
 	for i in range(rows):
 		for j in range(columns):
-			if i == qR and board[i][j] == True:
-				return True
-			elif j == qC and board[i][j] == True:
-				return True
-			elif (abs(i-j) == abs(qR-qC) or abs(i+j) == abs(qR+qC)) and board[i][j] == True:
-				return True
+			if board[i][j] == True:
+				if i == qR:
+					return True
+				elif j == qC and board[i][j] == True:
+					return True
+				elif (abs(i-j) == abs(qR-qC) or abs(i+j) == abs(qR+qC)) and board[i][j] == True:
+					return True
 	return False
 	# k = 7
 	# while(True):
