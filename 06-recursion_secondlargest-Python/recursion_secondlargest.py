@@ -31,4 +31,4 @@ def recursion_secondlargest(L):
 	l = len(L)
 	i = 0
 	if l>1:
-		return secondlargest()
+		return secondlargest(L,i)
