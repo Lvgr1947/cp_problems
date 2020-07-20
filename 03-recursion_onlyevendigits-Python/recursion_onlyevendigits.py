@@ -8,8 +8,11 @@
 # Also the function returns the empty list if the original list is empty. 
 # Remember to not use strings. You may not use loops/iteration in this problem.
 def onlyEvenDigits(L):
-	if L%2 == 0:
-		return L
+	if L > 0:
+		r = L % 10
+		if r % 2 == 0:
+			s = s + r
+		sumofevendigits(int(n / 10))
 	else:
 		return 0
 def fun_recursion_onlyevendigits(l): 
