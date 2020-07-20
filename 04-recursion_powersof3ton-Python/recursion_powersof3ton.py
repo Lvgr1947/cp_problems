@@ -5,4 +5,4 @@
 l = []
 def recursion_powersof3ton(n):
 	global l
-	i
+	
