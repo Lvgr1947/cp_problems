@@ -42,7 +42,7 @@ def recursion_binarysearchvalues(L, v):
 	j=len(L)-1
 	return search(L,i,j,v)
 	
-print(recursion_binarysearchvalues(['a', 'c', 'f', 'g', 'm', 'q'],'c'))
+print(recursion_binarysearchvalues(['a', 'c', 'f', 'g', 'm', 'q'],'f'))
 
 
 	
