@@ -13,7 +13,7 @@ def sum1(l):
     s = list(s)
     num = list(map(int, s))
     return sum(num)
-     
+
 def isprime(n):
 	if n > 1:
 		for i in range(2,n):
@@ -31,7 +31,7 @@ def smithnumber(n):
                 n //= i
         i += 1
     print(l)
-    if 4==sum(l):
+    if 4== sum1(l):
         return True
     return False
 
