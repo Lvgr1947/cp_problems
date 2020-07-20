@@ -26,8 +26,9 @@ def recursion_binarysearchvalues(L, v):
 		return l
 	elif ord(v) < ord(mid):
 		l.append(mid,L[mid])
+		return 
 	elif ord(v) > ord(mid):
-		l.append(mid)
+		l.append(mid,L[mid])
 
 
 	
