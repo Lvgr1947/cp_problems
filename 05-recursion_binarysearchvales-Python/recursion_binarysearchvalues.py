@@ -22,6 +22,6 @@ def recursion_binarysearchvalues(L, v):
 	j=len(L)
 	mid = (i+j)//2
 	if ord(v) == ord(mid):
-		l.append()
+		l.append(mid,v)
 
 	
