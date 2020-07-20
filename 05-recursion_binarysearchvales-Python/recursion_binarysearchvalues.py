@@ -39,6 +39,8 @@ def search(L,i,j,v):
 	return l
 def recursion_binarysearchvalues(L, v):
 	i = 0
+	global l
+	l = []
 	j=len(L)-1
 	return search(L,i,j,v)
 	
@@ -47,7 +49,7 @@ print(recursion_binarysearchvalues(['a', 'c', 'f', 'g', 'm', 'q'],'c'))
 print(recursion_binarysearchvalues(['a', 'c', 'f', 'g', 'm', 'q'],'f'))
 print(recursion_binarysearchvalues(['a', 'c', 'f', 'g', 'm', 'q'],'g'))
 print(recursion_binarysearchvalues(['a', 'c', 'f', 'g', 'm', 'q'],'m'))
-print(recursion_binarysearchvalues(['a', 'c', 'f', 'g', 'm', 'q'],'q'))
+# print(recursion_binarysearchvalues(['a', 'c', 'f', 'g', 'm', 'q'],'q'))
 
 
 	
