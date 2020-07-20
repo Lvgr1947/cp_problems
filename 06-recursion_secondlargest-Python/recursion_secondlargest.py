@@ -22,8 +22,10 @@ def secondlargest(L):
 	for i in range(1,len(L)):
 		if x < L[i]:
 			x = i
-	L[i] =None
-	
+	if count == 0:
+		L.remove(x)
+		
+
 
 def recursion_secondlargest(L):
 	l = len(L)
