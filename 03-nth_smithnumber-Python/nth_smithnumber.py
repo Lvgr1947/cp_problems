@@ -7,7 +7,9 @@
 # so fun_nthsmithnumber(0) should return 4
 # so fun_nthsmithnumber(1) should return 22
 def sum1(l):
-    s = [[]]
+    s = ""
+    for i in l:
+        s
 def isprime(n):
 	if n > 1:
 		for i in range(2,n):
