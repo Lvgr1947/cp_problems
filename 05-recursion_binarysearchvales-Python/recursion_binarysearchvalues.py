@@ -35,7 +35,7 @@ def recursion_binarysearchvalues(L, v):
 		l.append(mid,L[mid])
 		return recursion_binarysearchvalues(L,v)
 	return l
-
+print(recursion_binarysearchvalues())
 
 
 	
