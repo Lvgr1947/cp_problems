@@ -38,7 +38,7 @@ def smithnumber(n):
 def fun_nth_smithnumber(n):
     i = -1
     j = 2
-    return smithnumber(22)
+    # return smithnumber(22)
     while(i != n):
         print(j)
         if smithnumber(j):
