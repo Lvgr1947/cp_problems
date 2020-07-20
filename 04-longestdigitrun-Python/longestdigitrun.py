@@ -17,3 +17,4 @@ def lookandsay(a):
 def longestdigitrun(n):
 	n = list(map(int,str(n)))
 	print(n)
+longestdigitrun(123456)
