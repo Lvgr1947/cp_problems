@@ -29,8 +29,8 @@ def canqueenattack(qR, qC, oR, oC):
 	# 	print(board[k])
 	# 	k -= 1
 	# 	if k<0: break
-print(canqueenattack(1, 1, 1, 2))
-print(canqueenattack(1, 1, 1, 2))
+print(canqueenattack(4, 5, 6, 7))
+print(canqueenattack(1, 1, 3, 2))
 print(canqueenattack(1, 1, 1, 2))
 print(canqueenattack(1, 1, 1, 2))
 print(canqueenattack(1, 1, 1, 2))
