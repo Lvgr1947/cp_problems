@@ -14,7 +14,7 @@ def onlyEvenDigits(L):
 	if L > 0:
 		r = L % 10
 		if r % 2 == 0:
-			s = s + r
+			s = s + r*pow(10,len(str(s)))
 		L = L//10
 		return onlyEvenDigits(L)
 
