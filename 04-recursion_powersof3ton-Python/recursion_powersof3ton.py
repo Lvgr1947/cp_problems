@@ -7,7 +7,9 @@ def powersOf3ToN(x):
 	if x>1 and x%3 == 0:
 		powersOf3ToN(x//3)
 	if x ==1 :
-		True
+		return True
+	else:
+		return False
 def recursion_powersof3ton(n):
 	n = int(n)
 	global l
