@@ -4,7 +4,7 @@
 # of 3 exist, you should return the empty list. You may not use loops/iteration in this problem. 
 l = []
 def powersOf3ToN(x):
-	if x%3 == 0:
+	if x>1 and x%3 == 0:
 		powersOf3ToN(x//3)
 	if x ==1 :
 		True
