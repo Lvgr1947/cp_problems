@@ -7,5 +7,5 @@
 
 def fun_carrylessadd(x, y):
 	if x==0 or y==0: return x+y
-	
+	x = list
 
