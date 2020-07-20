@@ -18,5 +18,6 @@
 # values as we recursively traversed the list. Also, you may not use loops/iteration in this problem
 
 def recursion_secondlargest(L):
-	# Your code goes here
-	pass
+	l = len(L)
+	if l>1:
+		return secondlargest()
