@@ -15,6 +15,7 @@ def onlyEvenDigits(L):
 		if r % 2 == 0:
 			s = s*10 + r
 		L = L//10
+		print(s)
 		if L == 0:
 			a=s
 			s=0
@@ -25,7 +26,6 @@ def onlyEvenDigits(L):
 		return 0
 def fun_recursion_onlyevendigits(l):
 	for i in range(len(l)):
-		print(s)
 		l[i] = onlyEvenDigits(l[i])
 	return l
 print(fun_recursion_onlyevendigits([43, 23265, 17, 58344]))
