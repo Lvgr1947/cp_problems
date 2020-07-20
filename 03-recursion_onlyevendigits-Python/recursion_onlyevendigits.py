@@ -16,6 +16,8 @@ def onlyEvenDigits(L):
 			s = s*10 + r
 		L = L//10
 		if L == 0:
+			a=s
+			s=0
 			return s
 		onlyEvenDigits(L)
 
