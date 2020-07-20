@@ -11,12 +11,10 @@ def sum2(n):
         return n
     return sum(list(map(int,list(map(int,list(str(n)))))))
 def sum1(l):
-    s = ""
+    s = 0
     for i in range(len(l)):
-        s += str(l[i])
-    s = list(s)
-    num = list(map(int, s))
-    return sum(num)
+        s += sum(list(map(int,list(map(int,list(str(i)))))))
+    return s
 
 def isprime(n):
 	if n > 1:
