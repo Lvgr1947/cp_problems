@@ -10,6 +10,7 @@
 s = 0
 def onlyEvenDigits(L):
 	global s
+	print(L)
 	if L > 0:
 		r = L % 10
 		if r % 2 == 0:
