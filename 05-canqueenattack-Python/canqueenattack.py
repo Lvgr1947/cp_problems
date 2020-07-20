@@ -31,7 +31,7 @@ def canqueenattack(qR, qC, oR, oC):
 	# 	if k<0: break
 print(canqueenattack(4, 5, 6, 7))
 print(canqueenattack(1, 1, 3, 2))
-print(canqueenattack(1, 1, 1, 2))
+print(canqueenattack(1, 1, 4, 6))
 print(canqueenattack(1, 1, 1, 2))
 print(canqueenattack(1, 1, 1, 2))
 print(canqueenattack(1, 1, 1, 2))
