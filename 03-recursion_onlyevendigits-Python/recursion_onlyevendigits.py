@@ -13,7 +13,7 @@ def onlyEvenDigits(L):
 	if L > 0:
 		r = L % 10
 		if r % 2 == 0:
-			s = s + r
+			s = s*10 + r
 		onlyEvenDigits(L // 10)
 	else:
 		return 0
