@@ -8,7 +8,7 @@
 # Also the function returns the empty list if the original list is empty. 
 # Remember to not use strings. You may not use loops/iteration in this problem.
 s = 0
-def onlyEvenDigits(n):
+def onlyEvenDigits(L):
 	global s
 	if L > 0:
 		r = L % 10
