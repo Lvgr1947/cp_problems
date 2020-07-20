@@ -31,7 +31,7 @@ def smithnumber(n):
                 n //= i
         i += 1
     if 4== sum1(l):
-        print(l)
+        print(sum1)
         return True
     return False
 
