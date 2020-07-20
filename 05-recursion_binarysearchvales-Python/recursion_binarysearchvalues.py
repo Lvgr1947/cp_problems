@@ -29,7 +29,7 @@ def search(L,i,j,v):
 		return search(L,i,mid,v)
 	elif ord(v) > ord(L[mid]):
 		i = mid
-		l.append(tuple((mid,L[mid])))
+		l.append((mid,L[mid]))
 		return search(L,mid,j,v)
 	return l
 def recursion_binarysearchvalues(L, v):
