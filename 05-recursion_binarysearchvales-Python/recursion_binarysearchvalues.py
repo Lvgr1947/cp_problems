@@ -39,6 +39,8 @@ def recursion_binarysearchvalues(L, v):
 	
 if recursion_binarysearchvalues(['a', 'c', 'f', 'g', 'm', 'q'],'a') == [(2, 'f'), (0, 'a')]:
 	print("yes")
+else:
+	print("no")
 
 
 	
