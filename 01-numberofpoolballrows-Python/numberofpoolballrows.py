@@ -8,11 +8,11 @@
 def fun_numberofpoolballrows(balls):
 	n = 1
 	while((n*(n+1))//2 < balls):
-		print(n)
+		# print(n)
 		n += 1
 
 	if ((n-1)*(n))//2 == balls:
 		return n-1
 	elif (n*(n+1))//2 > balls and ((n-1)*(n))//2 < balls:
 		return n
-print(fun_numberofpoolballrows(9))
+print(fun_numberofpoolballrows(10))
