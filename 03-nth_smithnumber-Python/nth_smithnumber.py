@@ -46,7 +46,7 @@ def fun_nth_smithnumber(n):
     j = 2
     # return smithnumber(22)
     while(i != n and isprime(j) != True):
-        # print(j)
+        print(j)
         if smithnumber(j):
             i += 1
         j += 1
