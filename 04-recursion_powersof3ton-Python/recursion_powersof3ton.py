@@ -23,9 +23,9 @@ def recursion_powersof3ton(n):
 		return l
 	else:
 		return None
-print(recursion_powersof3ton(1))
-print(recursion_powersof3ton(1))
-print(recursion_powersof3ton(1))
+print(recursion_powersof3ton(0))
+print(recursion_powersof3ton(42))
+print(recursion_powersof3ton(0.45))
 print(recursion_powersof3ton(1))
 print(recursion_powersof3ton(1))
 print(recursion_powersof3ton(1))
