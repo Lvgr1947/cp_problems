@@ -46,6 +46,7 @@ def fixmostlymagicsquare(L):
 		if c == 1:
 			p = i
 			break
+		# i
 	i = (a.index(a[p],len(a)//2,len(a)))-(len(a)//2)
 	k = 0
 	e = L[p][i]
