@@ -22,7 +22,7 @@ def canqueenattack(qR, qC, oR, oC):
 					return True
 				elif j == qC:
 					return True
-				elif (abs(i-j) == abs(qR-qC) or abs(i+j) == abs(qR+qC)) and board[i][j] == True:
+				elif abs(i-j) == abs(qR-qC) or abs(i+j) == abs(qR+qC):
 					return True
 	return False
 	# k = 7
