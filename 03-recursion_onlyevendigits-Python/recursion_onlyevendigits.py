@@ -20,6 +20,7 @@ def onlyEvenDigits(L):
 
 	else:
 		a=s
+		s = 0
 		print(a)
 		return a
 def fun_recursion_onlyevendigits(l):
