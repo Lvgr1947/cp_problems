@@ -33,5 +33,5 @@ def fun_nth_smithnumber(n):
         if smithnumber(j):
             i += 1
         j += 1
-    return smithnumber(n)
+    return 
 print(fun_nth_smithnumber(0))
