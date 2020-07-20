@@ -16,14 +16,7 @@
 #     v = 'c'
 #     assert(binarySearchValues(L, v) == [(2,'f'), (0,'a'), (1,'c')])
 # Hint: Do not slice the list L, but rather adjust the indexes into L. 
-l=tuple()
-i=0
-j=0
-def recursion_binarysearchvalues(L, v):
-	global l,i,j
-	j=len(L)
-	mid = (i+j)//2
-	print(l)
+def search(L,i,j,v):
 	if ord(v) == ord(L[mid]):
 		l += tuple((mid,L[mid]))
 		return l
@@ -36,6 +29,11 @@ def recursion_binarysearchvalues(L, v):
 		l += tuple((mid,L[mid]))
 		return recursion_binarysearchvalues(L,v)
 	return list(l)
+def recursion_binarysearchvalues(L, v):
+	i = 0
+	j=len(L)
+	mid = (i+j)//2
+	
 print(recursion_binarysearchvalues(['a', 'c', 'f', 'g', 'm', 'q'],'a'))
 
 
