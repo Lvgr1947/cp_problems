@@ -9,7 +9,7 @@
 # Remember to not use strings. You may not use loops/iteration in this problem.
 s = 0
 def onlyEvenDigits(n):
-	L=n
+	global s
 	if L > 0:
 		r = L % 10
 		if r % 2 == 0:
