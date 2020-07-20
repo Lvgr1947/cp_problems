@@ -31,7 +31,7 @@ def search(L,i,j,v):
 		i = mid
 		l.append(tuple((mid,L[mid])))
 		return search(L,mid,j,v)
-	return list(l)
+	return l
 def recursion_binarysearchvalues(L, v):
 	i = 0
 	j=len(L)
