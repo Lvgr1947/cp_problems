@@ -5,7 +5,7 @@
 l = []
 def powersOf3ToN(x):
 	if x>1 and x%3 == 0:
-		powersOf3ToN(x//3)
+		return powersOf3ToN(x//3)
 	elif x == 1 :
 		return True
 	else:
