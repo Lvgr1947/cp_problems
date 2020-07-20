@@ -19,7 +19,7 @@
 l=[]
 def search(L,i,j,v):
 	global l
-	mid = ((i+j)//2)-1
+	mid = ((i+j)//2)
 	if ord(v) == ord(L[mid]):
 		a = tuple((mid,L[mid]))
 		l.append(a)
@@ -39,7 +39,7 @@ def recursion_binarysearchvalues(L, v):
 	i = 0
 	j=len(L)
 	return search(L,i,j,v)
-print(recursion_binarysearchvalues(['a', 'c', 'f', 'g', 'm', 'q'],'a'))
+print(recursion_binarysearchvalues(['a', 'c', 'f', 'g', 'm', 'q'],'c'))
 
 
 	
