@@ -35,7 +35,7 @@ def smithnumber(n):
                 l.append(i)
                 n //= i
         i += 1
-    if p == sum1(l):
+    if 22 == sum1(l):
         # print(sum1(l), l)
         return True
     return False
@@ -45,12 +45,10 @@ def fun_nth_smithnumber(n):
     j = 2
     # return smithnumber(22)
     while(i < n):
-        print(j)
         if isprime(j) != True:
-        if smithnumber(j):
-            
-            print(i)
-            i += 1
+            if smithnumber(j):
+                print(j)
+                i += 1
         j += 1
     return j-1
 print(fun_nth_smithnumber(1))
