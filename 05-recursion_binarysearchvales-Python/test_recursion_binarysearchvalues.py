@@ -7,7 +7,7 @@ import pytest
 
 L = ['a', 'c', 'f', 'g', 'm', 'q']
 @pytest.mark.parametrize("value, result",[
-	('a', [(2,'f'), (0,'a')]),
+	('a', [(2, 'f'), (0,'a')]),
 	('c', [(2,'f'), (0,'a'), (1,'c')]),
 	('f', [(2,'f')]),
 	('g', [(2,'f'), (4, 'm'), (3, 'g')]),
