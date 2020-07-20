@@ -22,3 +22,4 @@ def fun_carrylessadd(x, y):
 	elif x == 0 and y > 0:
 		 sum += y*pow(10,len(str(sum)))
 	return sum
+print(f)
