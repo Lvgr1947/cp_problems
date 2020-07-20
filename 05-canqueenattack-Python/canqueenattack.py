@@ -4,4 +4,5 @@
 # diagonally.
 
 def canqueenattack(qR, qC, oR, oC):
-	board = []
+	board = [[False for x in range(columns)] for y in range(rows)]
+	
