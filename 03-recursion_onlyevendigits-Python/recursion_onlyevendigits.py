@@ -19,7 +19,7 @@ def onlyEvenDigits(L):
 		return onlyEvenDigits(L)
 
 	else:
-		return 0
+		return s
 def fun_recursion_onlyevendigits(l):
 	for i in range(len(l)):
 		l[i] = onlyEvenDigits(l[i])
