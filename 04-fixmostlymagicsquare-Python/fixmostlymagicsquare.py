@@ -33,6 +33,7 @@ def ismostlymagicsquare(a):
 
 def fixmostlymagicsquare(L):
 	a,b= ismostlymagicsquare(L)
+	a== sum
 	p = 0
 	for i in range(len(a)//2):
 		c = 0
