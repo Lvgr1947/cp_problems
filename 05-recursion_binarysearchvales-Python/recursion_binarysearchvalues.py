@@ -23,7 +23,7 @@ def search(L,i,j,v):
 	mid = ((i+j)//2)
 	# else:
 	# 	mid = ((i+j)//2)-1
-	if i==j:
+	if i==j and mid == j and mid == i:
 		return l
 	if ord(v) == ord(L[mid]):
 		a = tuple((mid,L[mid]))
