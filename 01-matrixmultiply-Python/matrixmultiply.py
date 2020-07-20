@@ -6,7 +6,7 @@
 
 def fun_matrixmultiply(m1, m2):
     if len(m1[0]) == len(m2):
-        m3 = [ [0 for x in range(columns)] for y in range(rows)]
+        m3 = [[for x in range(len(m1[0]))] for y in range(len(m1))]
 
 
 
