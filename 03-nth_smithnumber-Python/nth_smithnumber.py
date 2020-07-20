@@ -52,4 +52,4 @@ def fun_nth_smithnumber(n):
         j += 1
     return j-1
 # print(fun_nth_smithnumber(1))
-print(sum1([]))
+print(sum1([2,11]))
