@@ -21,7 +21,7 @@ def secondlargest(L,i):
 	for i in range(1,len(L)):
 		if x < L[i]:
 			x = i
-	if count == 0:
+	if i == 0:
 		L.remove(x)
 		i += 1
 		return secondlargest(L,i)
