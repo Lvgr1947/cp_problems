@@ -25,7 +25,8 @@ def secondlargest(L,i):
 		L.remove(x)
 		i += 1
 		return secondlargest(L,i)
-
+	else:
+		return 
 
 def recursion_secondlargest(L):
 	l = len(L)
