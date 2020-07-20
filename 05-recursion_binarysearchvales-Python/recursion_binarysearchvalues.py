@@ -30,7 +30,7 @@ def search(L,i,j,v):
 	elif ord(v) < ord(L[mid]):
 		a = tuple((mid,L[mid]))
 		l.append(a)
-		return search(L,i,mid,v)
+		return search(L,i,mid-1,v)
 	elif ord(v) > ord(L[mid]):
 		a = tuple((mid,L[mid]))
 		l.append(a)
