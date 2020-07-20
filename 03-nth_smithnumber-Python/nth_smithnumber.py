@@ -16,23 +16,22 @@ def isprime(n):
 def smithnumber(n):
     i = 2
     l = []
-    j= 0
-    print(n)
     while(n>1):
-        print(n)
         if isprime(i):
             while(n%i == 0):
-                print(n,i)
                 l.append(i)
                 n //= i
         i += 1
-        # j += 1
-        # if j == 10:
-        #     break
-    # print(l)
     if 4==sum(l):
-        return l
+        return True
+    return False
 
 def fun_nth_smithnumber(n):
+    i = -1
+    j = 2
+    while(i != n):
+        if smithnumber(j):
+            i += 1
+        j += 1
     return smithnumber(n)
-print(fun_nth_smithnumber(4))
+print(fun_nth_smithnumber(0))
