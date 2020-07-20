@@ -18,7 +18,7 @@ def recursion_powersof3ton(n):
 		if powersOf3ToN(n):
 			l.append(n)
 			print(l)
-		recursion_powersof3ton(n-1)
+		return recursion_powersof3ton(n-1)
 	elif len(l)>0:
 		sorted(l)
 		return l
