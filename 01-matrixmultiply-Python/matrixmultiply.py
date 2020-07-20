@@ -6,7 +6,7 @@
 
 def fun_matrixmultiply(m1, m2):
     if len(m1[0]) == len(m2):
-        m1
+        m3 = [[m1[j]]]
 
 
 
