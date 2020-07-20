@@ -34,8 +34,10 @@ def ismostlymagicsquare(a):
 def fixmostlymagicsquare(L):
 	a,b= ismostlymagicsquare(L)
 	# a== sum
-	b == true
+	# b == True
 	p = 0
+	# a == starting 3 elements rows....next 3 elements coulms
+	
 	for i in range(len(a)//2):
 		c = 0
 		for j in range(len(a)//2):
