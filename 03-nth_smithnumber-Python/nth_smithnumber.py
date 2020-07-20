@@ -45,4 +45,4 @@ def fun_nth_smithnumber(n):
             i += 1
         j += 1
     return j-1
-print(fun_nth_smithnumber(1))
+print(fun_nth_smithnumber(0))
