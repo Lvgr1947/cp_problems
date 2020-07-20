@@ -15,4 +15,5 @@ def lookandsay(a):
 			c = 1
 	return(l)
 def longestdigitrun(n):
-	n = list(map())
+	n = list(map(int,str(n)))
+	
