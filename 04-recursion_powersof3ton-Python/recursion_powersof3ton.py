@@ -21,3 +21,4 @@ def recursion_powersof3ton(n):
 		return l
 	else:
 		return None
+print(recursion_powersof3ton(9))
