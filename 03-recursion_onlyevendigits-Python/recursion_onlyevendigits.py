@@ -10,14 +10,14 @@
 s = 0
 def onlyEvenDigits(L):
 	global s
-	print(L)
+	# print(L)
 	if L > 0:
 		r = L % 10
 		if r % 2 == 0:
 			s = s + r
 		L = L//10
 		if L == 0:
-			# print(s)
+			
 			a=s
 			s=0
 			return a
