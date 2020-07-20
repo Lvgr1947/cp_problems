@@ -24,12 +24,12 @@ def search(L,i,j,v):
 		l.append(tuple((mid,L[mid])))
 		return l
 	elif ord(v) < ord(L[mid]):
-		l += tuple((mid,L[mid]))
+		l.append(tuple((mid,L[mid])))
 		j = mid
 		return search(L,i,mid,v)
 	elif ord(v) > ord(L[mid]):
 		i = mid
-		l += tuple((mid,L[mid]))
+		l.append(tuple((mid,L[mid])))
 		return search(L,mid,j,v)
 	return list(l)
 def recursion_binarysearchvalues(L, v):
