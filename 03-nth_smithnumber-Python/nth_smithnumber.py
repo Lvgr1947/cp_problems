@@ -11,6 +11,7 @@ def sum1(l):
     for i in l:
         s += str(i)
     s = list(s)
+    
 def isprime(n):
 	if n > 1:
 		for i in range(2,n):
