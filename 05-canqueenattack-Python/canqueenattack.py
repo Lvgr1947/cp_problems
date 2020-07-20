@@ -16,4 +16,4 @@ def canqueenattack(qR, qC, oR, oC):
 			elif abs(i-j) == abs(oR-oC):
 				board[i][j] = True
 	print(board)
-print(canqueenattack(4, 5, 6, 7))
+print(canqueenattack(1, 1, 1, 2))
