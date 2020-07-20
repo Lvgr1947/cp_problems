@@ -21,6 +21,7 @@ def secondlargest(L):
 	for i in range(1,len(L)):
 		if x < L[i]:
 			x = i
+	L[i] =None
 	
 def recursion_secondlargest(L):
 	l = len(L)
