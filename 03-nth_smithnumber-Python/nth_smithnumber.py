@@ -11,7 +11,8 @@ def sum1(l):
     for i in l:
         s += str(i)
     s = list(s)
-    num = list(map(int, s)) 
+    num = list(map(int, s))
+    return sum() 
 def isprime(n):
 	if n > 1:
 		for i in range(2,n):
