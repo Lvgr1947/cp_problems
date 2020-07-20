@@ -7,6 +7,6 @@
 
 def fun_numberofpoolballrows(balls):
 	n = 1
-	while((n*(n+1))//2 > balls):
+	while((n*(n+1))//2 < balls):
 		n -= 1
 
