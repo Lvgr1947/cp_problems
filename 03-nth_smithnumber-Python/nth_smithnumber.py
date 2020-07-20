@@ -7,7 +7,7 @@
 # so fun_nthsmithnumber(0) should return 4
 # so fun_nthsmithnumber(1) should return 22
 def sum2(n):
-    num = sum(list(map(int,list(map(int,list(str(n)))))))
+    return sum(list(map(int,list(map(int,list(str(n)))))))
 def sum1(l):
     s = ""
     for i in range(len(l)):
