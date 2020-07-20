@@ -14,4 +14,5 @@ def fun_carrylessadd(x, y):
 		c = a + b
 		if c >9:
 			c -= 10
-		sum = sum + c*pow(10,len())
+		sum = sum + c*pow(10,len(str(x)))
+		
