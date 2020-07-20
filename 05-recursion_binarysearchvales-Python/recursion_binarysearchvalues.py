@@ -20,9 +20,9 @@ l=[]
 def search(L,i,j,v):
 	global l
 	if (i+j)%2 == 0:
-		mid = ((i+j)//2)-1
+		mid = ((i+j)//2)
 	else:
-		mid = (i+j)//2
+		mid = (i+j)//2)
 	if ord(v) == ord(L[mid]):
 		a = tuple((mid,L[mid]))
 		l.append(a)
