@@ -36,11 +36,7 @@ def recursion_binarysearchvalues(L, v):
 	i = 0
 	j=len(L)
 	return search(L,i,j,v)
-	
-if recursion_binarysearchvalues(['a', 'c', 'f', 'g', 'm', 'q'],'a') == [(2, 'f'), (0, 'a')]:
-	print("yes")
-else:
-	print("no")
+print('a',recursion_binarysearchvalues(['a', 'c', 'f', 'g', 'm', 'q'],'a'))
 
 
 	
