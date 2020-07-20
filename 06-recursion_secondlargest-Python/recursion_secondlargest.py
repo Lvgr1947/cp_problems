@@ -18,7 +18,6 @@
 # values as we recursively traversed the list. Also, you may not use loops/iteration in this problem
 def secondlargest(L,i):
 	x = L[0]
-	count = 0
 	for i in range(1,len(L)):
 		if x < L[i]:
 			x = i
