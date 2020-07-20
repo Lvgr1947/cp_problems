@@ -20,7 +20,7 @@ def fun_carrylessadd(x, y):
 			c -= 10
 		print("c after", c)
 		print(sum*pow(10,len(str(i))), "sum")
-		if c != 0: sum = sum + c*pow(10,len(str(i)))
+		if c != 0: sum = sum + c*pow(10,i)
 		print(sum, "sum")
 		i += 1
 		x //= 10
