@@ -19,16 +19,15 @@
 l=[]
 def search(L,i,j,v):
 	global l
-	if (i+j)%2 == 0:
-		mid = ((i+j)//2)
-	else:
-		mid = (i+j)//2)
+	# if (i+j)%2 == 0:
+	mid = ((i+j)//2)
+	# else:
+	# 	mid = ((i+j)//2)-1
 	if ord(v) == ord(L[mid]):
 		a = tuple((mid,L[mid]))
 		l.append(a)
 		return l
 	elif ord(v) < ord(L[mid]):
-		print(ord(L[mid]))
 		a = tuple((mid,L[mid]))
 		l.append(a)
 		return search(L,i,mid,v)
