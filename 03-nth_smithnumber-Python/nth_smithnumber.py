@@ -16,7 +16,6 @@ def sum1(l):
         s += str(l[i])
     s = list(s)
     num = list(map(int, s))
-    print(num)
     return sum(num)
 
 def isprime(n):
@@ -37,7 +36,7 @@ def smithnumber(n):
                 n //= i
         i += 1
     if p == sum1(l):
-        # print(l)
+        # print(sum1(l), l)
         return True
     return False
 
@@ -45,10 +44,11 @@ def fun_nth_smithnumber(n):
     i = -1
     j = 2
     # return smithnumber(22)
-    while(i != n):
-        print(j)
-        if smithnumber(j) :
+    while(i < n):
+        if smithnumber(j) and isprime(j) != True:
+            print(j)
+            print(i)
             i += 1
         j += 1
     return j-1
-print(fun_nth_smithnumber(1))
+print(fun_nth_smithnumber(0))
