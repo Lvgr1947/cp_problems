@@ -16,6 +16,7 @@ def recursion_powersof3ton(n):
 		global l
 		# print(powersOf3ToN(n))
 		if powersOf3ToN(n):
+			print(l)
 			l.append(n)
 		recursion_powersof3ton(n-1)
 	elif len(l)>0:
