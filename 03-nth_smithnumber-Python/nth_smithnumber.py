@@ -35,7 +35,7 @@ def smithnumber(n):
                 l.append(i)
                 n //= i
         i += 1
-    if 4 == sum1(l):
+    if sum2(p) == sum1(l):
         # print(sum1(l), l)
         return True
     return False
