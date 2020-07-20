@@ -13,7 +13,7 @@ def sum2(n):
 def sum1(l):
     s = 0
     for i in range(len(l)):
-        s += sum(list(map(int,list(map(int,list(str(i)))))))
+        s += sum(list(map(int,list(map(int,list(str(l[i])))))))
     return s
 
 def isprime(n):
