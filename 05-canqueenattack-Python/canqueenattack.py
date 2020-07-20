@@ -7,4 +7,4 @@ def canqueenattack(qR, qC, oR, oC):
 	rows = 8
 	columns = 8
 	board = [[False for x in range(columns)] for y in range(rows)]
-	board1 = [[]]
+	board = [[]]
