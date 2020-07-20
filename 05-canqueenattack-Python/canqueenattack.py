@@ -19,7 +19,7 @@ def canqueenattack(qR, qC, oR, oC):
 		for j in range(columns):
 			if i == qR and board[i][j] == True:
 				return True
-			elif j == qC:
+			elif j == qC and board[i][j] == True:
 				return True
 			elif abs(i-j) == abs(qR-qC) or abs(i+j) == abs(qR+qC):
 				return True
