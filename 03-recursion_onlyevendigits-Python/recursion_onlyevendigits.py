@@ -15,8 +15,9 @@ def onlyEvenDigits(L):
 		if r % 2 == 0:
 			s = s + r
 		L = L//10
-		print(s)
+		
 		if L == 0:
+			print(s)
 			a=s
 			s=0
 			return a
