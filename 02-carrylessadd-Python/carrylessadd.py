@@ -17,6 +17,7 @@ def fun_carrylessadd(x, y):
 			c -= 10
 		sum += c*pow(10,len(str(i)))
 		print(sum, "sum")
+		i += 1
 		x //= 10
 		y //= 10
 	
