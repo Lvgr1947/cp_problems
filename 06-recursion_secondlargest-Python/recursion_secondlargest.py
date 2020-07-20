@@ -18,19 +18,28 @@
 # values as we recursively traversed the list. Also, you may not use loops/iteration in this problem
 def secondlargest(L,k):
 	x = L[0]
+	y = 0
 	for i in range(1,len(L)):
 		if x < L[i]:
-			x = i
+			y = i
 	if k == 0:
-		L.remove(L[x])
+		print(L[y])
+		L.remove(L[y])
 		k += 1
 		return secondlargest(L,k)
 	else:
-		return L[x]
+		return L[y]
 
 def recursion_secondlargest(L):
 	l = len(L)
 	i = 0
 	if l>1:
 		return secondlargest(L,i)
+	else:
+		return None
 print(recursion_secondlargest([1,2,3,4,5]))
+print(recursion_secondlargest([4,3]))
+print(recursion_secondlargest([4,4,3]))
+print(recursion_secondlargest([-3,-4]))
+print(recursion_secondlargest([4]))
+print(recursion_secondlargest([]))
