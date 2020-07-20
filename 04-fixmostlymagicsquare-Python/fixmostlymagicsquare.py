@@ -37,7 +37,7 @@ def fixmostlymagicsquare(L):
 	# b == True
 	p = 0
 	# a == starting 3 elements rows....next 3 elements coulms
-	# search in the row (starting 3elemts) 3......0..p=0
+	# search in the row (starting 3elemts) 3......0..p=0....012 345
 	for i in range(len(a)//2):
 		c = 0
 		for j in range(len(a)//2):
