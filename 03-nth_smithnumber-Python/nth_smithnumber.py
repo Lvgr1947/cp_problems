@@ -14,9 +14,9 @@ def isprime(n):
 		return True
 
 def smithnumber(n):
-    i = 2
+    i,j = 2,-1
     l = []
-    while(n>0):
+    while(True):
         if isprime(i):
             while(n%i==0):
                 l.append(i)
