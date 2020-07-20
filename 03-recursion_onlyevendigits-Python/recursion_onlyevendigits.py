@@ -10,6 +10,8 @@
 def onlyEvenDigits(L):
 	if L%2 == 0:
 		return L
+	else:
+		return 0
 def fun_recursion_onlyevendigits(l): 
 	
 	return []
