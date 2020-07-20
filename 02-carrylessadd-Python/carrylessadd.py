@@ -18,6 +18,7 @@ def fun_carrylessadd(x, y):
 		x //= 10
 		y //= 10
 	if x > 0 and y == 0:
-		sum += x*pow(10,len(str(x)))
+		sum += x*pow(10,len(str(sum)))
 	elif x == 0 and y > 0:
-		 sum += y*pow(10,len(str(y)))
+		 sum += y*pow(10,len(str(sum)))
+	return sum
