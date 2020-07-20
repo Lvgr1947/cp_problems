@@ -29,9 +29,11 @@ def smithnumber(n):
 def fun_nth_smithnumber(n):
     i = -1
     j = 2
+    return smithnumber()
     while(i != n):
+        print(j)
         if smithnumber(j):
             i += 1
         j += 1
     return j-1
-print(fun_nth_smithnumber(0))
+print(fun_nth_smithnumber(1))
