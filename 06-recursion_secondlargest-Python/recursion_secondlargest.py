@@ -24,7 +24,8 @@ def secondlargest(L,i):
 			x = i
 	if count == 0:
 		L.remove(x)
-		return secondlargest(L)
+		i += 1
+		return secondlargest(L,i)
 
 
 def recursion_secondlargest(L):
