@@ -21,7 +21,7 @@ def search(L,i,j,v):
 	global l
 	mid = ((i+j)//2)-1
 	if ord(v) == ord(L[mid]):
-		l.append(tuple((mid,L[mid])))
+		l.append((mid,L[mid]))
 		return l
 	elif ord(v) < ord(L[mid]):
 		l.append(tuple((mid,L[mid])))
