@@ -48,7 +48,7 @@ def fixmostlymagicsquare(L):
 			break
 		# i....columns check
 		# [0,01,02,03,04,05,06]
-		# [18,15,15,15,15,18,]
+		# [18,15,15,15,15,18]
 	i = (a.index(a[p],len(a)//2,len(a)))-(len(a)//2)
 	k = 0
 	e = L[p][i]
