@@ -14,7 +14,7 @@ def onlyEvenDigits(L):
 		r = L % 10
 		if r % 2 == 0:
 			s = s + r
-		onlyEvenDigits(int(L // 10))
+		onlyEvenDigits(L // 10)
 	else:
 		return 0
 def fun_recursion_onlyevendigits(l): 
