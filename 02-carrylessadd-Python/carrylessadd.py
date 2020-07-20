@@ -10,8 +10,7 @@ def fun_carrylessadd(x, y):
 	sum = 0
 	i = 0
 	while(x>0 and y>0):
-		a = x%10
-		print(a, "a")
+		a, = x%10
 		b = y%10
 		c = a + b
 		if c >9:
