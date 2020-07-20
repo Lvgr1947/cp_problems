@@ -31,7 +31,7 @@ def smithnumber(n):
     l = []
     while(n>1):
         if isprime(i):
-            while(n%i == 0):
+            while(n%i == 0 and n >1):
                 l.append(i)
                 n //= i
         i += 1
@@ -45,10 +45,12 @@ def fun_nth_smithnumber(n):
     j = 2
     # return smithnumber(22)
     while(i < n):
-        if smithnumber(j) and isprime(j) != True:
-            print(j)
+        print(j)
+        if isprime(j) != True:
+        if smithnumber(j):
+            
             print(i)
             i += 1
         j += 1
     return j-1
-print(fun_nth_smithnumber(0))
+print(fun_nth_smithnumber(1))
