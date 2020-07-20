@@ -13,5 +13,5 @@ def fun_matrixmultiply(m1, m2):
     else:
         return None
 
-fun_matrixmultiply
+fun_matrixmultiply([[1,3],[2,4],[2,5]], [[1,3,2,2], [2,4,5,1]])
 
