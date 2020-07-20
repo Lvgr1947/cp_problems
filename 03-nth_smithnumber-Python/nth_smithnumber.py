@@ -26,13 +26,13 @@ def smithnumber(n):
                 l.append(i)
                 n //= i
         i += 1
-        j += 1
-        if j == 10:
-            break
-    print(l)
+        # j += 1
+        # if j == 10:
+        #     break
+    # print(l)
     if 4==sum(l):
-        return True
+        return l
 
 def fun_nth_smithnumber(n):
-    smithnumber(n)
+    return smithnumber(n)
 print(fun_nth_smithnumber(4))
