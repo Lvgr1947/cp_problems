@@ -16,4 +16,4 @@ def fun_numberofpoolballrows(balls):
 	if ((n)*(n+1))//2 == balls:
 		return n
 	return n+1
-print(fun_numberofpoolballrows(9))
+print(fun_numberofpoolballrows(6))
