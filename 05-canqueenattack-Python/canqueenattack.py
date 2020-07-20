@@ -30,3 +30,11 @@ def canqueenattack(qR, qC, oR, oC):
 	# 	k -= 1
 	# 	if k<0: break
 print(canqueenattack(1, 1, 1, 2))
+print(canqueenattack(1, 1, 1, 2))
+print(canqueenattack(1, 1, 1, 2))
+print(canqueenattack(1, 1, 1, 2))
+print(canqueenattack(1, 1, 1, 2))
+print(canqueenattack(1, 1, 1, 2))
+print(canqueenattack(1, 1, 1, 2))
+print(canqueenattack(1, 1, 1, 2))
+print(canqueenattack(1, 1, 1, 2))
