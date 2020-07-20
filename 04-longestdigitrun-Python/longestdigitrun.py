@@ -15,5 +15,4 @@ def lookandsay(a):
 			c = 1
 	return(l)
 def longestdigitrun(n):
-	# Your code goes here
-	pass
+	n = list(map())
