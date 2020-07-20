@@ -18,14 +18,13 @@ def onlyEvenDigits(L):
 		if L == 0:
 			a=s
 			s=0
-			return s
+			return a
 		onlyEvenDigits(L)
 
 	else:
 		return 0
 def fun_recursion_onlyevendigits(l):
 	for i in range(len(l)):
-		global s
 		print(s)
 		l[i] = onlyEvenDigits(l[i])
 	return l
