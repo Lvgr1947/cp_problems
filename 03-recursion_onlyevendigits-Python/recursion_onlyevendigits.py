@@ -19,7 +19,7 @@ def onlyEvenDigits(L):
 		return onlyEvenDigits(L)
 
 	else:
-		a=s
+		a=s//10
 		s = 0
 		print(a)
 		return a
