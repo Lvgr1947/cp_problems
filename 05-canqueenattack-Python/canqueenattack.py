@@ -13,7 +13,7 @@ def canqueenattack(qR, qC, oR, oC):
 				board[i][j] = True
 			elif j == oC:
 				board[i][j] = True
-			elif abs(i-j) == abs(oR-oC) and abs(i+j) == abs(oR+oC):
+			elif abs(i-j) == abs(oR-oC) or abs(i+j) == abs(oR+oC):
 				board[i][j] = True
 	k = 7
 	while(True):
