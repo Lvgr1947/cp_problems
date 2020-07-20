@@ -15,5 +15,6 @@ def canqueenattack(qR, qC, oR, oC):
 				board[i][j] = True
 			elif abs(i-j) == abs(oR-oC):
 				board[i][j] = True
-	for
+	for j in range(8):
+		print(board)
 canqueenattack(1, 1, 1, 2)
