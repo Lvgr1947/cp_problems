@@ -23,8 +23,8 @@ def secondlargest(L,k):
 			x = i
 	if k == 0:
 		L.remove(x)
-		i += 1
-		return secondlargest(L,i)
+		k += 1
+		return secondlargest(L,k)
 	else:
 		return L
 
