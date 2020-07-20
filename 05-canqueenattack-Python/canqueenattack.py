@@ -10,4 +10,4 @@ def canqueenattack(qR, qC, oR, oC):
 	for i in range(rows):
 		for j in range(columns):
 			if i == oR:
-				board[i][j]
+				board[i][j] = true
