@@ -18,6 +18,7 @@
 # Hint: Do not slice the list L, but rather adjust the indexes into L. 
 
 def recursion_binarysearchvalues(L, v):
-	# Your codes goes here
-	pass
+	i=0
+	j=len(L)
+	
 	
