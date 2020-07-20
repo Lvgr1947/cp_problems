@@ -24,6 +24,8 @@ def search(L,i,j,v):
 	# else:
 	# 	mid = ((i+j)//2)-1
 	if i==j and mid == j and mid == i:
+		a = tuple((mid,L[mid]))
+		l.append(a)
 		return l
 	if ord(v) == ord(L[mid]):
 		a = tuple((mid,L[mid]))
