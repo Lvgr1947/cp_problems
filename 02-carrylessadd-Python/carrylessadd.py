@@ -6,5 +6,6 @@
 
 
 def fun_carrylessadd(x, y):
-	return 0
+	if x==0 or y==0: return x+y
+	
 
