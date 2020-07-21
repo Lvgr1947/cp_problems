@@ -17,6 +17,6 @@ def nthwithproperty309(n):
 		if  istrue(str(j**5)):
 			i += 1
 		j += 1
-	return j
+	return j-1
 
 print(nthwithproperty309(0))
