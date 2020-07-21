@@ -14,7 +14,7 @@ def nthwithproperty309(n):
 	i = -1
 	j = 1
 	while(i < n):
-		if  istrue(str(n**5)):
+		if  istrue(str(j**5)):
 			i += 1
 	return
 
