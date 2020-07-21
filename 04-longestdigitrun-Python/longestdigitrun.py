@@ -15,21 +15,21 @@ def lookandsay(a):
 			c = 1
 	return(l)
 def longestdigitrun(n):
-	n = list(map(int,str(n)))
+	n = list(map(int,str(abs(n))))
 	n = lookandsay(n)
 	a = 0
 	b = 0
 	for i in n:
 		if i[0] == a and i[1]< b:
-			b = i[i]
+			b = i[1]
 		elif i[0]>a:
 			b = i[1]
 			a = i[0]
 	return b
 print(longestdigitrun(117773732))
-print(longestdigitrun(123456))
-print(longestdigitrun(123456))
-print(longestdigitrun(123456))
-print(longestdigitrun(123456))
-print(longestdigitrun(123456))
-print(longestdigitrun(123456))
+print(longestdigitrun(-677886))
+print(longestdigitrun(112233455567))
+print(longestdigitrun(44332211))
+print(longestdigitrun(4422113355))
+print(longestdigitrun(12345))
+print(longestdigitrun(123330001))
