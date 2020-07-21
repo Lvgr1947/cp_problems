@@ -11,9 +11,9 @@ import math
 def knumber(x):
     y = x**2
     a = len(str(y))
-    print(a)
     if a%2 != 0:
         a -= 1
+    print(a)
     y1 = y // (10**(a//2))
     print( "before",y1)
     y2 = y % (10**(a//2))
