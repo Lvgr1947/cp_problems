@@ -11,4 +11,6 @@ import math
 
 def fun_nth_kaprekarnumber(n):
     i , j =  0 , 2
-    if 
+    if n == 0:
+        return 1
+    while()
