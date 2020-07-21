@@ -10,8 +10,8 @@
 import math
 def knumber(x):
     y = x**2
-    y1 = y // (10**(len(y)//2))
-    y1 += y % (10**(len(y)//2))
+    y1 = y // (10**(len(str(y))//2))
+    y1 += y % (10**(len(str(y))//2))
     if x == y1:
         return True
     return False
@@ -24,4 +24,5 @@ def fun_nth_kaprekarnumber(n):
         if knumber(j):
             i += 1
         j += 1
-    return 
+    return j
+print(fun_nth_kaprekarnumber(1))
