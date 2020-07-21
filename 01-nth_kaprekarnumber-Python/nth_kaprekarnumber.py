@@ -24,5 +24,5 @@ def fun_nth_kaprekarnumber(n):
         if knumber(j):
             i += 1
         j += 1
-    return j
+    return j-1
 print(fun_nth_kaprekarnumber(1))
