@@ -19,3 +19,4 @@ def nthwithproperty309(n):
 		j += 1
 	return j
 
+print(nthwithproperty309(0))
