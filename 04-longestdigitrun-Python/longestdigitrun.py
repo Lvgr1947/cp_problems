@@ -27,3 +27,9 @@ def longestdigitrun(n):
 			a = i[0]
 	return b
 print(longestdigitrun(123456))
+print(longestdigitrun(123456))
+print(longestdigitrun(123456))
+print(longestdigitrun(123456))
+print(longestdigitrun(123456))
+print(longestdigitrun(123456))
+print(longestdigitrun(123456))
