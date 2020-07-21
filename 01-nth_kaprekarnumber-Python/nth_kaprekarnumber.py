@@ -20,8 +20,7 @@ def knumber(x):
         print("knumber",x)
         return True
     else:
-        y2 -= y1
-        y2 += int(str(y1).strip("0"))
+        y2 += int(str(y1).strip("0")) - y1
     return False
 
 def fun_nth_kaprekarnumber(n):
