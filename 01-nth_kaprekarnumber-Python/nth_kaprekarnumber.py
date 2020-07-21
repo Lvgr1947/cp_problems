@@ -11,7 +11,6 @@ import math
 def knumber(x):
     y = x**2
     a = len(str(y))
-    b = a
     if a%2 != 0:
         b += 1
     y1 = y // (10**(b//2))
