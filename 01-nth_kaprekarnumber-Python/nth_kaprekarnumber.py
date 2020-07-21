@@ -11,6 +11,7 @@ import math
 def knumber(x):
     y = x**2
     a = len(str(y))
+    b = a
     if a%2 != 0:
         a -= 1
     print(a)
