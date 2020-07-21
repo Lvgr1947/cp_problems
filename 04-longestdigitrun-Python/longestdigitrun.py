@@ -18,8 +18,11 @@ def longestdigitrun(n):
 	n = list(map(int,str(n)))
 	n = lookandsay(n)
 	a = 0
-	index = 0
+	b = 0
 	for i in n:
-		if i[0]>a:
+		if i[0] == a and i[1]< b:
+			b = i[i]
+		elif i[0]>a:
+			b = i[1]
 			a = i[0]
 print(longestdigitrun(123456))
