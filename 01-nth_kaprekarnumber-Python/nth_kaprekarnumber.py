@@ -25,7 +25,7 @@ def knumber(x):
         return True
     elif y1>0:
         y3 = str(y1)
-        print(y3)
+        # print(y3)
         y3 = y3.strip("0")
         y2 += int(y3) - y1
         if y2 == x:
@@ -43,10 +43,10 @@ def fun_nth_kaprekarnumber(n):
             i += 1
         j += 1
     return j-1
-print(fun_nth_kaprekarnumber(20), "final")
+# print(fun_nth_kaprekarnumber(20), "final")
 print(knumber(9))
 print(knumber(297))
 print(knumber(4879))
 print(knumber(7777))
 print(knumber(77778))
-print(knumber(77778))
+# print(knumber(77778))
