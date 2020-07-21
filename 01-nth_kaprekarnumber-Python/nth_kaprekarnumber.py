@@ -43,10 +43,10 @@ def fun_nth_kaprekarnumber(n):
             i += 1
         j += 1
     return j-1
-# print(fun_nth_kaprekarnumber(20), "final")
-# print(knumber(9))
+print(fun_nth_kaprekarnumber(20), "final")
+print(knumber(9))
 print(knumber(297))
-# print(knumber(4879))
-# print(knumber(7777))
-# print(knumber(77778))
-# # print(knumber(77778))
+print(knumber(4879))
+print(knumber(7777))
+print(knumber(77778))
+print(knumber(77778))
