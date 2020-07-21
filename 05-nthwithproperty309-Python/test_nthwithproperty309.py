@@ -12,8 +12,8 @@ import pytest
 	(4,575),
 	(5,635),
 	(6,662),
-	(2014),
-	(7813, 1000)
+	(100,2014),
+	(7813)
 ])
 
 def test_nthwithproperty309(x, result):
