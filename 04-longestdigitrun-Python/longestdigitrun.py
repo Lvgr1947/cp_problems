@@ -17,8 +17,7 @@ def lookandsay(a):
 def longestdigitrun(n):
 	n = list(map(int,str(abs(n))))
 	n = lookandsay(n)
-	a = 0
-	b = 0
+	a
 	for i in n:
 		if i[0] == a and i[1]< b: b = i[1]
 		elif i[0]>a:a,b = i[0],i[1]
