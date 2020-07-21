@@ -18,11 +18,8 @@ def knumber(x):
     y1 = y // (10**(b//2))
     # print( "before",y1)
     y2 = y % (10**(b//2))
-    # print("after",y2)
     y2 = y1+y2
-    if x == y2:
-        # print("knumber",x)
-        return True
+    if x == y2: return True
     elif y1>0:
         y3 = str(y1)
         # print(y3)
