@@ -10,6 +10,7 @@
 import math
 def knumber(x):
     y = x**2
+    print()
     y1 = y // (10**((len(str(y))//2)))
     print( "before",y1)
     y1 += y % (10**(len(str(y))//2))
