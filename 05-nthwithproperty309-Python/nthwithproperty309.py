@@ -7,8 +7,7 @@
 def istrue(x):
 	L = [0,1,2,3,4,5,6,7,8,9]
 	for i in range(len(L)):
-		if str(L[i]) not in x:
-			return False
+		if str(L[i]) not in x:return False
 	return True
 def nthwithproperty309(n):
 	i = -1
