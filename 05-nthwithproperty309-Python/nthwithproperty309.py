@@ -15,3 +15,4 @@ def lookandsay(a):
 	return(l)
 def nthwithproperty309(n):
 	l = lookandsay(list(str(n**5)))
+	
