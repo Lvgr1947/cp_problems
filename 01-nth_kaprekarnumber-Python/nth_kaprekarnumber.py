@@ -8,6 +8,9 @@
 
 
 import math
+def knumber(x):
+    y = x**2
+    
 
 def fun_nth_kaprekarnumber(n):
     i , j =  0 , 2
