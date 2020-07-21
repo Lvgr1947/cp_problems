@@ -15,7 +15,7 @@ def knumber(x):
     print( "before",y1)
     y2 = y % (10**(len(str(y))//2))
     print("after",y1)
-    y = y1 + 
+    y2 = y1+
     if x == y1:
         print("knumber",x)
         return True
