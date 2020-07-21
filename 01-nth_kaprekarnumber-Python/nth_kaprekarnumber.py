@@ -42,6 +42,6 @@ def fun_nth_kaprekarnumber(n):
 print(knumber(9))
 print(knumber(297))
 print(knumber(4879))
+print(knumber(7777))
 print(knumber(77778))
-print(knumber(77778))
-print(knumber(77778))
+# print(knumber(77778))
