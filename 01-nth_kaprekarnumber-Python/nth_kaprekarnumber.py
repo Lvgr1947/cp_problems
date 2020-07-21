@@ -10,7 +10,7 @@
 import math
 def knumber(x):
     y = x**2
-    
+    y1 = y//(len(y))
 
 def fun_nth_kaprekarnumber(n):
     i , j =  0 , 2
