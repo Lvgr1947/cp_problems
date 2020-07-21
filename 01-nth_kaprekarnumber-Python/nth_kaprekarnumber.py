@@ -10,4 +10,4 @@
 import math
 
 def fun_nth_kaprekarnumber(n):
-    return 1;
+    i , j =  
