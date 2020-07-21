@@ -14,14 +14,14 @@ def knumber(x):
     b = a
     if a%2 != 0:
         b += 1
-    print(a)
+    # print(a)
     y1 = y // (10**(b//2))
-    print( "before",y1)
+    # print( "before",y1)
     y2 = y % (10**(b//2))
-    print("after",y2)
+    # print("after",y2)
     y2 = y1+y2
     if x == y2:
-        print("knumber",x)
+        # print("knumber",x)
         return True
     elif y1>0:
         y3 = str(y1)
