@@ -21,7 +21,7 @@ def knumber(x):
         return True
     else:
         y2 -= y1
-        y1 = str(y1).strip("0")
+        y1 = int(str(y1).strip("0")
     return False
 
 def fun_nth_kaprekarnumber(n):
