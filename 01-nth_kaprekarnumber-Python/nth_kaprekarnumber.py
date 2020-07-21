@@ -11,6 +11,7 @@ import math
 def knumber(x):
     y = x**2
     a = len(str(y))
+    print(a)
     if a%2 != 0:
         a -= 1
     y1 = y // (10**(a//2))
@@ -42,7 +43,7 @@ def fun_nth_kaprekarnumber(n):
         j += 1
     return j-1
 # print(fun_nth_kaprekarnumber(20), "final")
-print(knumber(9))
+# print(knumber(9))
 print(knumber(297))
 print(knumber(4879))
 print(knumber(7777))
