@@ -25,5 +25,5 @@ def longestdigitrun(n):
 		elif i[0]>a:
 			b = i[1]
 			a = i[0]
-	
+	return b
 print(longestdigitrun(123456))
