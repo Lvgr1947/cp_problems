@@ -10,22 +10,25 @@
 import math
 def knumber(x):
     y = x**2
-    print
     y1 = y // (10**(((len(str(y)))//2)+1))
-    print( "before",y1)
+    # print( "before",y1)
     y2 = y % (10**(len(str(y))//2))
-    print("after",y1)
+    # print("after",y1)
     y2 = y1+y2
     if x == y2:
         print("knumber",x)
         return True
-    else:
-        y2 += int(str(y1).strip("0")) - y1
+    elif y1>0:
+        y3 = str(y1)
+        print(y3)
+        y3 = y3.strip("0")
+        y2 += int(y3) - y1
         if y2 == x:
+            print("knumber",x)
             return True
         else:
             return False
-
+    return False
 def fun_nth_kaprekarnumber(n):
     i , j =  0 , 2
     if n == 0:
@@ -35,5 +38,5 @@ def fun_nth_kaprekarnumber(n):
             i += 1
         j += 1
     return j-1
-# print(fun_nth_kaprekarnumber(20))
+# print(fun_nth_kaprekarnumber(20), "final")
 print(knumber(10))
