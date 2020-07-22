@@ -34,4 +34,4 @@ def fun_nth_lefttruncatableprime(n):
             j += 1
         if j == n: return i
         i += 1
- 
+print(fun_nth_lefttruncatableprime)
