@@ -16,11 +16,11 @@ def isprime(n):
 def istrue(n):
     if "0" not in str(n) and isprime(n):
         if n < 10:
-            return n
+            return True
         n = str(n)
         n = int(n[1:len(n)])
         if isprime(n):
-            return True
+            return istrue(n)
         return False
     return False
 
