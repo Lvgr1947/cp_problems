@@ -29,6 +29,6 @@ def ishappyprimenumber(n):
             if n not in l:
                 l.append(n)
             else:
-                return True
+                return False
             if n == 1:
                 return True
