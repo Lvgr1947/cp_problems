@@ -22,7 +22,7 @@ def lookandsay(a):
 				# print("2nd",c)
 				# print("a",a)
 				a //= c
-			
+			l.append(j)
 		c += 1
 	return True
 		
