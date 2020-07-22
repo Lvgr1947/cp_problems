@@ -10,7 +10,7 @@
 import math
 def knumber(x):
     y = x**2
-    a = len(str(y))
+    b = len(str(y))
     if a%2 != 0:
         b += 1
     y1 = y // (10**(b//2))
@@ -19,7 +19,6 @@ def knumber(x):
     if x == y2: return True
     elif y1>0:
         y3 = str(y1)
-        # print(y3)
         y3 = y3.strip("0")
         y2 += int(y3) - y1
         if y2 == x:return True
