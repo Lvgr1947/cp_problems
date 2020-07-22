@@ -34,7 +34,8 @@ def nthpowerfulnumber(n):
 			i += 1
 		j += 1
 	return j-1
-print(nthpowerfulnumber(1))
+
+# print(nthpowerfulnumber(1))
 # print(nthpowerfulnumber(2))
 # print(nthpowerfulnumber(3))
 # print(nthpowerfulnumber(4))
