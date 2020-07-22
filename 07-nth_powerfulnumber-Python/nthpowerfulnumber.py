@@ -36,10 +36,10 @@ def nthpowerfulnumber(n):
 		j += 1
 	return j-1
 # print(lookandsay(64))
-print(nthpowerfulnumber(1))
-print(nthpowerfulnumber(2))
-print(nthpowerfulnumber(3))
-print(nthpowerfulnumber(4))
+print(nthpowerfulnumber(10))
+print(nthpowerfulnumber(29))
+print(nthpowerfulnumber(39))
+# print(nthpowerfulnumber(4))
 # print(nthpowerfulnumber(5))
 # print(nthpowerfulnumber(6))
 # print(nthpowerfulnumber(7))
