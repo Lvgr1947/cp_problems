@@ -5,6 +5,7 @@
 # There are total 4260 left-truncatable primes.
 # So nthLeftTruncatablePrime(0) retunearestKaprekarNumber(n)rns 2, and 
 # nthLeftTruncatablePrime(10) returns 53.
+import math
 def isprime(n):
 	if n > 1:
 		for i in range(2,n):
@@ -24,7 +25,7 @@ def istrue(n):
     return False
 
 
-import math
+
 
 def fun_nth_lefttruncatableprime(n):
     i,j = 2,-1
