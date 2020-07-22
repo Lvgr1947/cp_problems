@@ -22,4 +22,5 @@ def fun_nth_carolprime(n):
         k = ((2**i - 1)**2 - 2)
         if isprime(k):
             j += 1
+        if j == n: return k
         
