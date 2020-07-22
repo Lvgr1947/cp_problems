@@ -14,11 +14,13 @@ def lookandsay(a):
 	c=2
 	while(True):
 		if (a//2)+1>c and a> c**2:
-		print(a,c)
-		if isprime(c) and a%c == 0:
-			if a%(c**2) != 0:
-				return False
-		c += 1
+			print(a,c)
+			if isprime(c) and a%c == 0:
+				if a%(c**2) != 0:
+					return False
+			c += 1
+		else:
+			return False
 	return True
 		
 	
