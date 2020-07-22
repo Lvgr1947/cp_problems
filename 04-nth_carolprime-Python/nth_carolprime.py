@@ -10,5 +10,7 @@
 
 
 def fun_nth_carolprime(n):
-    k = 0
-    
+    i = 2
+    j = -1
+    while(True):
+        k = ((2**k - 1)**2 - 2)  
