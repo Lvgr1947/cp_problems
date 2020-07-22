@@ -35,4 +35,14 @@ def ishappyprimenumber(n):
                 return True
     return False
 print(ishappyprimenumber(2))
-
+print(ishappyprimenumber(23))
+print(ishappyprimenumber(2))
+print(ishappyprimenumber(2))
+print(ishappyprimenumber(2))
+print(ishappyprimenumber(2))
+print(ishappyprimenumber(2))
+print(ishappyprimenumber(2))
+print(ishappyprimenumber(2))
+print(ishappyprimenumber(2))
+print(ishappyprimenumber(2))
+print(ishappyprimenumber(2))
