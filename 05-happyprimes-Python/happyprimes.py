@@ -34,15 +34,3 @@ def ishappyprimenumber(n):
             if n == 1:
                 return True
     return False
-print(ishappyprimenumber(2))
-print(ishappyprimenumber(23))
-print(ishappyprimenumber(1008))
-print(ishappyprimenumber(31))
-print(ishappyprimenumber(940))
-print(ishappyprimenumber(19))
-print(ishappyprimenumber(1000))
-print(ishappyprimenumber(331))
-print(ishappyprimenumber(1418854))
-print(ishappyprimenumber(709))
-print(ishappyprimenumber(6))
-print(ishappyprimenumber(833))
