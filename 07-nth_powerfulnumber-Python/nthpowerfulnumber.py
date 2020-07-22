@@ -20,11 +20,9 @@ def lookandsay(a):
 			while(a%c == 0) and j<2:
 				j += 1
 				# print("2nd",c)
-				l.append(j)
 				# print("a",a)
 				a //= c
-			if j==1:
-				return False
+			
 		c += 1
 	return True
 		
