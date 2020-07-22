@@ -42,7 +42,6 @@ def nthpowerfulnumber(n):
 # print(nthpowerfulnumber(7))
 # print(nthpowerfulnumber(8))
 # print(nthpowerfulnumber(9))
-print(lookandsay(2))
 # print(nthpowerfulnumber(7))
 # print(nthpowerfulnumber(8))
 # print(nthpowerfulnumber(9))
