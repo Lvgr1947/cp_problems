@@ -23,4 +23,4 @@ def fun_nth_carolprime(n):
         if isprime(k):
             j += 1
         if j == n: return k
-        
+        i +
