@@ -12,7 +12,8 @@ def isprime(n):
 			return True
 def lookandsay(a):
 	c=2
-	while((a//2)+1>c and a> c**2):
+	while(True):
+		if (a//2)+1>c and a> c**2:
 		print(a,c)
 		if isprime(c) and a%c == 0:
 			if a%(c**2) != 0:
