@@ -28,4 +28,8 @@ def lookandsay(a):
 def nthpowerfulnumber(n):
 	if n == 0:
 		return 1
-	while
+	i,j = 0,2
+	while(i<n):
+		if lookandsay(j):
+			i += 1
+		
