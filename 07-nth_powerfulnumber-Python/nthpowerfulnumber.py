@@ -13,7 +13,7 @@ def isprime(n):
 def lookandsay(a):
 	c=2
 	l = a//2
-	
+	l1 = []
 		
 	
 def nthpowerfulnumber(n):
