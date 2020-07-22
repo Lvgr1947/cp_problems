@@ -9,6 +9,12 @@
 # Note: the autograder will grade each of the following functions, so they are required. 
 # However, they also are here specifically because they are just the right helper 
 # functions to make nthHappyNumber(n) easier to write!
+def sumofsquaresofdigit(n):
+	n = list(map(int,str(n)))
+	sum = 0
+	for i in range(len(n)):
+		sum += n[i]**2
+	return sum
 def ishappyprimenumber(n):
     # Your code goes here
     pass
