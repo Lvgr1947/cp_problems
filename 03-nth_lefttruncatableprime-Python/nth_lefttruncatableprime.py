@@ -35,3 +35,8 @@ def fun_nth_lefttruncatableprime(n):
         if j == n: return i
         i += 1
 print(fun_nth_lefttruncatableprime(0))
+print(fun_nth_lefttruncatableprime(0))
+print(fun_nth_lefttruncatableprime(0))
+print(fun_nth_lefttruncatableprime(10))
+print(fun_nth_lefttruncatableprime(15))
+print(fun_nth_lefttruncatableprime(20))
