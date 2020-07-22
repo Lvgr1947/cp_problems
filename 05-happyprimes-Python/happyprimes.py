@@ -33,3 +33,4 @@ def ishappyprimenumber(n):
                 return False
             if n == 1:
                 return True
+    return False
