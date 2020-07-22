@@ -34,3 +34,4 @@ def ishappyprimenumber(n):
             if n == 1:
                 return True
     return False
+print()
