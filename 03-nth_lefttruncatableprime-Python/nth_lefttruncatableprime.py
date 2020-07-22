@@ -13,12 +13,14 @@ def isprime(n):
 		else:
 			return True
 def istrue(n):
-    if n < 10:
-        return n
-    n = str(n)
-    n = int(n[1:len(n)])
-    if isprime(n):
-        return True
+    if "0" not in str(n) and isprime(n):
+        if n < 10:
+            return n
+        n = str(n)
+        n = int(n[1:len(n)])
+        if isprime(n):
+            return True
+        return False
     return False
 
 
@@ -26,4 +28,7 @@ import math
 
 def fun_nth_lefttruncatableprime(n):
     i,j = 2,-1
-    whil
+    while(True):
+        if istrue(i):
+            j += 1
+            
