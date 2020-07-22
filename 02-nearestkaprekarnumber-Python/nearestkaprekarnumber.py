@@ -13,7 +13,7 @@ import math
 def knumber(x):
     y = x**2
     b = len(str(y))
-    if a%2 != 0:
+    if b%2 != 0:
         b += 1
     y1 = y // (10**(b//2))
     y2 = y % (10**(b//2))
@@ -35,3 +35,4 @@ def fun_nearestkaprekarnumber(n):
             i += 1
         j += 1
     return j-1
+print(knumber(0))
