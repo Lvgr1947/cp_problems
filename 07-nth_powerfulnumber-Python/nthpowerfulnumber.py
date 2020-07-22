@@ -12,13 +12,14 @@ def isprime(n):
 			return True
 def lookandsay(a):
 	c=2
-	while((a//2)+1>c):
-		print(a,c)
+	l = a//2 + 1
+	while(l>c):
+		# print(a,c)
 		if isprime(c) and a%c == 0:
 			if a%(c**2) != 0:
 				return False
 		c += 1
-		if a//2==c:
+		if l-1 == c:
 			return True
 		
 	return False
