@@ -32,9 +32,6 @@ def fun_nearestkaprekarnumber(n):
     while(True):
         if knumber(j):
             if j>=n:
-                print(j,"j")
-                print(i,"i")
-                print(abs(j-n),"abs1",abs(i-n),"abs2")
                 if abs(j-n) < abs(i-n):
                     return j
                 elif abs(j-n) > abs(i-n):
