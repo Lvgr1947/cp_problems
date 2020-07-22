@@ -8,4 +8,5 @@ def sumofsquaresofdigit(n):
 	n = list(map(int,str(n)))
 	sum = 0
 	for i in range(len(n)):
-		sum += n[i] 
+		sum += n[i]**2
+	return sum 
