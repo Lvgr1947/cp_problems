@@ -12,6 +12,7 @@ def isprime(n):
 			return True
 def lookandsay(a):
 	c=2
+	
 	l = a//2
 	l1 = []
 	while(l>=c):
@@ -20,6 +21,7 @@ def lookandsay(a):
 			if a%(c**2) != 0 and a%c == 0:
 				return False
 		c += 1
+	return True
 	
 def nthpowerfulnumber(n):
 	if n == 0:
