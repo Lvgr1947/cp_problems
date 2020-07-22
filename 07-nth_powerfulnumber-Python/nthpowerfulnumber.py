@@ -23,7 +23,7 @@ def lookandsay(a):
 			if j==1:
 				return False
 		c += 1
-	return 
+	return True
 		
 	
 def nthpowerfulnumber(n):
