@@ -27,7 +27,7 @@ def knumber(x):
         return False
     return False
 def fun_nearestkaprekarnumber(j):
-    i
+    i = 0
     while(True):
         if knumber(j):
             i += 1
