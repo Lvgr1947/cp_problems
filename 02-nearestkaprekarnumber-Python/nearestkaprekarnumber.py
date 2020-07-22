@@ -28,10 +28,9 @@ def knumber(x):
     return False
 def fun_nearestkaprekarnumber(n):
     i = 0
-    j = 0
+    j = 2
     while(True):
         if knumber(j):
-            print(j)
             if abs(j-n) < abs(i-n):
                 return j
             elif abs(j-n) == abs(i-n):
