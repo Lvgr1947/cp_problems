@@ -22,7 +22,8 @@ def lookandsay(a):
 			if a%(c**2) != 0 and a%c == 0:
 				return False
 		c += 1
-	
+	if check == 0:
+		return False
 	return True
 	
 def nthpowerfulnumber(n):
