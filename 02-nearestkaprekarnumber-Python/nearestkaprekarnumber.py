@@ -30,7 +30,7 @@ def fun_nearestkaprekarnumber(n):
     i , j =  0 , 2
     if n == 0:
         return 1
-    while(i<n):
+    while(True):
         if knumber(j):
             i += 1
         j += 1
