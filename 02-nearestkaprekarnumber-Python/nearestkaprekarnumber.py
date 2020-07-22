@@ -9,8 +9,29 @@
 # Hint: one way to solve this is to start at n and grow in each direction until you find a Kaprekar number.
 
 
-
 import math
-
-def fun_nearestkaprekarnumber(n):
-    return 1
+def knumber(x):
+    y = x**2
+    b = len(str(y))
+    if a%2 != 0:
+        b += 1
+    y1 = y // (10**(b//2))
+    y2 = y % (10**(b//2))
+    y2 = y1+y2
+    if x == y2: return True
+    elif y1>0:
+        y3 = str(y1)
+        y3 = y3.strip("0")
+        y2 += int(y3) - y1
+        if y2 == x:return True
+        return False
+    return False
+def fun_nth_kaprekarnumber(n):
+    i , j =  0 , 2
+    if n == 0:
+        return 1
+    while(i<n):
+        if knumber(j):
+            i += 1
+        j += 1
+    return j-1
