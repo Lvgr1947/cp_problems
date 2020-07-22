@@ -31,10 +31,10 @@ def fun_nearestkaprekarnumber(n):
     j = 0
     while(True):
         if knumber(j):
-            if abs(j-n) < ans(i-n):
+            if abs(j-n) < abs(i-n):
                 return j
             elif abs(j-n) == abs(i-n):
                 return min(i,j)
             i = j
         j += 1
-print(knumber(0))
+print(fun_nearestkaprekarnumber(47))
