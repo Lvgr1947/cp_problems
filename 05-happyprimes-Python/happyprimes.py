@@ -26,5 +26,5 @@ def ishappyprimenumber(n):
     if isprime(n):
         l = []
         while(True):
-            if n not in l:
+            if n not in l and n != 1:
                 l.append(n)
