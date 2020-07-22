@@ -31,4 +31,4 @@ def fun_nth_lefttruncatableprime(n):
     while(True):
         if istrue(i):
             j += 1
-            
+        
