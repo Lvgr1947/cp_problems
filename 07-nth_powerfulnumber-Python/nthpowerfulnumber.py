@@ -12,7 +12,7 @@ def isprime(n):
 			return True
 def lookandsay(a):
 	c=2
-	while(a>1 and (a//2)+1>c):
+	while((a//2)+1>c):
 		if isprime(c) and a%c == 0:
 			if a%(c**2) != 0:
 				return False
