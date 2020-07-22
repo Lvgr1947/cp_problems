@@ -24,7 +24,12 @@ def lookandsay(a):
 				a //= c
 			l.append(j)
 		c += 1
-	for i in l
+	for i in range(len(l)):
+		c = 0
+		for j in range(len(l)):
+			if i != j and l[i] == l[j]:
+				c 
+		
 	return True
 		
 	
