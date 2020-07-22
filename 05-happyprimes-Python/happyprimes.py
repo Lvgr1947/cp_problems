@@ -28,4 +28,3 @@ def ishappyprimenumber(n):
         while(True):
             if n not in l:
                 l.append(n)
-                
