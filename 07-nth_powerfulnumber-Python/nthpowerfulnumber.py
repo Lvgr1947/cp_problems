@@ -18,14 +18,6 @@ def lookandsay(a):
 				return False
 		c += 1
 	return True
-	for i in range(len(l)):
-		c = 0
-		for j in range(len(l)):
-			if i != j and l[i] == l[j]:
-				c == 1
-		if c == 0:
-			return False
-		return True
 		
 	
 def nthpowerfulnumber(n):
