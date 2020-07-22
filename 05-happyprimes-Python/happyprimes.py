@@ -25,4 +25,6 @@ def sumofsquaresofdigit(n):
 def ishappyprimenumber(n):
     if isprime(n):
         l = []
-        while(True)
+        while(True):
+            if n not in l:
+                s
