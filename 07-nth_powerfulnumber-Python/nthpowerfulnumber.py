@@ -18,6 +18,8 @@ def lookandsay(a):
 			if a%(c**2) != 0:
 				return False
 		c += 1
+		if a//2==c:
+			return True
 		
 	return False
 		
