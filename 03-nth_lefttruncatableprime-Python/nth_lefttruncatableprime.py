@@ -25,5 +25,5 @@ def istrue(n):
 import math
 
 def fun_nth_lefttruncatableprime(n):
-    i,j = 2,0
+    i,j = 2,-1
     whil
