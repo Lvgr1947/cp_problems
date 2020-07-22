@@ -24,6 +24,7 @@ def lookandsay(a):
 				a //= c
 			l.append(j)
 		c += 1
+	for i in l
 	return True
 		
 	
