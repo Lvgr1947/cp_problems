@@ -15,13 +15,13 @@ def lookandsay(a):
 	l = []
 	while(a>1 and a>c):
 		if isprime(c):
-			print("1stwhile",c)
+			# print("1stwhile",c)
 			j=0
 			while(a%c == 0) and j<2:
 				j += 1
-				print("2nd",c)
+				# print("2nd",c)
 				l.append(j)
-				print("a",a)
+				# print("a",a)
 				a //= c
 			if j==1:
 				return False
