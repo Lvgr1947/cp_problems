@@ -23,6 +23,7 @@ def lookandsay(a):
 			if j==1:
 				return False
 		c += 1
+	return 
 		
 	
 def nthpowerfulnumber(n):
@@ -32,4 +33,5 @@ def nthpowerfulnumber(n):
 	while(i<n):
 		if lookandsay(j):
 			i += 1
+		j += 1
 	return j
