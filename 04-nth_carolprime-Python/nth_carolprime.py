@@ -23,6 +23,9 @@ def fun_nth_carolprime(n):
         if isprime(k):
             print(k)
             j += 1
+        elif (j+1)%3 == 0 and isprime(k//7):
+            
+            j += 1
         if j == n: return k
         i += 1
 # fun_nth_carolprime(5)
