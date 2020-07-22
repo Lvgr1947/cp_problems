@@ -35,3 +35,4 @@ def ishappyprimenumber(n):
                 return True
     return False
 print(ishappyprimenumber(2))
+
