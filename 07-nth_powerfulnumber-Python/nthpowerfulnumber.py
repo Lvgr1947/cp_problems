@@ -14,20 +14,24 @@ def lookandsay(a):
 	c=2
 	l = a//2
 	l1 = []
-	
-		
+	while(l>=c):
+		if isprime(c) :
+			print(a,c)
+			if a%(c**2) != 0 and a%c == 0:
+				return False
+		c += 1
 	
 def nthpowerfulnumber(n):
 	if n == 0:
 		return 1
-	i,j = 0,2
+	i,j = 0,9
 	while(i<n):
 		if lookandsay(j):
 			i += 1
 		j += 1
 	return j-1
-print(lookandsay(7))
-# print(nthpowerfulnumber(1))
+print(lookandsay(64))
+# print(nthpowerfulnumber(10))
 # print(nthpowerfulnumber(2))
 # print(nthpowerfulnumber(3))
 # print(nthpowerfulnumber(4))
