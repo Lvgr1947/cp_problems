@@ -21,6 +21,7 @@ def fun_nth_carolprime(n):
     while(True):
         k = ((2**i - 1)**2 - 2)
         if isprime(k):
+            print(k)
             j += 1
         if j == n: return k
         i += 1
