@@ -14,9 +14,9 @@ def lookandsay(a):
 	c=2
 	l = []
 	while(a>1 and a>c):
+		j=0
 		if isprime(c):
 			# print("1stwhile",c)
-			j=0
 			while(a%c == 0) and j<2:
 				j += 1
 				# print("2nd",c)
