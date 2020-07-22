@@ -32,4 +32,4 @@ def nthpowerfulnumber(n):
 	while(i<n):
 		if lookandsay(j):
 			i += 1
-		
+	return j
