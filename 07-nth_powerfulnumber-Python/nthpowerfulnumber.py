@@ -28,7 +28,8 @@ def lookandsay(a):
 		c = 0
 		for j in range(len(l)):
 			if i != j and l[i] == l[j]:
-				c 
+				c == 1
+		if c!=1
 		
 	return True
 		
