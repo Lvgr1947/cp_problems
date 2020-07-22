@@ -12,7 +12,7 @@ def isprime(n):
 			return True
 def lookandsay(a):
 	c=2
-	
+	check = 0
 	l = a//2
 	l1 = []
 	while(l>=c):
