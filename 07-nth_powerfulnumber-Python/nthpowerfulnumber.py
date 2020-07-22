@@ -13,12 +13,15 @@ def isprime(n):
 def lookandsay(a):
 	c=2
 	l = []
-	while(a>0):
+	while(a>1):
 		if isprime(c):
+			print("1stwhile",c)
 			j=0
 			while(a%c == 0) and j<2:
 				j += 1
+				print("2nd",c)
 				l.append(j)
+				print("a",a)
 				a //= c
 			if j==1:
 				return False
@@ -35,3 +38,17 @@ def nthpowerfulnumber(n):
 			i += 1
 		j += 1
 	return j
+print(nthpowerfulnumber(56))
+# print(nthpowerfulnumber(39))
+# print(nthpowerfulnumber(29))
+# print(nthpowerfulnumber(17))
+# print(nthpowerfulnumber(18))
+# print(nthpowerfulnumber(19))
+# print(nthpowerfulnumber(4))
+# print(nthpowerfulnumber(5))
+# print(nthpowerfulnumber(6))
+# print(nthpowerfulnumber(7))
+# print(nthpowerfulnumber(8))
+# print(nthpowerfulnumber(9))
+# print(nthpowerfulnumber(10))
+# print(nthpowerfulnumber(0))
