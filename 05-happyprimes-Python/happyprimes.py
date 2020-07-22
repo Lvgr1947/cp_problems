@@ -9,6 +9,7 @@
 # Note: the autograder will grade each of the following functions, so they are required. 
 # However, they also are here specifically because they are just the right helper 
 # functions to make nthHappyNumber(n) easier to write!
+
 def sumofsquaresofdigit(n):
 	n = list(map(int,str(n)))
 	sum = 0
