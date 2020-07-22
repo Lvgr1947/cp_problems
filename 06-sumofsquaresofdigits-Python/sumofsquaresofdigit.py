@@ -6,4 +6,6 @@
 
 def sumofsquaresofdigit(n):
 	n = list(map(int,str(n)))
-	for i in range()
+	sum = 0
+	for i in range(len(n)):
+		sum 
