@@ -17,11 +17,12 @@ def lookandsay(a):
 	l1 = []
 	while(l>=c):
 		if isprime(c) :
-			
+			check += 1
 			print(a,c)
 			if a%(c**2) != 0 and a%c == 0:
 				return False
 		c += 1
+	
 	return True
 	
 def nthpowerfulnumber(n):
