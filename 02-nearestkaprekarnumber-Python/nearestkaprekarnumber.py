@@ -26,8 +26,8 @@ def knumber(x):
         if y2 == x:return True
         return False
     return False
-def fun_nearestkaprekarnumber(n):
-    i , j =  0 , 2
+def fun_nearestkaprekarnumber(j):
+    i
     while(True):
         if knumber(j):
             i += 1
