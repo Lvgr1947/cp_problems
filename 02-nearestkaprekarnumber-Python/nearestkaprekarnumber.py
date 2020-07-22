@@ -35,6 +35,6 @@ def fun_nearestkaprekarnumber(n):
                 return j
             elif abs(j-n) == abs(i-n):
                 return min(i,j)
+            i = j
         j += 1
-    return j-1
 print(knumber(0))
