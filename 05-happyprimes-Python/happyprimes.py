@@ -27,4 +27,5 @@ def ishappyprimenumber(n):
         l = []
         while(True):
             if n not in l:
-                s
+                l.append(n)
+                
