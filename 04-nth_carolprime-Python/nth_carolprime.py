@@ -20,14 +20,10 @@ def fun_nth_carolprime(n):
     j = -1
     while(True):
         k = ((2**i - 1)**2 - 2)
-        print(j,k, "out")
         a = (j+1)//3
         if isprime(k) or ( (j+1)%3 == 0 and isprime(k//(7**a))):
             print(k)
             j += 1
-        # elif :
-        #     print(k, "inside")
-        #     j += 1
         if j == n: return k
         i += 1
 fun_nth_carolprime(6)
