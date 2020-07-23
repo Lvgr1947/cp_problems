@@ -7,7 +7,6 @@
 l = []
 def isprime(n):
 	if n>1:
-		c = 2
 		for i in range(2,n//2+1):
 			if n%i == 0:
 				return False
@@ -30,10 +29,10 @@ def nthcircularprime(n):
 	global l
 	l = []
 	i , j = 0 , 1
-	while(j<n):
+	while(i<n):
 		if iscircular(j):
 			i += 1
 		j += 1
 	return j
 print(nthcircularprime(1))
-print(isprime(1))
+print(isprime(2))
