@@ -34,3 +34,4 @@ def nthcircularprime(n):
 			i += 1
 		j += 1
 	return j
+print(iscircular(1931))
