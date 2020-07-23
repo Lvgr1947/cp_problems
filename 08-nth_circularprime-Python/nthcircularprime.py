@@ -16,8 +16,8 @@ def isprime(n):
 def iscircular(n):
 	global l
 	if n not in l:
-		l.append(n)
 		if isprime(n):
+			l.append(n)
 			n = str(n)
 			n = int(n[1:] + n[0])
 			return iscircular(n)
