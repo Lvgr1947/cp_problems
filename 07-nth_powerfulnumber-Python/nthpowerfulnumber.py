@@ -16,8 +16,8 @@ def lookandsay(a):
 	l = a//2
 	l1 = []
 	while(l>=c):
-		if isprime(c) :
-			check += 1
+		if isprime(c) and  :
+			check == 1
 			print(a,c)
 			if a%(c**2) != 0 and a%c == 0:
 				return False
