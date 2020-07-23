@@ -20,6 +20,7 @@ def lookandsay(a):
 			check == 1
 			print(a,c)
 			if a%(c**2) != 0 :
+				print(a%c)
 				return False
 		c += 1
 	if check == 0:
