@@ -29,7 +29,8 @@ def isugly(n):
     if check == 1:return True
     return False
 def fun_nth_uglynumber(n):
-    i , j = -1 , 1
+    i , j = 0 , 1
+    if n == 
     while(i<n):
         if isugly(j):
             i += 1
