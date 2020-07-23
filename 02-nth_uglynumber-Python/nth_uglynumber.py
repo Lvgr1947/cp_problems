@@ -26,6 +26,7 @@ def isugly(n):
             if i not in l:
                 return False
         i += 1
+    if check =
     return True
 def fun_nth_uglynumber(n):
     i , j = -1 , 1
