@@ -7,4 +7,7 @@
 
 def nthcircularprime(n):
 	i , j = 0 , 1
-	while()
+	while(j<n):
+		if iscircular(n):
+			i += 1
+	
