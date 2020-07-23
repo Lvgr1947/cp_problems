@@ -4,6 +4,10 @@
 
 def isugly(n):
     i = 2
-    whi
+    while(i < n//2 +1):
+        if isprime(i) and n%i == 0:
+            if i not in l:
+                return False
+    return True
 def fun_nth_uglynumber(n):
     return 0
