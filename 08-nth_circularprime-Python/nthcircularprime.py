@@ -17,6 +17,7 @@ def iscircular(n):
 	if n not in l:
 		if isprime(n):
 			l.append(n)
+			print(n)
 			n = str(n)
 			if len(n) == 1:
 				if isprime(int(n)): return True
@@ -40,5 +41,5 @@ def nthcircularprime(n):
 	print(m)
 	return j-1
 # print(nthcircularprime(47))
-# print(isprime(2))
-print(iscircular(131))
+print(isprime(2))
+# print(iscircular(131))
