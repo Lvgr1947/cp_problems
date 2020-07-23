@@ -19,8 +19,10 @@ def isprime(n) :
 def isugly(n):
     i = 2
     l = [2,3,5]
+    check =0
     while(i < n//2 +1):
         if isprime(i) and n%i == 0:
+            check = 1
             if i not in l:
                 return False
         i += 1
