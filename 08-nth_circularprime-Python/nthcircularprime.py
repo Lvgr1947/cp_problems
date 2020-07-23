@@ -4,6 +4,7 @@
 # numbers resulting from rotating its digits are also prime. The first Circular primes are 2, 3, 
 # 5, 7, 11, 13, 17, 31, 37, 71, 73, 79, 97, 113, 131, 197... To see why 197 is a Circular prime, 
 # note that 197 is prime, as is 971 (rotated left), as is 719 (rotated left again).
+import math
 l = []
 def isprime(n) : 
   
@@ -25,22 +26,15 @@ def isprime(n) :
         i = i + 6
       
     return True
-def checkCircular(N) : 
-    count = 0
-    temp = N 
-    while (temp > 0) : 
-        count = count + 1
-        temp = temp / 10
-          
-    num = N; 
-    while (isPrime(num)) : 
-        rem = num % 10
-        div = num / 10
-        num = (int)((math.pow(10, count - 1))* rem)+ div 
-        if (num == N) : 
-            return True
-      
-    return False
+def checkCircular(N) :
+	if N<10 and isprime(N):
+		return True
+	num = N
+	while(isprime(num)):
+		num = str(num)
+		num = int(str(num[1:]) + str(num[0]))
+		if num == N: return True
+	return False
 def nthcircularprime(n):
 	global l
 	l = []
@@ -55,7 +49,7 @@ def nthcircularprime(n):
 	print(m)
 	return j-1
 # print(nthcircularprime(47))
-print(isprime(131))
-print(isprime(311))
-print(isprime(113))
-# print(iscircular(131))
+# print(isprime(131))
+# print(isprime(311))
+# print(isprime(113))
+print(checkCircular(131))
