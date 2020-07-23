@@ -4,8 +4,13 @@
 # numbers resulting from rotating its digits are also prime. The first Circular primes are 2, 3, 
 # 5, 7, 11, 13, 17, 31, 37, 71, 73, 79, 97, 113, 131, 197... To see why 197 is a Circular prime, 
 # note that 197 is prime, as is 971 (rotated left), as is 719 (rotated left again).
-
+l = []
+def iscircular(n):
+	global l
+	
 def nthcircularprime(n):
+	global l
+	l = []
 	i , j = 0 , 1
 	while(j<n):
 		if iscircular(n):
