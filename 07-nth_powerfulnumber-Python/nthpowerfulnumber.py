@@ -18,9 +18,9 @@ def lookandsay(a):
 	while(l>=c):
 		if isprime(c) and a%c == 0 :
 			check = 1
-			print(a,c)
+			# print(a,c)
 			if a%(c**2) != 0 :
-				print(a%(c**2))
+				# print(a%(c**2))
 				return False
 		c += 1
 	if check == 0:
