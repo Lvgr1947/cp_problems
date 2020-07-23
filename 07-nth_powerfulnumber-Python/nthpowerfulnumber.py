@@ -19,7 +19,7 @@ def lookandsay(a):
 		if isprime(c) and a%c == 0 :
 			check == 1
 			print(a,c)
-			if a%(c**2) != 0 and a%c == 0:
+			if a%(c**2) != 0 :
 				return False
 		c += 1
 	if check == 0:
@@ -35,7 +35,7 @@ def nthpowerfulnumber(n):
 			i += 1
 		j += 1
 	return j-1
-print(lookandsay(29))
+print(lookandsay(1000))
 # print(nthpowerfulnumber(10))
 # print(nthpowerfulnumber(29))
 # print(nthpowerfulnumber(39))
