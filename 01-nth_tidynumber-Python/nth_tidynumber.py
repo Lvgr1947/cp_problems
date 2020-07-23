@@ -5,6 +5,11 @@
 # fun_nth_tidynumber(5) = 6
 # fun_nth_tidynumber(15) = 17
 # fun_nth_tidynumber(35) = 46
-
+def istidy(n):
+    n = list(map(int,str(n)))
+    m = sorted(n)
+    if m == n:
+        return True
+    return False
 def fun_nth_tidynumber(n):
-    return 0
+    i , j = -1,
