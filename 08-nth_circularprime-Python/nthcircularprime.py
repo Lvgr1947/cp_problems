@@ -35,3 +35,4 @@ def nthcircularprime(n):
 		j += 1
 	return j
 print(nthcircularprime(1))
+print(isprime(1))
