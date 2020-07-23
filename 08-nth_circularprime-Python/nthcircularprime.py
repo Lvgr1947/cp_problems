@@ -5,35 +5,49 @@
 # 5, 7, 11, 13, 17, 31, 37, 71, 73, 79, 97, 113, 131, 197... To see why 197 is a Circular prime, 
 # note that 197 is prime, as is 971 (rotated left), as is 719 (rotated left again).
 l = []
-def isprime(n):
-	if n>1:
-		for i in range(2,n//2+1):
-			if n%i == 0 and i != n:
-				return False
-		return True
-	return False
-def iscircular(n):
-	global l
-	if n not in l:
-		if isprime(n):
-			l.append(n)
-			print(n)
-			n = str(n)
-			if len(n) == 1:
-				if isprime(int(n)): return True
-			n = int(n[1:] + n[0])
-			return iscircular(n)
-		else:
-			return False
-	else:
-		return True
+def isprime(n) : 
+  
+    # Corner cases 
+    if (n <= 1) : 
+        return False
+    if (n <= 3) : 
+        return True
+          
+    # This is checked so that we can skip 
+    # middle five numbers in below loop 
+    if (n % 2 == 0 or n % 3 == 0) : 
+        return False
+  
+    i = 5
+    while i * i <= n : 
+        if (n % i == 0 or n % (i + 2) == 0) : 
+            return False
+        i = i + 6
+      
+    return True
+def checkCircular(N) : 
+    count = 0
+    temp = N 
+    while (temp > 0) : 
+        count = count + 1
+        temp = temp / 10
+          
+    num = N; 
+    while (isPrime(num)) : 
+        rem = num % 10
+        div = num / 10
+        num = (int)((math.pow(10, count - 1))* rem)+ div 
+        if (num == N) : 
+            return True
+      
+    return False
 def nthcircularprime(n):
 	global l
 	l = []
 	m = []
 	i , j = 1 , 1
 	while(i < n):
-		if iscircular(j):
+		if checkCircular(j):
 			# print( i, j , n)
 			m.append((i,j))
 			i += 1
