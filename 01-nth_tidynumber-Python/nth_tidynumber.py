@@ -16,4 +16,5 @@ def fun_nth_tidynumber(n):
     while(i<n):
         if istidy(j):
             i += 1
-        
+        j += 1
+    return j
