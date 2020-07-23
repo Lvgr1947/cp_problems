@@ -28,6 +28,7 @@ def iscircular(n):
 def nthcircularprime(n):
 	global l
 	l = []
+	m = []
 	i , j = 0 , 1
 	while(i < n):
 		if iscircular(j):
