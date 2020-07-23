@@ -10,4 +10,4 @@ def nthcircularprime(n):
 	while(j<n):
 		if iscircular(n):
 			i += 1
-	
+	return j
