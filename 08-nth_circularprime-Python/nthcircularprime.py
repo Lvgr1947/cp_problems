@@ -41,5 +41,7 @@ def nthcircularprime(n):
 	print(m)
 	return j-1
 # print(nthcircularprime(47))
+print(isprime(131))
+print(isprime(311))
 print(isprime(2))
 # print(iscircular(131))
