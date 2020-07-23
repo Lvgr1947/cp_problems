@@ -9,6 +9,7 @@ def isugly(n):
         if isprime(i) and n%i == 0:
             if i not in l:
                 return False
+        i += 1
     return True
 def fun_nth_uglynumber(n):
-    return 0
+    i , j =
