@@ -20,7 +20,7 @@ def isugly(n):
     i = 2
     l = [2,3,5]
     check =0
-    while(i < n//2 +1):
+    while(i < n):
         if isprime(i) and n%i == 0:
             check = 1
             if i not in l:
