@@ -29,12 +29,12 @@ def nthcircularprime(n):
 	global l
 	l = []
 	i , j = 0 , 1
-	while(i != n):
+	while(i < n):
 		if iscircular(j):
 			print( i, j , n)
 			i += 1
 		j += 1
-	return j
+	return j-1
 print(nthcircularprime(1))
 # print(isprime(2))
 # print(iscircular(2))
