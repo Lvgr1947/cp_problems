@@ -39,7 +39,7 @@ def nthcircularprime(n):
 	global l
 	l = []
 	m = []
-	i , j = 1 , 1
+	i , j = 0 , 1
 	while(i < n):
 		if checkCircular(j):
 			# print( i, j , n)
