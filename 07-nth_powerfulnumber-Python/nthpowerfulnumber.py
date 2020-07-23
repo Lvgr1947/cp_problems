@@ -37,9 +37,9 @@ def nthpowerfulnumber(n):
 		j += 1
 	return j-1
 # print(lookandsay(1000))
-print(nthpowerfulnumber(10))
-# print(nthpowerfulnumber(29))
-# print(nthpowerfulnumber(39))
+print(nthpowerfulnumber(1))
+print(nthpowerfulnumber(29))
+print(nthpowerfulnumber(39))
 # print(nthpowerfulnumber(4))
 # print(nthpowerfulnumber(5))
 # print(nthpowerfulnumber(6))
