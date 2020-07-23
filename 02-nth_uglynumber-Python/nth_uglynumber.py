@@ -16,4 +16,5 @@ def fun_nth_uglynumber(n):
     while(i<n):
         if isugly(j):
             i += 1
-        
+        j += 1
+    return j-1
