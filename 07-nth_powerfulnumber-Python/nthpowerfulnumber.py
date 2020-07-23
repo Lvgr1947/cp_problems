@@ -17,7 +17,7 @@ def lookandsay(a):
 	l1 = []
 	while(l>=c):
 		if isprime(c) and a%c == 0 :
-			check == 1
+			check = 1
 			print(a,c)
 			if a%(c**2) != 0 :
 				print(a%(c**2))
@@ -36,8 +36,8 @@ def nthpowerfulnumber(n):
 			i += 1
 		j += 1
 	return j-1
-print(lookandsay(1000))
-# print(nthpowerfulnumber(10))
+# print(lookandsay(1000))
+print(nthpowerfulnumber(10))
 # print(nthpowerfulnumber(29))
 # print(nthpowerfulnumber(39))
 # print(nthpowerfulnumber(4))
