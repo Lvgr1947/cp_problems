@@ -10,9 +10,8 @@ def iscircular(n):
 	if n not in l:
 		if isprime(n):
 			n = str(n)
-			n = int(n[1:] + n[0]
-
-			return iscircular()
+			n = int(n[1:] + n[0])
+			return iscircular(n)
 def nthcircularprime(n):
 	global l
 	l = []
