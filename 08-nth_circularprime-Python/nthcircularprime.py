@@ -30,7 +30,7 @@ def nthcircularprime(n):
 	l = []
 	i , j = 0 , 1
 	while(j<n):
-		if iscircular(n):
+		if iscircular(j):
 			i += 1
 		j += 1
 	return j
