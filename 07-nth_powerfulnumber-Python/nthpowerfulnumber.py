@@ -30,7 +30,7 @@ def lookandsay(a):
 def nthpowerfulnumber(n):
 	if n == 0:
 		return 1
-	i,j = 0,9
+	i,j = 0,2
 	while(i<n):
 		if lookandsay(j):
 			i += 1
