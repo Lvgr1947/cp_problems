@@ -44,5 +44,5 @@ print(fun_nth_uglynumber(5))
 print(fun_nth_uglynumber(6))
 print(fun_nth_uglynumber(7))
 
-print(fun_nth_uglynumber(10))
+print(fun_nth_uglynumber(8))
 print(fun_nth_uglynumber(9))
