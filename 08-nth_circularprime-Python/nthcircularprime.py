@@ -6,5 +6,5 @@
 # note that 197 is prime, as is 971 (rotated left), as is 719 (rotated left again).
 
 def nthcircularprime(n):
-	# Your code goes here
-	pass
+	i , j = 0 , 1
+	while
