@@ -39,4 +39,6 @@ print(fun_nth_uglynumber(0))
 print(fun_nth_uglynumber(1))
 print(fun_nth_uglynumber(2))
 print(fun_nth_uglynumber(3))
+
+print(fun_nth_uglynumber(10))
 print(fun_nth_uglynumber(9))
