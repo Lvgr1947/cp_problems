@@ -42,13 +42,13 @@ def nthcircularprime(n):
 	i , j = 0 , 1
 	while(i < n):
 		if checkCircular(j):
-			# print( i, j , n)
-			m.append((i,j))
 			i += 1
+			print(i,j)
+			m.append((i,j))
 		j += 1
 	print(m)
 	return j-1
-print(nthcircularprime(10))
+print(nthcircularprime(47))
 # print(isprime(131))
 # print(isprime(311))
 # print(isprime(113))
