@@ -8,7 +8,10 @@ l = []
 def isprime(n):
 	if n>1:
 		c = 2
-		
+		for i in range(n//2+1):
+			if n% == 0:
+				return False
+			
 def iscircular(n):
 	global l
 	if n not in l:
