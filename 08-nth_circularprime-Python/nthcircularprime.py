@@ -7,4 +7,4 @@
 
 def nthcircularprime(n):
 	i , j = 0 , 1
-	while
+	while()
