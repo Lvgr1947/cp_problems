@@ -33,6 +33,7 @@ def nthcircularprime(n):
 	while(i < n):
 		if iscircular(j):
 			print( i, j , n)
+			m.append(i)
 			i += 1
 		j += 1
 	return j-1
