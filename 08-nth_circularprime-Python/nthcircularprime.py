@@ -19,7 +19,8 @@ def iscircular(n):
 		if isprime(n):
 			l.append(n)
 			n = str(n)
-			n = int(n[1:] + n[0])
+			if len(n)>1:n = int(n[1:] + n[0])
+			else:
 			return iscircular(n)
 		else:
 			return False
