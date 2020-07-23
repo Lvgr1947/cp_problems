@@ -45,4 +45,4 @@ print(fun_nth_uglynumber(6))
 print(fun_nth_uglynumber(7))
 
 print(fun_nth_uglynumber(8))
-print(fun_nth_uglynumber(9))
+print(fun_nth_uglynumber(100))
