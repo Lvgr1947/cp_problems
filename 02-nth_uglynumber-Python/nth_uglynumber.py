@@ -4,6 +4,7 @@
 
 def isugly(n):
     i = 2
+    l = [2,3,5]
     while(i < n//2 +1):
         if isprime(i) and n%i == 0:
             if i not in l:
