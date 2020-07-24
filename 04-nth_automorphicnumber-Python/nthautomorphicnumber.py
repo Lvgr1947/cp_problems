@@ -19,4 +19,4 @@ def nthautomorphicnumbers(n):
 			print("auto", j)
 			i += 1
 	return j
-print(nthautomorphicnumbers(5))
+print(isauto(5))
