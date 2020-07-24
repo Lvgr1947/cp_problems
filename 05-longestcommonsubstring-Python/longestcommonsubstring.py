@@ -31,4 +31,4 @@ def longestcommonsubstring(s1, s2):
             elif c1 < c2:
                 f = [e]
                 c1 = c2
-    return longestcommonsubstring()
+    return 
