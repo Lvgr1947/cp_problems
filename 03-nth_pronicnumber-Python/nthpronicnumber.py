@@ -9,5 +9,4 @@ def nthpronicnumber(n):
 	while(i<n):
 		if ispronic(j):
 			i += 1
-		j += 1
 		
