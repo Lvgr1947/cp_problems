@@ -6,7 +6,12 @@ def isauto(n):
 	i = n*n
 	f = str(i)
 	d = len(str(n))
-	f = f[-1:-(d)]
+	if len(str(n)) == 1:
+		s = i%10
+		
+		
+		f = f[-1:-(d)]
+		print(f)
 	s = int(f)
 	if s == n:
 		return True
