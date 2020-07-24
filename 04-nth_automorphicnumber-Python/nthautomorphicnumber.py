@@ -6,7 +6,9 @@ def isauto(n):
 	i = n*n
 	i = i%10
 	n = n%10
-	
+	if i == n:
+		return True
+	return False
 def nthautomorphicnumbers(n):
 	# Your code goes here
 	pass
