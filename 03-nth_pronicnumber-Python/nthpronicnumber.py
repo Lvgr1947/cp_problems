@@ -4,4 +4,4 @@
 # number n is a product of x and (x+1).
 
 def nthpronicnumber(n):
-	i , j = 1
+	i , j = 0 , 
