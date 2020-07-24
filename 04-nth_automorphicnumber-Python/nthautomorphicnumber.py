@@ -4,7 +4,8 @@
 # 76 and 890625 are all automorphic numbers.
 def isauto(n):
 	i = n*n
-	d = len()
+	d = len(str(n))
+	
 	return True
 def nthautomorphicnumbers(n):
 	i , j = 0 , -1
