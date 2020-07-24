@@ -22,4 +22,6 @@ def longestcommonsubstring(s1, s2):
             for k in range(j+1,l2):
                 if s1[k] == s2[k]:
                     c2 += 1
-                
+                else:
+                    break
+            if c1
