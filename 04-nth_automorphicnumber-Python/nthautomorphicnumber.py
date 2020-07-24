@@ -9,7 +9,7 @@ def isauto(n):
 	if len(str(n)) == 1:
 		s = i%10
 	else:		
-		f = f[-(d+1):]
+		f = f[-(d):]
 		print(f)
 		s = int(f)
 	if s == n:
