@@ -12,7 +12,7 @@ def ispronic(n):
 	for j in range(0,10**l):
 		print( (j+1)*j )
 		if (j)*(j+1) == n:
-			print(i,"j")
+			print(j,"j")
 			return True
 	return False
 def nthpronicnumber(n):
