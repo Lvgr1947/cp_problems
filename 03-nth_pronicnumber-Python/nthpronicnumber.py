@@ -8,8 +8,10 @@ def ispronic(n):
 		l = l//2 + 1
 	else:
 		l = l//2
+	print(l)
 	for i in range(1,10**l):
 		if i*i+1 == n:
+			print(l,"l")
 			return True
 	return False
 def nthpronicnumber(n):
