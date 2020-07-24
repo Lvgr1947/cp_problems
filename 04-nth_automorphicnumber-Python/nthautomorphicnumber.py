@@ -7,7 +7,7 @@ def isauto(n):
 	# i = i%10
 	# n = n%10
 	l = len(str(n))
-	if i % (10*l) == 0:
+	if i % (10*l) == n:
 		return True
 	return False
 def nthautomorphicnumbers(n):
