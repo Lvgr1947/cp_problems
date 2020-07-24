@@ -12,7 +12,8 @@ def ispalindrome(n):
 	return False
 def islychrel(n):
 	max_i = 20
-	n1 = n[::-1]
+	n2 = str(n)
+	n1 = n2[::-1]
 	n1 = int(n1)
 	for i in range(max_i):
 		n = n + n1
