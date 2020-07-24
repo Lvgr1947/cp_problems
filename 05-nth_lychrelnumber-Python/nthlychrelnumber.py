@@ -10,7 +10,9 @@ def ispalindrome(n):
 	if str(n) == n1:
 		return True
 	return False
-
+def reverse(n):
+	n = str(n)
+	
 def islychrel(n):
 	max_i = 20
 	n2 = str(n)
