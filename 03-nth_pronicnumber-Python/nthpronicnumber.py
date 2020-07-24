@@ -4,4 +4,10 @@
 # number n is a product of x and (x+1).
 
 def nthpronicnumber(n):
-	i , j = 0 , 
+	if n == 0: return 0
+	i , j = 0 , 1
+	while(i<n):
+		if ispronic(j):
+			i += 1
+		j += 1
+		
