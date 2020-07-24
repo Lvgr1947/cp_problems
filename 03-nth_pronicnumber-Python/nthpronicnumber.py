@@ -7,7 +7,7 @@ def ispronic(n):
 	if d == 1:
 		l = 1
 	elif d%2 == 0:
-		l 
+		l = d
 	for j in range(1,10**l):
 		print( (j+1)*j )
 		if (j)*(j+1) == n:
