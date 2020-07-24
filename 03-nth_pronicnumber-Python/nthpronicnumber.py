@@ -18,6 +18,7 @@ def nthpronicnumber(n):
 	while(i<n):
 		j += 1
 		if ispronic(j):
+			print(j)
 			
 			i += 1
 	return j
