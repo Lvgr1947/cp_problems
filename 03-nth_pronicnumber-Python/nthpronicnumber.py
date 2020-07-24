@@ -7,6 +7,7 @@ def nthpronicnumber(n):
 	if n == 0: return 0
 	i , j = 0 , 0
 	while(i<n):
+		j += 1
 		if ispronic(j):
 			i += 1
 		
