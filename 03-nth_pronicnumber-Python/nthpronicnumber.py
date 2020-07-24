@@ -3,15 +3,12 @@
 # Number. Pronic number is a number which is the product of two consecutive integers, that is, a 
 # number n is a product of x and (x+1).
 def ispronic(n):
-	d = str(n)
-	
-	l = len(d)
-	if l%2 == 0:
-		l = l//2 + 1
-	else:
-		l = l//2
-	print(l,"l")
-	for j in range(0,10**l):
+	d = len(str(n))
+	if d == 1:
+		l = 1
+	elif d%2 == 0:
+		l 
+	for j in range(1,10**l):
 		print( (j+1)*j )
 		if (j)*(j+1) == n:
 			print(j,"j")
