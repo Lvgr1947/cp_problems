@@ -12,6 +12,7 @@ def isauto(n):
 def nthautomorphicnumbers(n):
 	i , j = 0 , -1
 	while(i < n):
+		j += 1
 		if isauto(j):
 			i += 1
-		
+	
