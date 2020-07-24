@@ -5,9 +5,7 @@
 # The first few Lychrel numbers are 196, 295, 394, 493, 592, 689, 691, 788, 790, 879, 887….
 
 def ispalindrome(n):
-	n = str(n)
-	n1 = n[::-1]
-	if str(n) == n1:
+	if str(n) == reverse(n):
 		return True
 	return False
 def reverse(n):
