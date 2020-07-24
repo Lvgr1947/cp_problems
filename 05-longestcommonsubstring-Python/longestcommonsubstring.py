@@ -10,3 +10,4 @@
 def longestcommonsubstring(s1, s2):
     l1 = len(s1)
     l1 = len(s2)
+    
