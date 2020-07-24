@@ -14,11 +14,8 @@ def reverse(n):
 	return int(n)
 def islychrel(n):
 	max_i = 20
-	n2 = str(n)
-	n1 = n2[::-1]
-	n1 = int(n1)
 	for i in range(max_i):
-		n = n + n1
+		n = n + reverse(n)
 		if ispalindrome(n):
 			return False
 	return True
