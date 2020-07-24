@@ -14,7 +14,7 @@ def reverse(n):
 	return int(n)
 def islychrel(n):
 	if n == 89 or n == 98: return False
-	max_i = 21
+	max_i = 1000
 	for i in range(max_i):
 		n = n + reverse(n)
 		if ispalindrome(n):
