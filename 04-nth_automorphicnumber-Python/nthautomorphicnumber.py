@@ -4,12 +4,7 @@
 # 76 and 890625 are all automorphic numbers.
 def isauto(n):
 	i = n*n
-	while(n>0):
-		print(i%10,n%10)
-		if n%10 != i%10:
-			return False
-		n //= 10
-		i //= 10
+	d = len()
 	return True
 def nthautomorphicnumbers(n):
 	i , j = 0 , -1
