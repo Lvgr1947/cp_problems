@@ -33,4 +33,4 @@ def longestcommonsubstring(s1, s2):
                 c1 = c2
     f = sorted(f)
     return f[0]
-print(lo)
+print(longestcommonsubstring)
