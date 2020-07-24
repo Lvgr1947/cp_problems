@@ -10,4 +10,4 @@ def nthpronicnumber(n):
 		j += 1
 		if ispronic(j):
 			i += 1
-		
+	return j 
