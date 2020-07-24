@@ -5,8 +5,8 @@
 def isauto(n):
 	i = n*n
 	f = str(i)
-	d = len(f)
-	s = int(f[-1:])
+	d = len(str(n))
+	s = int(f[-1:-(d)])
 	return True
 def nthautomorphicnumbers(n):
 	i , j = 0 , -1
