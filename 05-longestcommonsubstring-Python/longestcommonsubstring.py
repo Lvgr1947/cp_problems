@@ -7,7 +7,7 @@
 # compare the strings). So, for example:
 # longestCommonSubstring("abcABC", "zzabZZAB") returns "AB" and not "ab"
 def longest():
-    l = ["ab","AB"]
+    l = ["abc","AB"]
     print(sorted(l))
 # def longestcommonsubstring(s1, s2):
 #     l1 = len(s1)
