@@ -26,4 +26,4 @@ def longestcommonsubstring(s1, s2):
                 else:
                     break
             if c1 == c2:
-                d
+                f.append(d)
