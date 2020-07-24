@@ -18,4 +18,4 @@ def longestcommonsubstring(s1, s2):
     for i in range(l1):
         if s1[i] in s2:
             j = s1.index(s1[i])
-            
+            for j 
