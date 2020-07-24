@@ -7,7 +7,7 @@
 def ispalindrome(n):
 	n = str(n)
 	n1 = n[::-1]
-	if n == n1:
+	if str(n) == n1:
 		return True
 	return False
 def islychrel(n):
