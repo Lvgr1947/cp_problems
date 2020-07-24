@@ -8,7 +8,7 @@
 # longestCommonSubstring("abcABC", "zzabZZAB") returns "AB" and not "ab"
 def longestcommonsubstring(s1, s2):
     l1 = len(s1)
-    l1 = len(s2)
+    l2 = len(s2)
     c1 = 0
     d = ""
     f= []
@@ -33,4 +33,4 @@ def longestcommonsubstring(s1, s2):
                 c1 = c2
     f = sorted(f)
     return f[0]
-print(longestcommonsubstring)
+print(longestcommonsubstring("abcdef", "abqrcdest"))
