@@ -29,4 +29,5 @@ def longestcommonsubstring(s1, s2):
             if c1 == c2:
                 f.append(d)
             elif c1 < c2:
-                f = [
+                f = [e]
+                
