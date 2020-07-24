@@ -10,7 +10,7 @@ def isauto(n):
 		return True
 	return False
 def nthautomorphicnumbers(n):
-	i , j = 0 , 
+	i , j = 0 , -1
 	while(i < n):
 		if isauto(j):
 			i += 1
