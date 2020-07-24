@@ -9,10 +9,10 @@ def ispronic(n):
 	else:
 		l = l//2
 	print(l,"l")
-	for i in range(1,10**l):
-		print( (i+1)*i )
-		if (i)*(i+1) == n:
-			print(i,"i")
+	for j in range(0,10**l):
+		print( (j+1)*j )
+		if (j)*(j+1) == n:
+			print(i,"j")
 			return True
 	return False
 def nthpronicnumber(n):
