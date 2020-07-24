@@ -5,7 +5,7 @@
 def isauto(n):
 	i = n*n
 	while(n>0):
-		print(i,n)
+		print(i%10,n%10)
 		if n%10 != i%10:
 			return False
 		n //= 10
