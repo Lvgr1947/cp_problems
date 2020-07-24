@@ -24,7 +24,7 @@ def nthlychrelnumbers(n):
 	i , j = 0 , 0
 	while(i<n):
 		j += 1
-		if j != 89 and islychrel(j):
+		if  islychrel(j):
 			i += 1
 	return j
 print(nthlychrelnumbers(1))
