@@ -32,6 +32,7 @@ def longestcommonsubstring(s1, s2):
             elif c1 < c2:
                 f = [e]
                 c1 = c2
+    print(f)
     f = sorted(f)
     return f[0]
 print(longestcommonsubstring("abcdef", "abqrcdest"))
