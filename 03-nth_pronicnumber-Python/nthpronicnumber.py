@@ -3,7 +3,9 @@
 # Number. Pronic number is a number which is the product of two consecutive integers, that is, a 
 # number n is a product of x and (x+1).
 def ispronic(n):
-	l = len(str(n))
+	d = str(n)
+	
+	l = len(d)
 	if l%2 == 0:
 		l = l//2 + 1
 	else:
