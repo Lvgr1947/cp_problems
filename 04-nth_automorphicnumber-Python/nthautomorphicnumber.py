@@ -5,7 +5,7 @@
 def isauto(n):
 	i = n*n
 	l = len(str(n))
-	
+	print(10*)
 	if i % (10*l) == n:
 		print("i",i, i%(10*l), n)
 		# print(i)
