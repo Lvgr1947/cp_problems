@@ -10,7 +10,7 @@ def ispronic(n):
 		l = l//2
 	print(l,"l")
 	for i in range(1,10**l):
-		print( (i+1))
+		print( (i+1)*i)
 		if (i)*(i+1) == n:
 			print(i,"i")
 			return True
