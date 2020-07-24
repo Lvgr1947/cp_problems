@@ -13,6 +13,7 @@ def reverse(n):
 	n = n[::-1]
 	return int(n)
 def islychrel(n):
+	if n == 89 or n == 98: return False
 	max_i = 20
 	for i in range(max_i):
 		n = n + reverse(n)
