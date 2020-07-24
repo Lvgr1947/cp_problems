@@ -21,4 +21,8 @@ def islychrel(n):
 	return True
 		
 def nthlychrelnumbers(n):
-	i , j = 0,
+	i , j = 0 , 1
+	while(i<n):
+		
+		if islychrel(j):
+			i += 1
