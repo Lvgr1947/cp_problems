@@ -12,7 +12,7 @@ def longestcommonsubstring(s1, s2):
     c = ""
     e = 0
     f= []
-    if l1 < l2:
+    if l1 > l2:
         l2,l1 = l1,l2
         s1,s2 = s2,s1
     for i in range(l1):
