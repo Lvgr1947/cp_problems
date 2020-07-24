@@ -6,7 +6,7 @@ def isauto(n):
 	i = n*n
 	f = str(n)
 	d = len(f)
-	s = int(f[])
+	s = int(f[-1:])
 	return True
 def nthautomorphicnumbers(n):
 	i , j = 0 , -1
