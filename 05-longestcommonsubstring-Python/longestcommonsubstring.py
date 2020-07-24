@@ -6,7 +6,7 @@
 # If there are two or more longest common substrings, return the lexicographically smaller one (ie, just use "<" to 
 # compare the strings). So, for example:
 # longestCommonSubstring("abcABC", "zzabZZAB") returns "AB" and not "ab"
-def longest(s1,s2,l1,l2):
+def longest():
     l = ["ab","AB"]
     print(sorted(l))
 # def longestcommonsubstring(s1, s2):
@@ -20,3 +20,4 @@ def longest(s1,s2,l1,l2):
 #         d = longest(s1,s2[i:],l1,l2)
 #         if 
 #     return longest
+longest()
