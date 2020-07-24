@@ -17,5 +17,6 @@ def longestcommonsubstring(s1, s2):
         s1,s2 = s2,s1
     for i in range(l1):
         if s1[i] in s2:
-            j = s1.index()
+            j = s1.index(s1[i])
+            
     return longest
