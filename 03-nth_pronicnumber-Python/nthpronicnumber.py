@@ -4,7 +4,14 @@
 # number n is a product of x and (x+1).
 def ispronic(n):
 	l = len(str(n))
-	
+	if l%2 == 0:
+		l = l//2 + 1
+	else:
+		l = l//2
+	for i in range(1,10**l):
+		if i*i+1 == n:
+			return True
+	return False
 def nthpronicnumber(n):
 	if n == 0: return 0
 	i , j = 0 , 0
@@ -12,4 +19,5 @@ def nthpronicnumber(n):
 		j += 1
 		if ispronic(j):
 			i += 1
-	return j 
+	return j
+print(nthpronicnumber(1))
