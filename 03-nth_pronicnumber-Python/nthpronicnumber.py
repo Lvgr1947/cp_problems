@@ -11,7 +11,7 @@ def ispronic(n):
 	print(l,"l")
 	for i in range(1,10**l):
 		if i*i+1 == n:
-			print(l,"l")
+			print(i,"i")
 			return True
 	return False
 def nthpronicnumber(n):
