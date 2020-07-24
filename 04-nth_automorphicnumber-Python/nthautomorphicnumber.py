@@ -6,8 +6,8 @@ def isauto(n):
 	i = n*n
 	f = str(i)
 	d = len(str(n))
-	f = 
-	s = int()
+	f = f[-1:-(d)]
+	s = int(f)
 	if s == n:
 		return True
 	return False
