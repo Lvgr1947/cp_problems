@@ -15,4 +15,4 @@ def nthautomorphicnumbers(n):
 		if isauto(j):
 			i += 1
 	return j
-print(nthautomorphicnumbers(2))
+print(nthautomorphicnumbers(3))
