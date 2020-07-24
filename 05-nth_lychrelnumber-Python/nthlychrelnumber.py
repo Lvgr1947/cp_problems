@@ -27,4 +27,5 @@ def nthlychrelnumbers(n):
 		if islychrel(j):
 			i += 1
 	return j
-print(nthlychrelnumbers(1))
+# print(nthlychrelnumbers(1))
+print(islychrel(89))
