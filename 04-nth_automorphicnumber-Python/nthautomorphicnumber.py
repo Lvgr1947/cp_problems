@@ -8,11 +8,10 @@ def isauto(n):
 	d = len(str(n))
 	if len(str(n)) == 1:
 		s = i%10
-		
-		
-		f = f[-1:-(d)]
+	else:		
+		f = f[-(d+1):-1]
 		print(f)
-	s = int(f)
+		s = int(f)
 	if s == n:
 		return True
 	return False
