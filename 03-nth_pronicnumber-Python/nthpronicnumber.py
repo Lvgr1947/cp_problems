@@ -22,4 +22,5 @@ def nthpronicnumber(n):
 		if ispronic(j):
 			i += 1
 	return j
-print(nthpronicnumber(1))
+# print(nthpronicnumber(1))
+print(ispronic(1))
