@@ -21,7 +21,7 @@ def longestcommonsubstring(s1, s2):
             c2 = 1
             e = s2[i]
             for k in range(0,l2):
-                if s1[k] == s2[k]:
+                if s1[k+i] == s2[k]:
                     c2 += 1
                     e += s1[k]
                 else:
