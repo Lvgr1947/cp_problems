@@ -10,5 +10,8 @@ def isauto(n):
 		return True
 	return False
 def nthautomorphicnumbers(n):
-	# Your code goes here
-	pass
+	i , j = 0 , 
+	while(i < n):
+		if isauto(j):
+			i += 1
+		
