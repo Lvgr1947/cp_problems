@@ -26,6 +26,7 @@ def longestcommonsubstring(s1, s2):
                     e += s1[k]
                 else:
                     break
+            print(c,"c")
             if c1 == c2:
                 f.append(d)
             elif c1 < c2:
