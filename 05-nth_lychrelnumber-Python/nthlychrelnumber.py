@@ -26,3 +26,4 @@ def nthlychrelnumbers(n):
 		j += 1
 		if islychrel(j):
 			i += 1
+	return j
